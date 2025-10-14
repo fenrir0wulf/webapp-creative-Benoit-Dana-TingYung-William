@@ -2,17 +2,17 @@
 
 ## 📌 Informations du Projet
 
-*Nom du projet:* [Nom de votre musée]  
-*Nom de l'équipe:* [Nom de votre équipe]  
+*Nom du projet:* Ox Bezoar temporel  
+*Nom de l'équipe:* Studio John  
 *Membres:*
 
-- [Nom] - Chef de projet / [Rôle principal]
-- [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal] (si équipe de 4)
+- Lu Ting Yung - Chef de projet / Architecture Vue
+- Dana Saavedra-Torrano - Contenu + Narration
+- Benoit Rochon - Données + système
+- William Beauvais - Design + Animations (si équipe de 4)
 
-*Date de début:* [Date]  
-*Date de livraison finale:* [Date]  
+*Date de début:* 14 octobre  
+*Date de livraison finale:* 10 décembre  
 *Version du document:* 1.0
 
 
@@ -27,10 +27,10 @@
 
 Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 
-- Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.)
-- Quelle est l'histoire principale?
-- Qui est le personnage principal?
-- Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
+- Quel est le genre narratif? fantastique, sci-fi
+- Quelle est l'histoire principale? 
+- Qui est le personnage principal? John
+- Quel est le mécanisme de choix? Collecte d'items   
 
 *Exemple (interdit de prendre l'exemple comme histoire pour votre projet):*
 > "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
@@ -38,18 +38,18 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 
 ### 1.2 Public cible
 
-- *Âge:* [ex: 16-35 ans]
-- *Profil:* [ex: Amateurs de récits interactifs, fans de sci-fi]
-- *Niveau technique:* [ex: Utilisateurs grand public]
-- *Temps de lecture estimé:* [ex: 20-45 minutes pour une partie complète]
+- *Âge:* 16-40 ans
+- *Profil:* Amateurs de récits interactifs, fans de sci-fi et fantaisie, fans de récits d'aventure
+- *Niveau technique:* Utilisateurs grand public
+- *Temps de lecture estimé:* 15-20 minutes pour une partie complète
 
 ### 1.3 Objectifs du projet
 
 - [ ] Créer une expérience narrative immersive et émotionnelle
-- [ ] Développer un système de choix avec conséquences réelles
+- [x] Développer un système de choix avec conséquences réelles
 - [ ] Implémenter un système de sauvegarde de progression
 - [ ] Démontrer la maîtrise de Vue.js, GSAP et Pinia
-- [ ] Créer une interface accessible et responsive
+- [x] Créer une interface accessible et responsive
 - [ ] [Autre objectif spécifique]
 
 
@@ -530,12 +530,12 @@ Comment stockez-vous les chapitres et choix?
 
 ### 6.2 Écrans principaux à maquetter
 
-- [ ] Menu principal (nouvelle partie, charger, options)
-- [ ] Écran de chapitre avec texte narratif
+- [x] Menu principal (nouvelle partie, charger, options)
+- [x] Écran de chapitre avec texte narratif
 - [ ] Panel de choix (2-4 options)
 - [ ] Inventaire/Stats (si applicable)
 - [ ] Écran de fin avec récapitulatif
-- [ ] Gestion des sauvegardes (3 slots)
+- [x] Gestion des sauvegardes (3 slots)
 - [ ] Version mobile d'au moins 2-3 écrans
 
 ### 6.3 Interactions clés à maquetter
