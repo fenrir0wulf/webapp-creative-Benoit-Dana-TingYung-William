@@ -130,7 +130,7 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 | 128572(Bob) | Secondaire | Cyborgue froid et dur, soldat | Chapitres 3B, 4C |
 | ArK-9K | Antagoniste | Robot méchant et cruel |  Chapitres 3B, 4C  |
 | Julien des 3 trinités | Secondaire | Dragon sage et amicale |  Chapitre 4B  |
-| Steve l’incroyable | Secondaire | Survivant de l'apocalypse fort et"courageux" mais se distrait facilement |  Chapitre 4B  |
+| Steve l’incroyable | Secondaire | Survivant de l'apocalypse fort et"courageux" mais se distrait facilement |  Chapitre 4D  |
 
 ### 2.6 Système de conséquences
 
