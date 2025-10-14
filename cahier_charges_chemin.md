@@ -28,12 +28,11 @@
 Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 
 - Quel est le genre narratif? fantastique, sci-fi
-- Quelle est l'histoire principale? 
+- Quelle est l'histoire principale? Traverse portail pour trouver médicamment pour sauver sa mère.
 - Qui est le personnage principal? John
 - Quel est le mécanisme de choix? Collecte d'items   
 
-*Exemple (interdit de prendre l'exemple comme histoire pour votre projet):*
-> "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
+“Ox Bezoar temporal” est une histoire interactive de science-fiction et de fantaisie où le joueur incarne une personne qui est à la recherche d’un antidote pour guérir sa mère. Grâce à des portails, John sera capable de voyager dans les différents mondes fantastiques pour obtenir tous les ingrédients. Chaque décision affecte son parcours et le dénouement de sa quête. L'utilisateur doit faire des choix difficiles qui influencent la destinée de sa mère. Le système de branches permet 4 fins différentes selon les décisions prises.   
 
 
 ### 1.2 Public cible
@@ -58,7 +57,9 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 
 ### 2.1 Synopsis détaillé
 
-Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins):
+John regarde sa mère, faible et malade, et sent une urgence brûlante l’envahir : il doit trouver un antidote, coûte que coûte. Grâce à des recherches sur internet, il découvre que la seule manière de guérir sa mère c’est avec l’Élixir d’Hécate. Son seul espoir réside dans des portails mystérieux qui relient des mondes fantastiques aux paysages incroyables et aux dangers imprévisibles. À chaque passage, il découvre des créatures étranges et des ingrédients rares qu’il doit récolter pour préparer le remède.
+
+Chaque décision influence le succès de sa quête. John doit naviguer entre courage et prudence, espoir et sacrifice, sachant que la destinée de sa mère repose entre ses mains. Selon les choix qu’il fera, son aventure pourra se terminer par quatre fins différentes, chacune révélant un aspect unique de son parcours et du prix de l’espoir.
 
 [Écrivez votre synopsis ici]
 
@@ -96,15 +97,15 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 
 | # | Nom du chapitre | Type | Description courte | Choix proposés | Conséquences |
 |---|----------------|------|-------------------|----------------|--------------|
-| 1 | [Le Réveil] | Linéaire | Introduction du personnage et du contexte | Aucun (intro) | N/A |
-| 2 | [La Découverte] | Choix | Découverte de la machine temporelle | 2 choix: "Activer" ou "Rapporter" | Branche A ou B |
-| 3A | [Premier Voyage] | Choix | Voyage dans le passé | 3 choix d'époque | Impact sur suite |
-| 3B | [L' Enquête] | Linéaire | Investigation scientifique | Aucun | Progression histoire |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
+| 1 | [La malédiction] | Linéaire | Introduction du personnage et du contexte | Aucun (intro) | N/A |
+| 2 | [L'apparition] | Choix | Un portail apparaît devant lui | 2 choix: "Portail 1" ou "Portail 2" | Branche A ou B |
+| 3A | [Portail 1] | Choix | Portail mène à un monde de champignon | 2 choix: "Rester" ou "Portail 3"  | Impact sur suite |
+| 3B | [Portail 2] | Choix | Portail mène à un monde futurise (robots) | 2 choix: "Rester" ou "Portail 4" | Impact sur suite |
+| 4A | [Reste monde 1] | Choix | Reste pour explorer le monde 1 | 2 choix: "Traverser jungle" ou "Traverser grotte" | Impact sur suite |
+| 4B | [Portail 3] | Choix | Portail mène à un monde de dragons | 2 choix: "converser avec dragon" ou "éviter les dragons" | Impact sur suite |
+| 4C | [Reste monde 2] | Choix | Reste pour explorer le monde 2 | 2 choix: "Passer près des robots" ou "ne pas passer près des robots" | Impact sur suite |
+| 4D | [Portail 4] | Choix | Portail mène à un monde apocalypse (zombies) | 2 choix: "Trouver des survivants" ou "Explorer les ruines" | Impact sur suite |
+| 5A | [Le moment de vérité] | Linéaire | Donne potion à mère | Aucun | Mène à fin |
 
 ### 2.4 Fins possibles
 
@@ -114,12 +115,10 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 | # | Nom de la fin | Condition pour l'atteindre | Type (bonne/mauvaise/neutre) |
 |---|--------------|---------------------------|------------------------------|
-| 1 | [Fin Héroïque] | Avoir fait 3+ choix altruistes | Bonne |
-| 2 | [Fin Sombre] | Avoir fait 3+ choix égoïstes | Mauvaise |
-| 3 | [Fin Paradoxale] | Avoir créé un paradoxe temporel | Neutre/Spéciale |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
+| 1 | [Fin Héroïque] | Avoir 4 ingrédients | Bonne |
+| 2 | [Fin Sombre] | Avoir 2-3 ingrédients | Mauvaise |
+| 3 | [Fin Neutre] | Avoir 1 ingrédient | Neutre |
+| 4 | [Fin Surprise] | Prendre un choix | Spéciale |
 
 ### 2.5 Personnages principaux
 
@@ -139,7 +138,7 @@ Comment les choix influencent l'histoire?
 
 - [ ] *Système de karma/moralité* (points bons/mauvais)
 - [ ] *Stats du personnage* (courage, intelligence, empathie)
-- [ ] *Inventaire d'objets* (collecte d'items)
+- [x] *Inventaire d'objets* (collecte d'items)
 - [ ] *Relations avec personnages* (affinités)
 - [ ] *Flags de choix* (choix X débloque scène Y)
 - [ ] *Combinaison de plusieurs systèmes*
@@ -414,7 +413,7 @@ Comment stockez-vous les chapitres et choix?
   - Navigation linéaire dans l'intro
   - Transitions fluides entre chapitres
 
-- [ ] *F2 - Système de choix*
+- [x] *F2 - Système de choix*
   - Affichage de 2-4 choix par chapitre décisionnel
   - Sélection d'un choix
   - Redirection vers le chapitre suivant approprié
@@ -425,7 +424,7 @@ Comment stockez-vous les chapitres et choix?
   - Mise à jour après chaque choix
   - Conditions pour débloquer fins
 
-- [ ] *F4 - Système de sauvegarde*
+- [x] *F4 - Système de sauvegarde*
   - 3 slots de sauvegarde
   - Sauvegarde manuelle
   - Chargement d'une sauvegarde
@@ -455,7 +454,7 @@ Comment stockez-vous les chapitres et choix?
   - Contraste WCAG AA
   - Option skip animations
 
-- [ ] *F10 - Médias intégrés*
+- [x] *F10 - Médias intégrés*
   - Images de fond par chapitre
   - Musique d'ambiance (avec contrôle volume)
 
@@ -518,8 +517,6 @@ Comment stockez-vous les chapitres et choix?
 8. *US-08:* En tant que joueur, je veux collecter des objets/débloquer des stats afin de me sentir progresser dans l'aventure.
 
 9. *US-09:* En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
-
-10. [Ajoutez vos user stories]
 
 
 ## 📊 6. Maquettes et Wireframes
