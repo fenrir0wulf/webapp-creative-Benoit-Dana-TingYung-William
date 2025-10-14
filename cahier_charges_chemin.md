@@ -124,11 +124,11 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 | Nom | Rôle | Description | Apparaît dans |
 |-----|------|-------------|---------------|
-| [Ex: Dr. Sarah Chen] | Protagoniste | Scientifique brillante mais impulsive | Tous les chapitres |
-| [Ex: Marcus] | Mentor | Professeur sage et prudent | Chapitres 1, 2, 5 |
-| [Ex: L'IA CHRONOS] | Antagoniste | Intelligence artificielle de la machine | Chapitres 3+, certaines fins |
-| | | | |
-| | | | |
+| John | Protagoniste | Scientifique brillante mais impulsive | Tous les chapitres |
+| Mère de John (Cassandra) | Parent | Aime son fils | Chapitres 1, 5 |
+| Champi | Parent | Aime son fils | Chapitres 1, 5 |
+| Mère de John (Cassandra) | Parent | Aime son fils | Chapitres 1, 5 |
+| Mère de John (Cassandra) | Parent | Aime son fils | Chapitres 1, 5 |
 
 ### 2.6 Système de conséquences
 
