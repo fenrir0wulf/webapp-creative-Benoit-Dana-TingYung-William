@@ -124,11 +124,13 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 | Nom | Rôle | Description | Apparaît dans |
 |-----|------|-------------|---------------|
-| John | Protagoniste | Scientifique brillante mais impulsive | Tous les chapitres |
-| Mère de John (Cassandra) | Parent | Aime son fils | Chapitres 1, 5 |
-| Champi | Parent | Aime son fils | Chapitres 1, 5 |
-| Mère de John (Cassandra) | Parent | Aime son fils | Chapitres 1, 5 |
-| Mère de John (Cassandra) | Parent | Aime son fils | Chapitres 1, 5 |
+| John | Protagoniste |L'aventurier courageux mais un peu peureux | Tous les chapitres |
+| Mère de John (Cassandra) | Parent | Aime son fils | Chapitre 1 |
+| Champi |Ami| Champignon naïf, stupide et orphelin| Chapitres 3A, 4A |
+| 128572(Bob) | Secondaire | Cyborgue froid et dur, soldat | Chapitres 3B, 4C |
+| ArK-9K | Antagoniste | Robot méchant et cruel |  Chapitres 3B, 4C  |
+| Julien des 3 trinités | Secondaire | Dragon sage et amicale |  Chapitre 4B  |
+| Steve l’incroyable | Secondaire | Survivant de l'apocalypse fort et"courageux" mais se distrait facilement |  Chapitre 4B  |
 
 ### 2.6 Système de conséquences
 
