@@ -116,8 +116,8 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 | # | Nom de la fin | Condition pour l'atteindre | Type (bonne/mauvaise/neutre) |
 |---|--------------|---------------------------|------------------------------|
 | 1 | [Fin Héroïque] | Avoir 4 ingrédients | Bonne |
-| 2 | [Fin Sombre] | Avoir 2-3 ingrédients | Mauvaise |
-| 3 | [Fin Neutre] | Avoir 1 ingrédient | Neutre |
+| 2 | [Fin Neutre] | Avoir 2-3 ingrédients | Mauvaise |
+| 3 | [Fin Sombre] | Avoir 1 ingrédient | Neutre |
 | 4 | [Fin Surprise] | Prendre un choix | Spéciale |
 
 ### 2.5 Personnages principaux
