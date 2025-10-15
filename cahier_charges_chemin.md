@@ -166,13 +166,9 @@ playerState: {
 
 ### 3.1 Moodboard
 
-Insérez ici 3-5 images d'inspiration (ou liens):
-
-- [Image 1: Ambiance générale]
-- [Image 2: Style visuel des personnages]
-- [Image 3: Palette de couleurs]
-- [Image 4: Typographie inspirante]
-- [Image 5: Animations de référence]
+![style de notre projet](livre_enfant.jpg)
+![style de l'illustration](oiseau.jpg)
+![palette de couleur](palette.png)
 
 ### 3.2 Palette de couleurs
 
