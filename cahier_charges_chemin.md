@@ -174,15 +174,15 @@ playerState: {
 
 *Couleurs par ambiance/chapitre:*
 
-- *Chapitres introduction:* [#XXXXXX] - Tons neutres
-- *Chapitres tension:* [#XXXXXX] - Tons sombres/dramatiques
-- *Chapitres espoir:* [#XXXXXX] - Tons clairs/lumineux
-- *Chapitres danger:* [#XXXXXX] - Rouge/orange
+- *Chapitres introduction:* [#FFF8F0] - Tons neutres
+- *Chapitres tension:* [#392F5A] - Tons sombres/dramatiques
+- *Chapitres espoir:* [#F4D06F] - Tons clairs/lumineux
+- *Chapitres danger:* [#FF8811] - Rouge/orange
 
 *Couleurs système:*
 
-- Primaire (actions principales): [#XXXXXX]
-- Secondaire (choix): [#XXXXXX]
+- Primaire (actions principales): [#9DD9D2]
+- Secondaire (choix): [#FFF8F0]
 - Succès: [#10B981]
 - Danger: [#EF4444]
 - Neutre: [#6B7280]
@@ -199,10 +199,10 @@ playerState: {
 Choisissez un ou plusieurs styles:
 
 - [ ] Cinématique (film noir, thriller)
-- [ ] Illustratif (dessins, concept art)
+- [x] Illustratif (dessins, concept art)
 - [ ] Minimaliste (focus sur le texte)
 - [ ] Immersif (photos, ambiances réalistes)
-- [ ] Stylisé (flat design, géométrique)
+- [x] Stylisé (flat design, géométrique)
 
 ### 3.5 Éléments visuels par chapitre
 
