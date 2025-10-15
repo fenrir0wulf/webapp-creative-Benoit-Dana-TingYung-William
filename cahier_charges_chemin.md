@@ -37,7 +37,7 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive:
 
 ### 1.2 Public cible
 
-- *Âge:* 16-40 ans
+- *Âge:* 12-35 ans
 - *Profil:* Amateurs de récits interactifs, fans de sci-fi et fantaisie, fans de récits d'aventure
 - *Niveau technique:* Utilisateurs grand public
 - *Temps de lecture estimé:* 15-20 minutes pour une partie complète
