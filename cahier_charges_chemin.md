@@ -521,16 +521,16 @@ Comment stockez-vous les chapitres et choix?
 
 ### 6.1 Lien vers les maquettes Figma
 
-*Lien:* [Insérez votre lien Figma]
+*Lien:* [[Insérez votre lien Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&t=7t2cBJ3cnoBfcXZU-1)]
 
 ### 6.2 Écrans principaux à maquetter
 
-- [x] Menu principal (nouvelle partie, charger, options)
-- [x] Écran de chapitre avec texte narratif
+- [ ] Menu principal (nouvelle partie, charger, options)
+- [ ] Écran de chapitre avec texte narratif
 - [ ] Panel de choix (2-4 options)
 - [ ] Inventaire/Stats (si applicable)
 - [ ] Écran de fin avec récapitulatif
-- [x] Gestion des sauvegardes (3 slots)
+- [ ] Gestion des sauvegardes (3 slots)
 - [ ] Version mobile d'au moins 2-3 écrans
 
 ### 6.3 Interactions clés à maquetter
@@ -548,10 +548,10 @@ Comment stockez-vous les chapitres et choix?
 
 | Membre | Rôle principal | Responsabilités |
 |--------|----------------|-----------------|
-| [Nom] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
-| [Nom] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
-| [Nom] | Contenu + Narration | Écriture des chapitres, création de l'arbre narratif, dialogues |
-| [Nom] | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
+| [Ting Yung] | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
+| [William] | Design + Animations | CSS, design visuel, animations GSAP, transitions |
+| [Dana] | Contenu + Narration | Écriture des chapitres, création de l'arbre narratif, dialogues |
+| [Benoit] | Données + Système | Gestion des sauvegardes, LocalStorage, logique de choix, stats |
 
 *Note:* Tous participent au développement, mais chacun a sa spécialité.
 
@@ -567,12 +567,12 @@ Comment stockez-vous les chapitres et choix?
 
 ### 7.3 Outils de collaboration
 
-- *Git/GitHub:* [Lien du repo]
-- *Gestion de projet:* [Trello / Word / GitHub Projects]
+- *Git/GitHub:* [[Lien du repo](https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William)]
+- *Gestion de projet:* [[Trello / Word / GitHub Projects](https://trello.com/b/9Pcw7dFa/projet-web)]
 - *Communication:* [Teams]
 - *Design:* [Figma]
-- *Documentation:* [Word / Google Docs / README.md]
-- *Écriture collaborative:* [Google Docs / Word]
+- *Documentation:* [[Word / Google Docs / README.md](https://www.figma.com/board/AGN982LhZFE8mErhv3dggF/Brainstorm?node-id=0-1&p=f&t=9MX2pZWscboiiIeT-0)]
+- *Écriture collaborative:* [[Google Docs / Word](https://www.figma.com/board/AGN982LhZFE8mErhv3dggF/Brainstorm?node-id=0-1&p=f&t=9MX2pZWscboiiIeT-0)]
 
 
 ## 🚀 8. Critères de Succès
