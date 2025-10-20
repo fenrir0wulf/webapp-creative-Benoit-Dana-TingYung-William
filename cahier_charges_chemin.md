@@ -9,7 +9,7 @@
 - Lu Ting Yung - Chef de projet / Architecture Vue
 - Dana Saavedra-Torrano - Contenu + Narration
 - Benoit Rochon - Données + système
-- William Beauvais - Design + Animations (si équipe de 4)
+- William Beauvais - Design + Animations
 
 *Date de début:* 14 octobre  
 *Date de livraison finale:* 10 décembre  
