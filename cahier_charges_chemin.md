@@ -521,7 +521,7 @@ Comment stockez-vous les chapitres et choix?
 
 ### 6.1 Lien vers les maquettes Figma
 
-*Lien:* [Lien Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&p=f&t=z5jPoGWb8R2bjUbO-0)]
+*Lien:* [Lien Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&p=f&t=z5jPoGWb8R2bjUbO-0)
 
 ### 6.2 Écrans principaux à maquetter
 
