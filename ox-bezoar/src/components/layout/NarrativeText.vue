@@ -1,5 +1,7 @@
 <template>
-
+    <div class="zoneNarrative">
+        <p>{{ textNarrative }}</p>
+    </div>
 </template>
 
 <script>

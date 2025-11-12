@@ -1,5 +1,7 @@
 <template>
-
+    <div>
+        <button>Faire ce choix</button>
+    </div>
 </template>
 
 <script>
