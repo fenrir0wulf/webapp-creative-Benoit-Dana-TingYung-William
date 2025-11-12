@@ -1,10 +1,10 @@
 <template>
-    INDIVIDUAL CHAPTERS VIEWS
+
 </template>
 
 <script>
     export default {
-        name:'ChapterView',
+        name:'SavesView',
         components: {},
         data() {
             return {
