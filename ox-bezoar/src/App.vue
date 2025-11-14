@@ -1,14 +1,9 @@
 <script setup>
 import AppHeader from './components/layout/AppHeader.vue'
-import ChapterHeader from './components/layout/ChapterHeader.vue'
-import ChoicePanel from './components/layout/ChoicePanel.vue'
-import InventoryDisplay from './components/layout/InventoryDisplay.vue'
-import AudioController from './components/specific/AudioController.vue'
-import SaveSlotManager from './components/specific/SaveSlotManager.vue'
 </script>
 
 <template>
-  <AppHeader />
+  <router-view />
 </template>
 
 <style scoped>
