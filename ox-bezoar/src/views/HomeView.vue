@@ -1,5 +1,9 @@
+<script setup>
+import AppHeader from './components/layout/AppHeader.vue'
+</script>
+
 <template>
-    HOME VIEW
+    <AppHeader/>
 </template>
 
 <script>

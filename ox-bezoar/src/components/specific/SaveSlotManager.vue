@@ -1,6 +1,8 @@
 <template>
     <div class="saveSlots">
         <div class="saveSlot"></div>
+        <div class="saveSlot"></div>
+        <div class="saveSlot"></div>
     </div>
 </template>
 
