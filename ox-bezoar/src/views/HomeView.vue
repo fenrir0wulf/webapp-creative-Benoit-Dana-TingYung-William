@@ -6,7 +6,7 @@ import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
 <template>
     <AppHeader/>
     <ButtonPrimary :textButton="startButton" @click="gotoStart(1)"/>
-    <ButtonPrimary :text-button="savesButton" />
+    <ButtonPrimary :text-button="savesButton" @click="gotoSaves()"/>
 </template>
 
 <script>
@@ -28,6 +28,11 @@ import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
                 this.$router.push({
                     name: 'chapter',
                     params: {id: id},
+                });
+            },
+            gotoSaves() {
+                this.$router.push({
+                    name: 'saves',
                 })
             }
         }
