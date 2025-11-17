@@ -1,30 +1,20 @@
 <script setup>
 import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
-import AppHeader from './components/layout/AppHeader.vue';
-import LoadingSpinner from './components/layout/LoadingSpinner.vue';
+import AppHeader from '../components/layout/AppHeader.vue';
+import LoadingSpinner from '../components/common/LoadingSpinner.vue';
+import ChapterView from './ChapterView.vue';
 </script>
 
 <template>
+    <div class="story">
     MAIN STORY VIEW WITH ALL SUBCOMPONENTS
-    <header>
-        <AppHeader/>
-    </header>
-    <main>
-        <LoadingSpinner/>
-        <div>
-            <h1>Ox Bezoar Temporel</h1>
-        </div>
-        
-        <h2>Commencer</h2>
-        <ButtonPrimary/>
-
-        <button>Sauvegardes</button>
-    </main>
+    <ChapterView />
+    </div>
 </template>
 
 <script>
     export default {
-        name:'SavesView',
+        name:'StoryView',
         components: {},
         data() {
             return {
@@ -35,5 +25,7 @@ import LoadingSpinner from './components/layout/LoadingSpinner.vue';
 </script>
 
 <style scoped>
-
+    .story {
+        background-color: aqua;
+    }
 </style>
