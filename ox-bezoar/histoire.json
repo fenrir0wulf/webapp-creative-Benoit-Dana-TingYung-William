@@ -22,7 +22,7 @@
     {
         "id": 4,
         "titre":"Chapitre 4",
-        "texte": "",
+        "texte": "John rentre dans le portail bleu et se retrouve dans un entouré de fer et de circuits. Devant lui se trouve un grand bâtiment métallique. Il avance vers celui, le son de ses pieds contre le sol résonne en écho dans les parages. Arrivé à l'entrée, il trouve une personne moitié-robot moitié-homme. Le cyborg se présente : “Je suis 127855 ou Bob. Je suis le gardien de ce bâtiment. Les hommes de chair ne sont pas supposés d'être ici.”. Avant que John ne puisse s'expliquer, un portail apparaît derrière lui, suscitant son intérêt. ",
         "choices": [ {"btntext":"Rester dans ce monde", "path": 7},
         {"btntext":"Aller dans le portal", "path": 8}]
     },
@@ -30,7 +30,7 @@
         "id": 5,
         "titre":"Chapitre 5",
         "texte": "John reste devant le champignon et le salut. Le champignon continue à le fixer, donc il essaie une autre technique d'approche. Il cri JOHN et là le champignon hésite pendant quelques secondes et fini par crier CHAMPI. John sourie et commence à s'approcher du champignon. Champi lui fait un gros câlin et John comprend que Champi est juste un gentil champignon. Champi commence à marcher et John le suit. Ils marchent pour une bonne heure avant d'enfin s'arrêter devant une grotte. John à peur, mais il décide de suivre son nouvel ami. Quand il rentre dans la grotte, il voit un trésor digne d'un film de pirate. Il réalise que les champignons son enfaite des mineurs qui utilisent les toxines qu'ils sécrètent pour désintégrer toute matière qui n'est pas assez solide. Champi qui est très heureux de s'être fais un ami, donne en cadeau à John un énorme diamant. Le soir, John retourna au campement des champignon et s'endormi paisiblement.",
-        "choices": [ {"btntext":"Continuer", "path": 2}]
+        "choices": [ {"btntext":"Continuer", "path": 14}]
     },
     {
         "id": 6,
@@ -42,12 +42,14 @@
     {
         "id": 7,
         "titre":"Chapitre 7",
-        "texte": ""
+        "texte": "John lui explique sa situation et lui demande s'il y a des ingrédients dans le bâtiment. Bob, ayant encore un cœur humain, lui offre des parties mécaniques, laissant John à se déguiser et à s'infiltrer parmi les robots du bâtiment. John le remercie et entre chez les robots. Une fois arrivé à l'intérieur, John se fait accueillir par un robot qui se déplace sur une roue. “JE SUIS ArK-9X “, dit-il, “VEUILLEZ ME SUIVRE POUR VOUS AUTHENTIFIER.” John, ne voulant pas paraître suspect, le suit. ",
+        "choices": [ {"btntext":"Continuer", "path": 11}]
     },
     {
         "id": 8,
         "titre":"Chapitre 8",
-        "texte": ""
+        "texte": "John rentre dans le portal vert par curiosité et se retrouve dans des ruines. Au loin, il voit un homme musclé. John crie “ HEY VOUS ! “ Et l'homme se retourne. Soudainement, l'inconnue se dirige en courant vers John et John, ayant peur, part à courir pour s'échapper de cet homme. L'homme réussit à l'attraper et se jette sur lui en murmurant “ fait pas de bruit”. Quelques secondes plus tard, on arrive à entendre des zombies passer proche. Lorsqu'ils sont partis, les 2 hommes se relèvent et l'inconnu dit “ Ouf ! Chance que j'étais là pour te sauver. Enchanté, je suis Steve l'incroyable !” John, un peu perplexe, se présente à retour. Steve ramène John dans sa cachette en racontant ces exploits et, rapidement, John réalise qu'il n'a que survécu à l'apocalypse car il était immun. Steve permet à John de passer la nuit chez lui. John se retrouve à dormir à terre avec une couverture pour le couvrir du froid. ",
+        "choices": [ {"btntext":"Continuer", "path": 14}]
     },
     {
         "id": 9,
