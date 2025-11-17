@@ -1,5 +1,7 @@
 <template>
-
+    <div>
+        <button>Continuer</button>
+    </div>
 </template>
 
 <script>

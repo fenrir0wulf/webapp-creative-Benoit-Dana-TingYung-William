@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button>Faire ce choix</button>
+        <button>{{ choix }} test</button>
     </div>
 </template>
 
