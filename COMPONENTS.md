@@ -120,15 +120,6 @@
 
 ```
 {
-    Nom: 'Modal'
-    Responsabilité: 'Module modal pour les pop ups'
-    Props: ''
-    Emits: ''
-}
-```
-
-```
-{
     Nom: 'NarrativeText'
     Responsabilité: 'Boite pour le texte normal de l'histoire'
     Props: 'Texte principal'

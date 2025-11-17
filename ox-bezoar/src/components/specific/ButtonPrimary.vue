@@ -1,18 +1,13 @@
 <template>
     <div>
-        <button type="button"></button>
+        <button type="button"> {{ textButton.title }} </button>
     </div>
 </template>
 
 <script>
     export default {
         name:'ButtonPrimary',
-        components: {},
-        data() {
-            return {
-
-            }
-        }
+        props: ['textButton'],
     }
 </script>
 

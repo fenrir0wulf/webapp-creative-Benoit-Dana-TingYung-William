@@ -1,6 +1,6 @@
 <script setup>
-import AppHeader from './components/layout/AppHeader.vue'
-import SaveSlotManager from '../components/layout/SaveSlotManager.vue';
+import AppHeader from '../components/layout/AppHeader.vue'
+import SaveSlotManager from '../components/specific/SaveSlotManager.vue';
 </script>
 
 <template>
@@ -20,7 +20,7 @@ import SaveSlotManager from '../components/layout/SaveSlotManager.vue';
         components: {},
         data() {
             return {
-
+                
             }
         }
     }
