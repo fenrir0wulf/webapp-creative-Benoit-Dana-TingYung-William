@@ -5,8 +5,8 @@ import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
 
 <template>
     <AppHeader/>
-    <ButtonPrimary :textButton="startButton" @click="gotoStart(1)"/>
-    <ButtonPrimary :text-button="savesButton" @click="gotoSaves()"/>
+    <ButtonPrimary :textButton="startButton.btntext" @click="gotoStart(1)"/>
+    <ButtonPrimary :textButton="savesButton.btntext" @click="gotoSaves()"/>
 </template>
 
 <script>
@@ -16,10 +16,10 @@ import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
         data() {
             return {
                 startButton: {
-                    title: "Commencer"
+                    btntext: "Commencer"
                 },
                 savesButton: {
-                    title: "Sauvegardes"
+                    btntext: "Sauvegardes"
                 }
             }
         },
