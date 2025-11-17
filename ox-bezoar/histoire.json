@@ -1,50 +1,80 @@
 [
     {
         "id": 1,
-        "texte": "Aujourd’hui, John va à l’hôpital pour voir sa mère gravement malade. Il arrive d’avance pour le rendez-vous qu’il avait prévu avec le médecin pour parler de l’avancement des traitements. Dans la salle d’attente, John s’ennuie et décide de lire un livre pour enfant qui traîne sur la table.  "
+        "titre":" Chapitre 1",
+        "texte": "Aujourd'hui, John va à l'hôpital pour voir sa mère gravement malade. Il arrive d'avance pour le rendez-vous qu'il avait prévu avec le médecin pour parler de l'avancement des traitements. Dans la salle d'attente, John s'ennuie et décide de lire un livre pour enfant qui traîne sur la table.  "
     },
     {
         "id": 2,
-        "texte": "Au moment où John ouvre le livre, il est téléporté directement dans celui-ci. Il se retrouve désormais dans une petite pièce toute blanche avec 2 portails, un vert et un rouge. Il ne comprend pas grand-chose, mais il sait qu’il doit faire un choix."
+        "titre":"Chapitre 2",
+        "texte": "Au moment où John ouvre le livre, il est téléporté directement dans celui-ci. Il se retrouve désormais dans une petite pièce toute blanche avec 2 portails, un vert et un rouge. Il ne comprend pas grand-chose, mais il sait qu'il doit faire un choix.",
+        "choix1":"Aller vers le portal de droite",
+        "choix2":"Aller vers le portal de gauche"
     },
     {
         "id": 3,
-        "texte": "Après être entré dans le portail vert, John est téléporté dans un autre monde. Dans ce monde il y a plein de champignon, il fait chaud et il put. John sens que son corps n’aime vraiment pas cet environnement. Il voit des champignons qui marchent et ils semblent tous l’ignoré, mais à ce moment-là un champignon s’arrête et commence à le fixer. Il commence à avoir peur et se demande quoi faire. À cet instant, il voit un autre portail du coin de l’œil, un jaune cette fois-ci. Le portail se trouve à une distance d’environ une centaine de mètres et vu la vitesse de marche des champignons, il se dit qu’il peut facilement le semer. D’un autre côté, qu’est-ce qui lui dit que le champignon est méchant, peut-être qu’il est juste étonné de voir un humain dans un monde de champignons."
+        "titre":"Chapitre 3",
+        "texte": "Après être entré dans le portail vert, John est téléporté dans un autre monde. Dans ce monde il y a plein de champignon, il fait chaud et il put. John sens que son corps n'aime vraiment pas cet environnement. Il voit des champignons qui marchent et ils semblent tous l'ignoré, mais à ce moment-là un champignon s'arrête et commence à le fixer. Il commence à avoir peur et se demande quoi faire. À cet instant, il voit un autre portail du coin de l'œil, un jaune cette fois-ci. Le portail se trouve à une distance d'environ une centaine de mètres et vu la vitesse de marche des champignons, il se dit qu'il peut facilement le semer. D'un autre côté, qu'est-ce qui lui dit que le champignon est méchant, peut-être qu'il est juste étonné de voir un humain dans un monde de champignons."
     },
     {
         "id": 4,
-        "texte": ""
+        "titre":"Chapitre 4",
+        "texte": "",
+        "choix1":"Rester dans ce monde",
+        "choix2":"Aller vers le portal"
     },
     {
         "id": 5,
-        "texte": "John reste devant le champignon et le salut. Le champignon continue à le fixer, donc il essaie une autre technique d’approche. Il cri JOHN et là le champignon hésite pendant quelques secondes et fini par crier CHAMPI. John sourie et commence à s’approcher du champignon. Champi lui fait un gros câlin et John comprend que Champi est juste un gentil champignon. Champi commence à marcher et John le suit. Ils marchent pour une bonne heure avant d’enfin s’arrêter devant une grotte. John à peur, mais il décide de suivre son nouvel ami. Quand il rentre dans la grotte, il voit un trésor digne d’un film de pirate. Il réalise que les champignons son enfaite des mineurs qui utilisent les toxines qu’ils sécrètent pour désintégrer toute matière qui n’est pas assez solide. Champi qui est très heureux de s’être fais un ami, donne en cadeau à John un énorme diamant. Le soir, John retourna au campement des champignon et s’endormi paisiblement."
+        "titre":"Chapitre 5",
+        "texte": "John reste devant le champignon et le salut. Le champignon continue à le fixer, donc il essaie une autre technique d'approche. Il cri JOHN et là le champignon hésite pendant quelques secondes et fini par crier CHAMPI. John sourie et commence à s'approcher du champignon. Champi lui fait un gros câlin et John comprend que Champi est juste un gentil champignon. Champi commence à marcher et John le suit. Ils marchent pour une bonne heure avant d'enfin s'arrêter devant une grotte. John à peur, mais il décide de suivre son nouvel ami. Quand il rentre dans la grotte, il voit un trésor digne d'un film de pirate. Il réalise que les champignons son enfaite des mineurs qui utilisent les toxines qu'ils sécrètent pour désintégrer toute matière qui n'est pas assez solide. Champi qui est très heureux de s'être fais un ami, donne en cadeau à John un énorme diamant. Le soir, John retourna au campement des champignon et s'endormi paisiblement.",
+        "choix1":"Rester dans ce monde",
+        "choix2":"Aller vers le portal"
     },
     {
         "id": 6,
-        "texte": ""
+        "titre":"Chapitre 6",
+        "texte": "John s'enfuit vers le portail avec facilité et tout d'un coup se retrouve dans un nouveau monde. Dans le ciel, il voit des dragons et il entend des cris stridents, mais ce qui lui fait le plus peur, c'est le grognement qu'il entend juste derrière lui. Il sent une respiration chaude sur son épaule alors brusquement, il se retourne. Devant lui se trouve un dragon vert émeraude qui semble avoir peur. John se dit qu'à ce point-là, il peut bien essayer d'en faire son ami plutôt que son ennemi. Il se penche en guise de respect et lui dit “Salut toi, je m'appelle John, et toi ?”. Le dragon, encore effrayé, lui dit que son nom est Julien. Cette journée-là, John et Julien se lient d'amitié, le soir, ils allument un feu dans la forêt et mangent, du poisson qu'ils avaient péché un peu plus tôt dans la rivière. Tout à coup, ils entendent un craquement de branches pas loin d'eux. Un chasseur de dragon sort d'un buisson et tente de tirer sur Julien. John hésite, mais il n'a pas beaucoup de temps. Veut-il mettre sa vie en danger pour sauver un dragon qu'il vient de rencontrer ? ",
+        "choix1":"Sauver le dragon",
+        "choix2":"Ne rien faire"
     },
     {
         "id": 7,
+        "titre":"Chapitre 7",
         "texte": ""
     },
     {
         "id": 8,
+        "titre":"Chapitre 8",
         "texte": ""
     },
     {
         "id": 9,
-        "texte": "John suit ArK-9X dans la chambre secrète. *TOC* Un son métallique se fit entendre. John se retourne, la porte qu’il fait face est fermée. « LES HUMAINS SONT SI NAÏFS » dit ArK-9X. Avant que John puisse réagir, il se fait entourer par les bras mécaniques du robot méchant et se fait enfermer dans une capsule étrange. Les cognements et les supplications de John sont en vain, dans le corps froid de ArK-9X ne réside pas un cœur."
+        "titre":"Chapitre 9 ( choix de défendre le dragon)",
+        "texte": ""
     },
     {
         "id": 10,
+        "titre":"Chapitre 10 ( choix de ne défendre pas le dragon)",
         "texte": ""
     },
     {
         "id": 11,
-        "texte": ""
+        "titre":"Tu t'es fait kidnapper! Mauvaise fin",
+        "texte": "John suit ArK-9X dans la chambre secrète. *TOC* Un son métallique se fit entendre. John se retourne, la porte qu'il fait face est fermée. « LES HUMAINS SONT SI NAÏFS » dit ArK-9X. Avant que John puisse réagir, il se fait entourer par les bras mécaniques du robot méchant et se fait enfermer dans une capsule étrange. Les cognements et les supplications de John sont en vain, dans le corps froid de ArK-9X ne réside pas un cœur."
     },
     {
-        "id": 12,
-        "texte": ""
+        "id": 13,
+        "titre":"Bonne fin",
+        "texte": "John revient à son monde et part à toute vitesse dans sa chambre. En rentrant, John voit que le docteur se trouver dans la chambre avec sa mère. Sa mère lui dit que le docteur a une super bonne nouvelle. Le docteur lui dit que sa mère a guéri par miracle. John ressent une joie l'envahir et court vers sa mère pour lui donner un grand câlin. John a réussi à sauver sa mère. "
+    },
+    {
+        "id": 14,
+        "titre":"Fin moyenne",
+        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. En voyant John arriver, le docteur lui dit qu'il a une bonne et mauvaise nouvelle. Il lui dit que la bonne nouvelle est que la condition à sa mère s'est améliorée et que la mauvaise nouvelle est que sa maladie n'est pas partie au complet. John comprend que même si sa mère est encore malade, il aura au moins un peu plus de temps pour faire plus de souvenirs avec elle."
+    },
+    {
+        "id": 15,
+        "titre":"Mauvaise fin",
+        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. Le docteur voit John et lui que la condition de sa mère est critique. Il lui demande s'il veut passer ces derniers moments avec elle. John, ayant un nœud dans la gorge, lui fait un signe de tête. En s'approchant du lit, il voit l'état dont est sa mère. John reste aux côtés de sa mère jusqu'à son dernier soupir. Sa mère décède le soir même."
     }
 ]
