@@ -4,9 +4,11 @@ import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
 </script>
 
 <template>
-    <AppHeader/>
-    <ButtonPrimary :textButton="startButton.btntext" @click="gotoStart(1)"/>
-    <ButtonPrimary :textButton="savesButton.btntext" @click="gotoSaves()"/>
+    <main>
+        <AppHeader/>
+        <ButtonPrimary :textButton="startButton.btntext" @click="gotoStart(1)"/>
+        <ButtonPrimary :textButton="savesButton.btntext" @click="gotoSaves()"/>
+    </main>
 </template>
 
 <script>

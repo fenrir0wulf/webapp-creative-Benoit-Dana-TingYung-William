@@ -1,23 +1,24 @@
 <script setup>
     import ChapterHeader from '../components/layout/ChapterHeader.vue';
     import NarrativeText from '../components/layout/NarrativeText.vue';
-import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
+    import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
 </script>
 
 <template>
     <div class="chapter">
         <ChapterHeader :chapterId="chapterId" />
         <NarrativeText :textNarrative="chapterText" />
-        <ButtonPrimary v-for="choice in chapterChoices.choices" :textButton="choice.btntext"/>
+        <ButtonPrimary @nextChapter="gotoNextChapter" v-for="choice in chapterChoices.choices" :textButton="choice.btntext" :btnPath="choice.path"/>
     </div>
 </template>
 
 <script>
     export default {
         name:'ChapterView',
-        components: {},
+        components: {ChapterHeader, NarrativeText, ButtonPrimary},
         data() {
             return {
+                currentChapter: 1,
                 chapterId: {
                     id: null,
                     title: null,
@@ -115,11 +116,25 @@ import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
             }
         },
         created() {
-            this.chapterId.id = this.$route.params.id;
-            this.chapterId.title = this.chapterData[this.chapterId.id - 1].titre;
-            this.chapterText.text = this.chapterData[this.chapterId.id - 1].texte;
-            this.chapterChoices.choices = this.chapterData[this.chapterId.id - 1].choices;
-        }
+            this.instanceChapter(this.currentChapter);
+        },
+        methods: {
+            gotoNextChapter(chapter) {
+                this.$router.push({
+                    name: 'chapter',
+                    params: {id: chapter},
+                });
+                this.instanceChapter(chapter);
+            },
+            instanceChapter(chapter) {
+                console.log('instance');
+                this.currentChapter = chapter
+                this.chapterId.id = chapter;
+                this.chapterId.title = this.chapterData[this.chapterId.id - 1].titre;
+                this.chapterText.text = this.chapterData[this.chapterId.id - 1].texte;
+                this.chapterChoices.choices = this.chapterData[this.chapterId.id - 1].choices;
+            }
+        },
     };
 </script>
 
