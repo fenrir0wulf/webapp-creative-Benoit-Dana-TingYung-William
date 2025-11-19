@@ -9,8 +9,8 @@
         "id": 2,
         "titre":"Chapitre 2",
         "texte": "Au moment où John ouvre le livre, il est téléporté directement dans celui-ci. Il se retrouve désormais dans une petite pièce toute blanche avec 2 portails, un vert et un rouge. Il ne comprend pas grand-chose, mais il sait qu'il doit faire un choix.",
-        "choices": [ {"btntext":"Rentrer dans le monde de droite", "path": 3},
-        {"btntext":"Rentrer dans le monde gauche", "path": 4}]
+        "choices": [ {"btntext":"Rentrer dans le portail vert", "path": 3},
+        {"btntext":"Rentrer dans le portail rouge", "path": 4}]
     },
     {
         "id": 3,
