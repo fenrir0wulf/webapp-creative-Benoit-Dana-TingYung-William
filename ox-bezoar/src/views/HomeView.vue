@@ -1,6 +1,11 @@
 <script setup>
-import AppHeader from "../components/layout/AppHeader.vue";
-import ButtonPrimary from "../components/specific/ButtonPrimary.vue";
+    import AppHeader from '../components/layout/AppHeader.vue'
+    import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
+
+    import { useStoryStore } from '../stores/useStoryStore';
+    import { usePlayerStore } from '../stores/usePlayerStore';
+    import { useSaveStore } from '../stores/useSaveStore';
+    import { mapStores } from 'pinia';
 </script>
 
 <template>
@@ -30,6 +35,9 @@ export default {
       },
     };
   },
+  computed: {
+        ...mapStores(usePlayerStore, useStoryStore, useSaveStore),
+    },
   methods: {
     gotoStart(id) {
       this.$router.push({
