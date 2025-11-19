@@ -17,5 +17,17 @@
 </script>
 
 <style scoped>
+button {
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+}
 
+button :hover{
+    background-color: rgb(255, 208, 0);
+}
+
+button :active{
+    background-color: rgb(255, 153, 0);
+}
 </style>

@@ -7,7 +7,6 @@ import ChapterView from './ChapterView.vue';
 
 <template>
     <div class="story">
-    MAIN STORY VIEW WITH ALL SUBCOMPONENTS
     <ChapterView />
     </div>
 </template>
