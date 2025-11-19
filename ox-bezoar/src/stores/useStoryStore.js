@@ -1,16 +1,17 @@
 import { defineStore } from "pinia";
+import story from '../data/histoire.json';
 
 export const useStoryStore = defineStore('story', {
     state: () => ({
         currentChapter: null,
         visitedChapters: null,
         availableChoices: null,
-        storyData: null,
+        storyData: story,
     }),
     getters: {
-        getCurrentChapter: (state) => state.currentChapter,
-        getAvailableChoices: (state) => state.availableChoices,
-
+        getCurrentChapter: (state) => { return state.currentChapter },
+        getAvailableChoices: (state) => { return state.availableChoices },
+        getStoryData: (state) => { return state.storyData},
     },
     actions: {
         loadChapter(chapterId) {
@@ -21,6 +22,6 @@ export const useStoryStore = defineStore('story', {
         },
         gotoChapter(chapterId) {
             
-        }
+        },
     }
 })
