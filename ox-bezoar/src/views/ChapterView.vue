@@ -9,7 +9,8 @@
 </script>
 
 <template>
-  <div class="bg" :class="`scene{{ currentchapter }}`">
+<div class="bg">
+   <div class="livre" :class="`scene{{ currentchapter }}`">
     <div class="chapter">
       <ChapterHeader :chapterId="chapterId" />
       <NarrativeText :textNarrative="chapterText" />
@@ -20,7 +21,8 @@
         :btnPath="choice.path"
       />
     </div>
-  </div>
+  </div> 
+</div>
 </template>
 
 <script>
@@ -75,13 +77,25 @@
 }
 
 .bg {
+    background-image: url(/img/bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.livre {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    width: 77vw;
+    height: 68vh;
 }
 
 .scene2 {
-    background-image: url();
+    background-image: url(/img/chap2.jpg);
 }
 
 .scene3 {
@@ -125,14 +139,20 @@
   background-color: lightblue;
   }
 
-.bg {
+  .bg {
+    background-image: url();
+}
+
+.livre {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 370px;
+    height: 740px;
 }
 
   .scene2 {
-    background-image: url();
+    background-image: url(/img/chap2-mobile.jpg);
 }
 
 .scene3 {

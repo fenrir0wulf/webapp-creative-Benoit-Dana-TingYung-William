@@ -56,12 +56,14 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url();
+  background-image: url(/img/home.jpg);
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 500px) {
   .home {
-    background-image: url();
+    background-image: url(/img/home-mobile.jpg);
   }
 }
 </style>

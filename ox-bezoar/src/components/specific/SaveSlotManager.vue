@@ -18,6 +18,6 @@ export default {
 
 <style scoped>
 .saveSlot {
-  background-image: url();
+  background-image: url(/img/livre-saves.png);
 }
 </style>

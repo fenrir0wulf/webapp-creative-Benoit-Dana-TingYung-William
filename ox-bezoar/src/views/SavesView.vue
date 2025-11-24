@@ -23,6 +23,18 @@ export default {
 
 <style scoped>
 .saves {
-  background-image: url();
+  background-image: url(/img/saves.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 500px) {
+
+.saves {
+  flex-direction: column;
+}
+
+
 }
 </style>
