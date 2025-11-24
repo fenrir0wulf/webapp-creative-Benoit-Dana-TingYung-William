@@ -12,11 +12,8 @@
   <main>
     <div class="home">
       <AppHeader />
-      <p class="texte">
-        Aujourd'hui, John va à l'hôpital pour voir sa mère gravement malade. Il arrive d'avance pour le rendez-vous qu'il avait prévu avec le médecin pour parler de l'avancement des traitements. Dans la salle d'attente, John s'ennuie et décide de lire un livre pour enfant qui traîne sur la table.
-      </p>
-      <ButtonPrimary :textButton="startButton.btntext" @click="gotoStart(2)" />
-      <ButtonPrimary :textButton="savesButton.btntext" @click="gotoSaves()" />
+      <ButtonPrimary :textButton="startButton.btntext" @click="gotoStart(2)" class="btn"/>
+      <ButtonPrimary :textButton="savesButton.btntext" @click="gotoSaves()" class="btn"/>
     </div>
   </main>
 </template>
@@ -59,6 +56,13 @@ export default {
   background-image: url(/img/home.jpg);
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn {
+  padding: 2vh;
 }
 
 @media screen and (max-width: 500px) {

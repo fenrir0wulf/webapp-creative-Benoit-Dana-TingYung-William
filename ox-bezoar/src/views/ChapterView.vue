@@ -9,19 +9,24 @@
 </script>
 
 <template>
+    <div class="body">
 <div class="bg">
-   <div class="livre" :class="`scene{{ currentchapter }}`">
+    <div class="livre" :class="`scene${currentChapter}`">
     <div class="chapter">
       <ChapterHeader :chapterId="chapterId" />
       <NarrativeText :textNarrative="chapterText" />
-      <ButtonPrimary
+      <div class="btns">
+        <ButtonPrimary
         @nextChapter="gotoNextChapter"
         v-for="choice in chapterChoices.choices"
         :textButton="choice.btntext"
         :btnPath="choice.path"
       />
+      </div>
+      
     </div>
   </div> 
+</div>
 </div>
 </template>
 
@@ -72,12 +77,36 @@
 </script>
 
 <style scoped>
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .chapter {
-  background-color: lightyellow;
+  width: 25vw;
+  height: 60%;
+  padding: 3vw;
+  margin-right: 5vw;
+  margin-top: 7%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
 }
 
 .bg {
-    background-image: url(/img/bg.jpg);
+    background-image: url(/src/img/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -94,53 +123,64 @@
     height: 68vh;
 }
 
+.scene1 {
+    background-image: url(/src/img/home.jpg);
+}
+
 .scene2 {
-    background-image: url(/img/chap2.jpg);
+    background-image: url(/src/img/chap2.jpg);
 }
 
 .scene3 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene4 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene5 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene6 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene7 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene8 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene9 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene10 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene11 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 @media screen and (max-width: 500px) {
   .chapter {
-  background-color: lightblue;
+    width: 60vw;
+  height: 40%;
+  padding: 3vw;
+  margin-right: 0vw;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
   }
 
   .bg {
-    background-image: url();
+    background-image: url(/src/img/bg.jpg);
 }
 
 .livre {
@@ -151,44 +191,48 @@
     height: 740px;
 }
 
+.scene1 {
+    background-image: url(/src/img/home-mobile.jpg);
+}
+
   .scene2 {
-    background-image: url(/img/chap2-mobile.jpg);
+    background-image: url(/src/img/chap2-mobile.jpg);
 }
 
 .scene3 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene4 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene5 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene6 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene7 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene8 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene9 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene10 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 
 .scene11 {
-    background-image: url();
+    background-image: url(/src/img);
 }
 }
 </style>

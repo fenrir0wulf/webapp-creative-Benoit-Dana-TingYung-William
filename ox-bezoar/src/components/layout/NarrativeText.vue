@@ -18,7 +18,12 @@
 </script>
 
 <style scoped>
-    .zoneNarrative {
-        background-color: brown;
-    }
+
+
+@media screen and (max-width: 500px){
+  .zoneNarrative {
+        font-size: 2.5vw;
+    }  
+}
+    
 </style>

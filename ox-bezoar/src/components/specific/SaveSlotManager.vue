@@ -18,6 +18,27 @@ export default {
 
 <style scoped>
 .saveSlot {
-  background-image: url(/img/livre-saves.png);
+  background-image: url(/src/img/livre-saves.png);
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
+  margin: 5vw;
+}
+
+.saveSlots {
+  display: flex;
+  flex-direction: row;
+
+}
+
+@media screen and (max-width: 500px) {
+  .saveSlot {
+  width: 50vw;
+  height: 50vw;
+}
+.saveSlots {
+  padding-top: 30vw;
+  flex-direction: column;
+}
 }
 </style>

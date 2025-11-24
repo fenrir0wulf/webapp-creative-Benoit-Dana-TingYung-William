@@ -19,15 +19,16 @@
 <style scoped>
 button {
     background-color: yellow;
-    padding: 10px;
+    padding: 0.5vh;
     border: none;
+    color: black;
 }
 
-button :hover{
+button:hover{
     background-color: rgb(255, 208, 0);
 }
 
-button :active{
+button:active{
     background-color: rgb(255, 153, 0);
 }
 </style>

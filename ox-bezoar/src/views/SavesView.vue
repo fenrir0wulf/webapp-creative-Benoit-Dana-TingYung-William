@@ -23,10 +23,15 @@ export default {
 
 <style scoped>
 .saves {
-  background-image: url(/img/saves.jpg);
+  background-image: url(/src/img/saves.jpg);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 500px) {
