@@ -3,25 +3,20 @@ import story from '../data/histoire.json';
 
 export const useStoryStore = defineStore('story', {
     state: () => ({
-        currentChapter: null,
-        visitedChapters: null,
-        availableChoices: null,
+        currentChapter: 1,
+        visitedChapters: [],
         storyData: story,
+        atEnd: false
     }),
     getters: {
         getCurrentChapter: (state) => { return state.currentChapter },
-        getAvailableChoices: (state) => { return state.availableChoices },
-        getStoryData: (state) => { return state.storyData},
+        getVisitedChapters: (state) => { return state.visitedChapters },
+        getStoryData: (state) => { return state.storyData },
+        isEnding: (state) => { return state.atEnd },
     },
     actions: {
-        loadChapter(chapterId) {
-
-        },
-        makeChoice(choice) {
-
-        },
-        gotoChapter(chapterId) {
-            
+        addVisited(chapterId) {
+            this.visitedChapters.push(chapterId);
         },
     }
 })

@@ -1,13 +1,13 @@
 <template>
     <div>
-        <button>{{ choix }} test</button>
+        <button>{{ textButton }}</button>
     </div>
 </template>
 
 <script>
     export default {
         name:'ChoiceButton',
-        components: {},
+        props: ['textButton'],
         data() {
             return {
 

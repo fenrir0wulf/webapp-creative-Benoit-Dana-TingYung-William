@@ -18,12 +18,10 @@
       <div class="btns">
         <ButtonPrimary
         @nextChapter="gotoNextChapter"
-        v-for="choice in chapterChoices.choices"
-        :textButton="choice.btntext"
-        :btnPath="choice.path"
+        @endsHere="gotoEnd"
+        :choices="chapterChoices.choices"
       />
       </div>
-      
     </div>
   </div> 
 </div>
@@ -61,16 +59,26 @@
                     name: 'chapter',
                     params: {id: chapter},
                 });
+                this.storyStore.currentChapter = chapter;
+                this.storyStore.addVisited(chapter);
                 this.instanceChapter(chapter);
+            },
+            gotoEnd(end) {
+                this.storyStore.atEnd = true;
+                this.$router.push({
+                    name: 'ending',
+                    params: {id: end},
+                });
             },
             instanceChapter(chapter) {
                 console.log('instance');
-                this.currentChapter = chapter
+                this.currentChapter = chapter;
                 this.chapterId.id = chapter;
-                this.chapterId.title = this.storyStore.getStoryData[this.chapterId.id -1].titre;
-                this.chapterText.text = this.storyStore.getStoryData[this.chapterId.id - 1].texte;
-                this.chapterChoices.choices = this.storyStore.getStoryData[this.chapterId.id - 1].choices;
-                console.log(this.storyStore.getStoryData[this.currentChapter -1]);
+                let story = this.storyStore.getStoryData.find(({id}) => id == this.chapterId.id);
+                console.log(story);
+                this.chapterId.title = story.titre;
+                this.chapterText.text = story.texte;
+                this.chapterChoices.choices = story.choices;
             }
         },
     };

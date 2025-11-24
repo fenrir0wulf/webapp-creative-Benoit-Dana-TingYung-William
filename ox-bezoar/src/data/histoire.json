@@ -72,21 +72,41 @@
     {
         "id": 12,
         "titre":"Tu t'es fait kidnapper!",
-        "texte": "John suit ArK-9X dans la chambre secrète. *TOC* Un son métallique se fit entendre. John se retourne, la porte qu'il fait face est fermée. « LES HUMAINS SONT SI NAÏFS » dit ArK-9X. Avant que John puisse réagir, il se fait entourer par les bras mécaniques du robot méchant et se fait enfermer dans une capsule étrange. Les cognements et les supplications de John sont en vain, dans le corps froid de ArK-9X ne réside pas un cœur."
+        "texte": "John suit ArK-9X dans la chambre secrète. *TOC* Un son métallique se fit entendre. John se retourne, la porte qu'il fait face est fermée. « LES HUMAINS SONT SI NAÏFS » dit ArK-9X. Avant que John puisse réagir, il se fait entourer par les bras mécaniques du robot méchant et se fait enfermer dans une capsule étrange. Les cognements et les supplications de John sont en vain, dans le corps froid de ArK-9X ne réside pas un cœur.",
+        "choices": [ {"btntext":"Continuer", "path": "ek"}]
     },
     {
         "id": 13,
         "titre":"Bonne fin",
-        "texte": "John revient à son monde et part à toute vitesse dans sa chambre. En rentrant, John voit que le docteur se trouver dans la chambre avec sa mère. Sa mère lui dit que le docteur a une super bonne nouvelle. Le docteur lui dit que sa mère a guéri par miracle. John ressent une joie l'envahir et court vers sa mère pour lui donner un grand câlin. John a réussi à sauver sa mère. "
+        "texte": "John revient à son monde et part à toute vitesse dans sa chambre. En rentrant, John voit que le docteur se trouver dans la chambre avec sa mère. Sa mère lui dit que le docteur a une super bonne nouvelle. Le docteur lui dit que sa mère a guéri par miracle. John ressent une joie l'envahir et court vers sa mère pour lui donner un grand câlin. John a réussi à sauver sa mère. ",
+        "choices": [ {"btntext":"Continuer", "path": "eg"}]
     },
     {
         "id": 14,
         "titre":"Fin moyenne",
-        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. En voyant John arriver, le docteur lui dit qu'il a une bonne et mauvaise nouvelle. Il lui dit que la bonne nouvelle est que la condition à sa mère s'est améliorée et que la mauvaise nouvelle est que sa maladie n'est pas partie au complet. John comprend que même si sa mère est encore malade, il aura au moins un peu plus de temps pour faire plus de souvenirs avec elle."
+        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. En voyant John arriver, le docteur lui dit qu'il a une bonne et mauvaise nouvelle. Il lui dit que la bonne nouvelle est que la condition à sa mère s'est améliorée et que la mauvaise nouvelle est que sa maladie n'est pas partie au complet. John comprend que même si sa mère est encore malade, il aura au moins un peu plus de temps pour faire plus de souvenirs avec elle.",
+        "choices": [ {"btntext":"Continuer", "path": "em"}]
     },
     {
         "id": 15,
         "titre":"Mauvaise fin",
-        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. Le docteur voit John et lui que la condition de sa mère est critique. Il lui demande s'il veut passer ces derniers moments avec elle. John, ayant un nœud dans la gorge, lui fait un signe de tête. En s'approchant du lit, il voit l'état dont est sa mère. John reste aux côtés de sa mère jusqu'à son dernier soupir. Sa mère décède le soir même."
+        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. Le docteur voit John et lui que la condition de sa mère est critique. Il lui demande s'il veut passer ces derniers moments avec elle. John, ayant un nœud dans la gorge, lui fait un signe de tête. En s'approchant du lit, il voit l'état dont est sa mère. John reste aux côtés de sa mère jusqu'à son dernier soupir. Sa mère décède le soir même.",
+        "choices": [ {"btntext":"Continuer", "path": "eb"}]
+    },
+    {
+        "id": "ek",
+        "titre": "Fin kidnappage"
+    },
+    {
+        "id": "eg",
+        "titre": "Bonne fin! Vous avez gagné!"
+    },
+    {
+        "id": "em",
+        "titre": "Fin moyenne"
+    },
+    {
+        "id": "eb",
+        "titre": "Fin mauvaise"
     }
 ]

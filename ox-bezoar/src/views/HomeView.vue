@@ -1,6 +1,7 @@
 <script setup>
     import AppHeader from '../components/layout/AppHeader.vue'
     import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
+    import ChoiceButton from '../components/common/ChoiceButton.vue';
 
     import { useStoryStore } from '../stores/useStoryStore';
     import { usePlayerStore } from '../stores/usePlayerStore';
@@ -12,8 +13,8 @@
   <main>
     <div class="home">
       <AppHeader />
-      <ButtonPrimary :textButton="startButton.btntext" @click="gotoStart(2)" class="btn"/>
-      <ButtonPrimary :textButton="savesButton.btntext" @click="gotoSaves()" class="btn"/>
+      <ChoiceButton :textButton="startButton.btntext" @click="gotoStart(2)" class="btn" />
+      <ChoiceButton :textButton="savesButton.btntext" @click="gotoSaves()" class="btn"/>
     </div>
   </main>
 </template>
@@ -21,7 +22,7 @@
 <script>
 export default {
   name: "HomeView",
-  components: { ButtonPrimary },
+  components: { ChoiceButton },
   data() {
     return {
       startButton: {

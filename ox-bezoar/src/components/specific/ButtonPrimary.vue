@@ -1,16 +1,28 @@
+<script setup>
+    import ChoiceButton from '../common/ChoiceButton.vue';
+</script>
+
 <template>
     <div>
-        <button type="button" @click="handleButton(btnPath)"> {{ textButton }} </button>
+        <ChoiceButton 
+        v-for="choice in choices"
+        :textButton="choice.btntext"
+        @click="handleButton(choice.path)"
+        />
     </div>
 </template>
 
 <script>
     export default {
         name:'ButtonPrimary',
-        props: ['textButton', 'btnPath'],
+        props: ['choices'],
         methods: {
             handleButton(path) {
-                this.$emit('nextChapter', path);
+                if(isNaN(path)){
+                    this.$emit('endsHere', path);
+                }else {
+                    this.$emit('nextChapter', path);
+                }
             }
         }
     }
