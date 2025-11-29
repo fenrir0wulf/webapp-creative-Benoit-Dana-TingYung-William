@@ -132,47 +132,47 @@
 }
 
 .scene1 {
-    background-image: url(/src/img/home.jpg);
+    background-image: url(/src/img/normal1.png);
 }
 
 .scene2 {
-    background-image: url(/src/img/chap2.jpg);
+    background-image: url(/src/img/normal2.png);
 }
 
 .scene3 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/3A.png);
 }
 
 .scene4 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/futur1.png);
 }
 
 .scene5 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/4A.png);
 }
 
 .scene6 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/4B.png);
 }
 
 .scene7 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/futur1.png);
 }
 
 .scene8 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/futur1.png);
 }
 
 .scene9 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/4D.png);
 }
 
 .scene10 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/5A.png);
 }
 
 .scene11 {
-    background-image: url(/src/img);
+    background-image: url(/src/img/5B.png);
 }
 
 @media screen and (max-width: 500px) {

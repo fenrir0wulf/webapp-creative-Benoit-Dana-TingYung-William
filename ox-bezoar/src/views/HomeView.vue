@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url(/img/home.jpg);
+  background-image: url(/img/menu.png);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -68,7 +68,7 @@ export default {
 
 @media screen and (max-width: 500px) {
   .home {
-    background-image: url(/img/home-mobile.jpg);
+    background-image: url();
   }
 }
 </style>
