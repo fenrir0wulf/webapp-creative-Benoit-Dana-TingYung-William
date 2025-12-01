@@ -13,7 +13,7 @@
   <main>
     <div class="home">
       <AppHeader />
-      <ChoiceButton :textButton="startButton.btntext" @click="gotoStart(2)" class="btn" />
+      <ChoiceButton :textButton="startButton.btntext" @click="gotoStart(1)" class="btn" />
       <ChoiceButton :textButton="savesButton.btntext" @click="gotoSaves()" class="btn"/>
     </div>
   </main>

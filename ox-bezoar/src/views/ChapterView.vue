@@ -81,7 +81,19 @@ export default {
             console.log(story);
             this.chapterId.title = story.titre;
             this.chapterText.text = story.texte;
-            this.chapterChoices.choices = story.choices;
+            if(this.currentChapter === 16){
+                    let flags = this.playerStore.getFlags;
+                    if (flags.hasDent && flags.hasOeuf && flags.hasOurson) {
+                        this.chapterChoices.choices = [story.choices.find(({path}) => path == 13)];
+                    }
+                    else if (flags.hasOeuf || flags.hasOurson) {
+                        this.chapterChoices.choices = [story.choices.find(({path}) => path == 14)];
+                    }else {
+                        this.chapterChoices.choices = [story.choices.find(({path}) => path == 15)];
+                    }
+                }else {
+                    this.chapterChoices.choices = story.choices;
+                }
             if (story.objet) {
                 this.playerStore.setFlags(story.objet);
             }
