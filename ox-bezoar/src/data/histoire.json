@@ -9,7 +9,7 @@
         "id": 2,
         "titre":"Qu'elle chemin prendre?",
         "texte": "Au moment où John ouvre le livre, il est téléporté directement dans celui-ci. Il se retrouve désormais dans une petite pièce toute blanche avec 2 portails, un vert et un rouge. Il ne comprend pas grand-chose, mais il sait qu'il doit faire un choix.",
-        "choices": [ {"btntext":"Rentrer dans le portail gris", "path": 3},
+        "choices": [ {"btntext":"Rentrer dans le portail vert", "path": 3},
         {"btntext":"Rentrer dans le portail rouge", "path": 4}]
     },
     {
@@ -24,7 +24,7 @@
         "titre":"Le futur",
         "texte": "John rentre dans le portail rouge et se retrouve dans un entouré de fer et de circuits. Devant lui se trouve un grand bâtiment métallique. Il avance vers celui, le son de ses pieds contre le sol résonne en écho dans les parages. Arrivé à l'entrée, il trouve une personne moitié-robot moitié-homme. Le cyborg se présente : “Je suis 127855 ou Bob. Je suis le gardien de ce bâtiment. Les hommes de chair ne sont pas supposés d'être ici.”. Avant que John ne puisse s'expliquer, un portail apparaît derrière lui, suscitant son intérêt. ",
         "choices": [ {"btntext":"Rester dans ce monde", "path": 7},
-        {"btntext":"Aller dans le portail vert", "path": 8}]
+        {"btntext":"Aller dans le portail vert", "path": 9}]
     },
     {
         "id": 5,
