@@ -113,7 +113,9 @@
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50px;
   font-size: 1vw;
+  color: #fff;
 }
+
 
 .bg {
     background-color: #b28755;
@@ -179,7 +181,27 @@
 .scene11 {
     background-image: url(/src/img/5B.png);
 }
-
+@media screen and (min-width: 1700px) {
+    
+.livre {
+    width: 1300px;
+    height: 730px;
+}
+.book {
+    padding: 80px;
+}
+.chapter {
+  width: 550px;
+  height: 90%;
+  padding: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+}
+}
 @media screen and (max-width: 500px) {
   .chapter {
     width: 60vw;
