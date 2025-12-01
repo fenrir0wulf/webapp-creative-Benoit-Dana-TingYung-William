@@ -2,6 +2,7 @@
     import ChapterHeader from '../components/layout/ChapterHeader.vue';
     import NarrativeText from '../components/layout/NarrativeText.vue';
     import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
+    import InventoryDisplay from '../components/layout/InventoryDisplay.vue';
 
     import { mapStores } from 'pinia';
     import { usePlayerStore } from '../stores/usePlayerStore';
@@ -25,8 +26,8 @@
       </div>
       
     </div>
-  </div> 
-</div>
+    </div>
+    </div>
 </div>
 </template>
 
@@ -84,6 +85,9 @@
                 this.chapterId.title = story.titre;
                 this.chapterText.text = story.texte;
                 this.chapterChoices.choices = story.choices;
+                if(story.objet){
+                    this.playerStore.setFlags(story.objet);
+                }
             }
         },
     };
