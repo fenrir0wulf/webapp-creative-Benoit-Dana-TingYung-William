@@ -7,7 +7,11 @@
 <template>
     <div>
         <h2>Fin atteinte: {{ endingData.titre }} </h2>
-        <p>Chemins visités: {{ visitedChapters }}</p>
+        <p>Chemins visités:
+            <ul>
+                <li v-for="ch in visitedChapters"> {{ ch }} </li>
+            </ul>
+        </p>
         <button><RouterLink :to="{name: 'home'}">Retour au menu</RouterLink> </button>
     </div>
 </template>
