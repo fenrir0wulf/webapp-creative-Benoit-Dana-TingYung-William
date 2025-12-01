@@ -27,6 +27,12 @@ export const usePlayerStore = defineStore('player', {
                 default: return;
             }
             console.log(this.flags);
+        },
+        resetFlags() {
+            this.flags.hasDiamant = false;
+            this.flags.hasOeuf = false;
+            this.flags.hasOurson = false;
+            this.flags.hasDent = false;
         }
     }
 })
