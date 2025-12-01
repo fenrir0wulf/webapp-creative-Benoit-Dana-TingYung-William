@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .saves {
-  background-image: url(/src/img/book.png);
+  background-image: url(/src/img/saves.png);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

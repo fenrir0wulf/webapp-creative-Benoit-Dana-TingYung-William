@@ -1,8 +1,8 @@
 <template>
   <div class="saveSlots">
-    <div class="saveSlot">Save 1</div>
-    <div class="saveSlot">Save 2</div>
-    <div class="saveSlot">Save 3</div>
+    <button class="saveSlot">Save 1</button>
+    <button class="saveSlot">Save 2</button>
+    <button class="saveSlot">Save 3</button>
   </div>
 </template>
 
@@ -18,11 +18,12 @@ export default {
 
 <style scoped>
 .saveSlot {
-  background-image: url(/src/img/livre-saves.png);
+  background-color: #ffffff00;
+  background-image: url(/src/img/book.png);
   background-size: cover;
-  width: 20vw;
-  height: 20vw;
-  margin: 5vw;
+  width: 30vw;
+  height: 30vw;
+  margin: 1vw;
 }
 
 .saveSlots {

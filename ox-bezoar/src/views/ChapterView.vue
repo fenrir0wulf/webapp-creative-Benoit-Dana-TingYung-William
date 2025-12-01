@@ -9,8 +9,9 @@
 </script>
 
 <template>
-    <div class="body">
+
 <div class="bg">
+    <div class="book">
     <div class="livre" :class="`scene${currentChapter}`">
     <div class="chapter">
       <ChapterHeader :chapterId="chapterId" />
@@ -22,6 +23,7 @@
         :choices="chapterChoices.choices"
       />
       </div>
+      
     </div>
   </div> 
 </div>
@@ -89,12 +91,10 @@
 
 <style scoped>
 
-.body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.book {
+    background-color: #39315a;
+    padding: 5vw;
+    border-radius: 5vw;
 }
 
 .btns {
@@ -105,19 +105,18 @@
 }
 
 .chapter {
-  width: 25vw;
-  height: 60%;
-  padding: 3vw;
-  margin-right: 5vw;
-  margin-top: 7%;
+  width: 30vw;
+  height: 90%;
+  padding: 1vw;
+  margin-right: 15px;
+  margin-top: 15px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50px;
+  font-size: 1vw;
 }
 
 .bg {
-    background-image: url(/src/img/bg.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #b28755;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -130,8 +129,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 77vw;
-    height: 68vh;
+    width: 71vw;
+    height: 40vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
 
 .scene1 {

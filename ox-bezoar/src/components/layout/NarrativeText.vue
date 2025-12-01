@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 500px){
   .zoneNarrative {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }  
 }
     
