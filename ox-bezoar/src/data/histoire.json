@@ -14,7 +14,7 @@
     },
     {
         "id": 3,
-        "titre":"Sa pue!",
+        "titre":"Champ de champignons",
         "texte": "Après être entré dans le portail vert, John est téléporté dans un autre monde. Dans ce monde il y a plein de champignon, il fait chaud et il put. John sens que son corps n'aime vraiment pas cet environnement. Il voit des champignons qui marchent et ils semblent tous l'ignoré, mais à ce moment-là un champignon s'arrête et commence à le fixer. Il commence à avoir peur et se demande quoi faire. À cet instant, il voit un autre portail du coin de l'œil, un jaune cette fois-ci. Le portail se trouve à une distance d'environ une centaine de mètres et vu la vitesse de marche des champignons, il se dit qu'il peut facilement le semer. D'un autre côté, qu'est-ce qui lui dit que le champignon est méchant, peut-être qu'il est juste étonné de voir un humain dans un monde de champignons.",
         "choices": [ {"btntext":"Rester dans ce monde", "path": 5},
         {"btntext":"Aller dans le portail", "path": 6}]
@@ -22,7 +22,7 @@
     {
         "id": 4,
         "titre":"Le futur",
-        "texte": "John rentre dans le portail rouge et se retrouve dans un entouré de fer et de circuits. Devant lui se trouve un grand bâtiment métallique. Il avance vers celui, le son de ses pieds contre le sol résonne en écho dans les parages. Arrivé à l'entrée, il trouve une personne moitié-robot moitié-homme. Le cyborg se présente : “Je suis 127855 ou Bob. Je suis le gardien de ce bâtiment. Les hommes de chair ne sont pas supposés d'être ici.”. Avant que John ne puisse s'expliquer, un portail apparaît derrière lui, suscitant son intérêt. ",
+        "texte": "John rentre dans le portail rouge et se retrouve dans un entouré de fer et de circuits. Devant lui se trouve un grand bâtiment métallique. Il avance vers celui, le son de ses pieds contre le sol résonne en écho dans les parages. Arrivé à l'entrée, il trouve une personne moitié-robot moitié-homme. Le cyborg se présente : “Je suis 127855 ou Bob. Je suis le gardien de ce bâtiment. Les hommes de chair ne sont pas supposés d'être ici.”. Avant que John ne puisse s'expliquer, un portail apparaît derrière lui, suscitant son intérêt.",
         "choices": [ {"btntext":"Rester dans ce monde", "path": 7},
         {"btntext":"Aller dans le portail vert", "path": 9}]
     },
