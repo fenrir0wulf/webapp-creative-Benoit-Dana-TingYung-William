@@ -23,9 +23,6 @@ body, html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(168, 201, 250);
 }
 
@@ -71,8 +68,8 @@ button:hover {
 }
 
 #app {
-  max-width: 1280px;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
