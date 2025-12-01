@@ -23,11 +23,12 @@ body, html {
 }
 
 body {
-  background-color: rgb(168, 201, 250);
+  background-color: #b28755;
 }
 
 p {
   font-family: "Moyudan";
+  font-size: 1.4vh;
 }
 
 a {
@@ -37,6 +38,13 @@ a {
 
 h1 {
   font-size: 4em;
+  font-family: "Mochibop";
+  color: var(--brunsombre);
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2em;
   font-family: "Mochibop";
   color: var(--brunsombre);
   font-weight: 100;
@@ -52,6 +60,7 @@ button {
   font-size: 110%;
   font-weight: bold;
   margin: 1%;
+  padding: 12px;
 }
 
 button:not(:hover) {
@@ -68,4 +77,7 @@ button:hover {
   height: 100vh;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

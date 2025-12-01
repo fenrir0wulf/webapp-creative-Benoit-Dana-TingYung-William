@@ -1,100 +1,96 @@
 <script setup>
-    import ChapterHeader from '../components/layout/ChapterHeader.vue';
-    import NarrativeText from '../components/layout/NarrativeText.vue';
-    import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
-    import InventoryDisplay from '../components/layout/InventoryDisplay.vue';
+import ChapterHeader from '../components/layout/ChapterHeader.vue';
+import NarrativeText from '../components/layout/NarrativeText.vue';
+import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
+import InventoryDisplay from '../components/layout/InventoryDisplay.vue';
 
-    import { mapStores } from 'pinia';
-    import { usePlayerStore } from '../stores/usePlayerStore';
-    import { useStoryStore } from '../stores/useStoryStore';
+import { mapStores } from 'pinia';
+import { usePlayerStore } from '../stores/usePlayerStore';
+import { useStoryStore } from '../stores/useStoryStore';
 </script>
 
 <template>
 
-<div class="bg">
-    <div class="book">
-    <div class="livre" :class="`scene${currentChapter}`">
-    <div class="chapter">
-      <ChapterHeader :chapterId="chapterId" />
-      <NarrativeText :textNarrative="chapterText" />
-      <div class="btns">
-        <ButtonPrimary
-        @nextChapter="gotoNextChapter"
-        @endsHere="gotoEnd"
-        :choices="chapterChoices.choices"
-      />
-      </div>
-      
+    <div class="bg">
+        <div class="book">
+            <div class="livre" :class="`scene${currentChapter}`">
+                <div class="chapter">
+                    <ChapterHeader :chapterId="chapterId" />
+                    <NarrativeText :textNarrative="chapterText" />
+                    <div class="btns">
+                        <ButtonPrimary @nextChapter="gotoNextChapter" @endsHere="gotoEnd"
+                            :choices="chapterChoices.choices" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-</div>
 </template>
 
 <script>
-    export default {
-        name:'ChapterView',
-        components: {ChapterHeader, NarrativeText, ButtonPrimary},
-        data() {
-            return {
-                currentChapter: 1,
-                chapterId: {
-                    id: null,
-                    title: null,
-                },
-                chapterText: {
-                    text: null,
-                },
-                chapterChoices: {
-                    choices: [],
-                },
-            }
-        },
-        created() {
-            this.instanceChapter(this.currentChapter);
-            this.storyStore.resetStates();
-        },
-        computed: {
-            ...mapStores(usePlayerStore, useStoryStore)
-        },
-        methods: {
-            gotoNextChapter(chapter, choice) {
-                this.$router.push({
-                    name: 'chapter',
-                    params: {id: chapter},
-                });
-                this.storyStore.currentChapter = chapter;
-                if(choice != "Continuer"){
-                    this.storyStore.addVisited(choice);
-                }
-                this.instanceChapter(chapter);
+export default {
+    name: 'ChapterView',
+    components: { ChapterHeader, NarrativeText, ButtonPrimary },
+    data() {
+        return {
+            currentChapter: 1,
+            chapterId: {
+                id: null,
+                title: null,
             },
-            gotoEnd(end) {
-                this.storyStore.atEnd = true;
-                this.$router.push({
-                    name: 'ending',
-                    params: {id: end},
-                });
+            chapterText: {
+                text: null,
             },
-            instanceChapter(chapter) {
-                console.log('instance');
-                this.currentChapter = chapter;
-                this.chapterId.id = chapter;
-                let story = this.storyStore.getStoryData.find(({id}) => id == this.chapterId.id);
-                console.log(story);
-                this.chapterId.title = story.titre;
-                this.chapterText.text = story.texte;
-                this.chapterChoices.choices = story.choices;
-                if(story.objet){
-                    this.playerStore.setFlags(story.objet);
-                }
+            chapterChoices: {
+                choices: [],
+            },
+        }
+    },
+    created() {
+        this.instanceChapter(this.currentChapter);
+        this.storyStore.resetStates();
+    },
+    computed: {
+        ...mapStores(usePlayerStore, useStoryStore)
+    },
+    methods: {
+        gotoNextChapter(chapter, choice) {
+            this.$router.push({
+                name: 'chapter',
+                params: { id: chapter },
+            });
+            this.storyStore.currentChapter = chapter;
+            if (choice != "Continuer") {
+                this.storyStore.addVisited(choice);
             }
+            this.instanceChapter(chapter);
         },
-    };
+        gotoEnd(end) {
+            this.storyStore.atEnd = true;
+            this.$router.push({
+                name: 'ending',
+                params: { id: end },
+            });
+        },
+        instanceChapter(chapter) {
+            console.log('instance');
+            this.currentChapter = chapter;
+            this.chapterId.id = chapter;
+            let story = this.storyStore.getStoryData.find(({ id }) => id == this.chapterId.id);
+            console.log(story);
+            this.chapterId.title = story.titre;
+            this.chapterText.text = story.texte;
+            this.chapterChoices.choices = story.choices;
+            if (story.objet) {
+                this.playerStore.setFlags(story.objet);
+            }
+        }
+    },
+};
 </script>
 
 <style scoped>
-
 .book {
     background-color: #39315a;
     padding: 5vw;
@@ -109,15 +105,16 @@
 }
 
 .chapter {
-  width: 30vw;
-  height: 90%;
-  padding: 1vw;
-  margin-right: 15px;
-  margin-top: 15px;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 50px;
-  font-size: 1vw;
-  color: #fff;
+    width: 30vw;
+    height: 90%;
+    padding: 1vw;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px #555555;
+    font-size: 1vw;
+    color: #fff;
 }
 
 
@@ -167,11 +164,11 @@
 }
 
 .scene7 {
-    background-image: url(/src/img/futur1.png);
+    background-image: url(/src/img/futur2.png);
 }
 
 .scene8 {
-    background-image: url(/src/img/futur1.png);
+    background-image: url(/src/img/futur3.png);
 }
 
 .scene9 {
@@ -185,48 +182,71 @@
 .scene11 {
     background-image: url(/src/img/5B.png);
 }
+
+.scene12 {
+    background-image: url(/src/img/fin_surprise.png);
+}
+
+.scene13 {
+    background-image: url(/src/img/fin_surprise.png);
+}
+
+.scene14 {
+    background-image: url(/src/img/fin_mid.png);
+}
+
+.scene15 {
+    background-image: url(/src/img/fin_surprise.png);
+}
+
+.scene16 {
+    background-image: url(/src/img/fin_surprise.png);
+}
+
 @media screen and (min-width: 1700px) {
-    
-.livre {
-    width: 1300px;
-    height: 730px;
+
+    .livre {
+        width: 1300px;
+        height: 730px;
+    }
+
+    .book {
+        padding: 80px;
+    }
+
+    .chapter {
+        width: 550px;
+        height: 90%;
+        padding: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50px;
+        font-size: 18px;
+        color: #fff;
+    }
 }
-.book {
-    padding: 80px;
-}
-.chapter {
-  width: 550px;
-  height: 90%;
-  padding: 15px;
-  margin-right: 15px;
-  margin-top: 15px;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 50px;
-  font-size: 18px;
-  color: #fff;
-}
-}
+
 @media screen and (max-width: 1000px) {
-  .chapter {
-    width: 90%;
-margin-bottom: 1vh;
-margin-left: 1vw;
-  height: 53vh;
-  padding: 3vw;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 50px;
-  }
+    .chapter {
+        width: 90%;
+        margin-bottom: 1vh;
+        margin-left: 1vw;
+        height: 53vh;
+        padding: 3vw;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50px;
+    }
 
-.livre {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 90vw;
-    height: 90vh;
-    background-size: contain;
-    background-size: 450px;
+    .livre {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 90vw;
+        height: 90vh;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
 }
-
-}
-
 </style>

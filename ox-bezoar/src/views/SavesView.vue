@@ -23,12 +23,12 @@ export default {
 
 <style scoped>
 .saves {
-  background-image: url(/src/img/saves.png);
+  background-color: #b28755;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-size: 100vw;
+  background-size: fill;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
