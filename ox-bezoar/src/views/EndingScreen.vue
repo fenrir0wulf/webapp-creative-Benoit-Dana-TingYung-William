@@ -7,7 +7,7 @@
 <template>
     <div>
         <h2>Fin atteinte: {{ endingData.titre }} </h2>
-        <p>Chemins visités:
+        <p><i>Chemins visités:</i>
             <ul>
                 <li v-for="ch in visitedChapters"> {{ ch }} </li>
             </ul>
@@ -42,5 +42,11 @@
 </script>
 
 <style scoped>
+    p {
+        font-size: 2.7vh;
+    }
 
+    li {
+        text-decoration: none;
+    }
 </style>
