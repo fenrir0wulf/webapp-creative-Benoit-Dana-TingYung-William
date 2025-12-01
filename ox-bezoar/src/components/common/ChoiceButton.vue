@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button>{{ textButton }}</button>
+        <button class="btn">{{ textButton }}</button>
     </div>
 </template>
 
@@ -17,5 +17,4 @@
 </script>
 
 <style scoped>
-
 </style>
