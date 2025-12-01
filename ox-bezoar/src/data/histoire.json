@@ -9,22 +9,19 @@
         "id": 2,
         "titre":"Chapitre 2",
         "texte": "Au moment où John ouvre le livre, il est téléporté directement dans celui-ci. Il se retrouve désormais dans une petite pièce toute blanche avec 2 portails, un vert et un rouge. Il ne comprend pas grand-chose, mais il sait qu'il doit faire un choix.",
-        "choices": [ {"btntext":"Rentrer dans le portail gris", "path": 3},
-        {"btntext":"Rentrer dans le portail rouge", "path": 4}]
+        "choices": [ {"btntext":"Rentrer dans le portail gris", "path": 3}, {"btntext":"Rentrer dans le portail rouge", "path": 4}]
     },
     {
         "id": 3,
         "titre":"Chapitre 3",
         "texte": "Après être entré dans le portail vert, John est téléporté dans un autre monde. Dans ce monde il y a plein de champignon, il fait chaud et il put. John sens que son corps n'aime vraiment pas cet environnement. Il voit des champignons qui marchent et ils semblent tous l'ignoré, mais à ce moment-là un champignon s'arrête et commence à le fixer. Il commence à avoir peur et se demande quoi faire. À cet instant, il voit un autre portail du coin de l'œil, un jaune cette fois-ci. Le portail se trouve à une distance d'environ une centaine de mètres et vu la vitesse de marche des champignons, il se dit qu'il peut facilement le semer. D'un autre côté, qu'est-ce qui lui dit que le champignon est méchant, peut-être qu'il est juste étonné de voir un humain dans un monde de champignons.",
-        "choices": [ {"btntext":"Rester dans ce monde", "path": 5},
-        {"btntext":"Aller dans le portal", "path": 6}]
+        "choices": [ {"btntext":"Rester dans ce monde", "path": 5}, {"btntext":"Aller dans le portal", "path": 6}]
     },
     {
         "id": 4,
         "titre":"Chapitre 4",
         "texte": "John rentre dans le portail rouge et se retrouve dans un entouré de fer et de circuits. Devant lui se trouve un grand bâtiment métallique. Il avance vers celui, le son de ses pieds contre le sol résonne en écho dans les parages. Arrivé à l'entrée, il trouve une personne moitié-robot moitié-homme. Le cyborg se présente : “Je suis 127855 ou Bob. Je suis le gardien de ce bâtiment. Les hommes de chair ne sont pas supposés d'être ici.”. Avant que John ne puisse s'expliquer, un portail apparaît derrière lui, suscitant son intérêt. ",
-        "choices": [ {"btntext":"Rester dans ce monde", "path": 7},
-        {"btntext":"Aller dans le portal vert", "path": 8}]
+        "choices": [ {"btntext":"Rester dans ce monde", "path": 7}, {"btntext":"Aller dans le portal vert", "path": 8}]
     },
     {
         "id": 5,
@@ -36,14 +33,13 @@
         "id": 6,
         "titre":"Chapitre 6",
         "texte": "John s'enfuit vers le portail avec facilité et tout d'un coup se retrouve dans un nouveau monde. Il se retrouve devant un œuf assez grand pour un œuf, mais assez petite pour le porter, et décide de la ramasser et de la garder. Dans le ciel, il voit des dragons et il entend des cris stridents, mais ce qui lui fait le plus peur, c'est le grognement qu'il entend juste derrière lui. Il sent une respiration chaude sur son épaule alors brusquement, il se retourne. Devant lui se trouve un dragon vert émeraude qui semble avoir peur. John se dit qu'à ce point-là, il peut bien essayer d'en faire son ami plutôt que son ennemi. Il se penche en guise de respect et lui dit “Salut toi, je m'appelle John, et toi ?”. Le dragon, encore effrayé, lui dit que son nom est Julien. Cette journée-là, John et Julien se lient d'amitié, le soir, ils allument un feu dans la forêt et mangent, du poisson qu'ils avaient péché un peu plus tôt dans la rivière. Tout à coup, ils entendent un craquement de branches pas loin d'eux. Un chasseur de dragon sort d'un buisson et tente de tirer sur Julien. John hésite, mais il n'a pas beaucoup de temps. Veut-il mettre sa vie en danger pour sauver un dragon qu'il vient de rencontrer ? ",
-        "choices": [ {"btntext":"Sauver le dragon", "path": 10},
-        {"btntext":"Rien faire", "path": 11}]
+        "choices": [ {"btntext":"Sauver le dragon", "path": 10}, {"btntext":"Rien faire", "path": 11}]
     },
     {
         "id": 7,
         "titre":"Chapitre 7",
         "texte": "John lui explique sa situation et lui demande s'il y a des ingrédients dans le bâtiment. Bob, ayant encore un cœur humain, lui offre des parties mécaniques, laissant John à se déguiser et à s'infiltrer parmi les robots du bâtiment. John le remercie et entre chez les robots. Une fois arrivé à l'intérieur, John se fait accueillir par un robot qui se déplace sur une roue. “JE SUIS ArK-9X “, dit-il, “VEUILLEZ ME SUIVRE POUR VOUS AUTHENTIFIER.” John, ne voulant pas paraître suspect, le suit.",
-        "choices": [ {"btntext":"Suivre ArK-9X", "path": 12},{"btntext":"S'évader", "path":8 }]
+        "choices": [ {"btntext":"Suivre ArK-9X", "path": 12}, {"btntext":"S'évader", "path":8 }]
     },
     {
         "id": 8,
@@ -55,7 +51,7 @@
         "id": 9,
         "titre":"Chapitre 9",
         "texte": "John rentre dans le portal vert par curiosité et se retrouve dans des ruines. Au loin, il voit un homme musclé. John crie “ HEY VOUS ! “ Et l'homme se retourne. Soudainement, l'inconnue se dirige en courant vers John et John, ayant peur, part à courir pour s'échapper de cet homme. L'homme réussit à l'attraper et se jette sur lui en murmurant “ fait pas de bruit”. Quelques secondes plus tard, on arrive à entendre des zombies passer proche. Lorsqu'ils sont partis, les 2 hommes se relèvent et l'inconnu dit “ Ouf ! Chance que j'étais là pour te sauver. Enchanté, je suis Steve l'incroyable !” John, un peu perplexe, se présente à retour. Steve ramène John dans sa cachette en racontant ces exploits et, rapidement, John réalise qu'il n'a que survécu à l'apocalypse car il était immun. Steve permet à John de passer la nuit chez lui. Steve donne son ourson en John en disant: “Voici mon petit ourson comme ça tu n'auras pas peur durant la nuit”. John, en regardant d'un air bizarre Steve, se couche et dort. Il se fait réveiller par une lumière et retrouve 2 portails devant lui. ",
-        "choices": [ {"btntext":"Rentrer dans le portal bleu", "path": 14},{"btntext":"Rentrer dans le portal rouge", "path": 3}]
+        "choices": [ {"btntext":"Rentrer dans le portal bleu", "path": 14}, {"btntext":"Rentrer dans le portal rouge", "path": 3}]
     },
     {
         "id": 10,

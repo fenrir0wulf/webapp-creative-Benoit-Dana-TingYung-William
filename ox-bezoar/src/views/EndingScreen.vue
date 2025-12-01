@@ -6,8 +6,8 @@
 
 <template>
     <div>
-        <h2>Fin atteinte {{ endingGet }} </h2>
-        <p>Chemins visités {{ visitedChapters }}</p>
+        <h2>Fin atteinte: {{ endingData.titre }} </h2>
+        <p>Chemins visités: {{ visitedChapters }}</p>
         <button><RouterLink :to="{name: 'home'}">Retour au menu</RouterLink> </button>
     </div>
 </template>
@@ -19,16 +19,21 @@
         data() {
             return {
                 visitedChapters: null,
-                endingGet: null, 
+                endingGet: null,
+                endingData: {
+                    id: null,
+                    titre: null,
+                },
             }
         },
         created() {
             this.visitedChapters = this.storyStore.getVisitedChapters;
             this.endingGet = this.$route.params.id;
+            this.endingData = this.storyStore.getStoryData.find(({id}) => id == this.endingGet);
         },
         computed: {
             ...mapStores(usePlayerStore, useStoryStore)
-        }
+        },
     }
 </script>
 

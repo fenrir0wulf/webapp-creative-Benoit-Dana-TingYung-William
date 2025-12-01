@@ -15,8 +15,13 @@ export const useStoryStore = defineStore('story', {
         isEnding: (state) => { return state.atEnd },
     },
     actions: {
-        addVisited(chapterId) {
+        addVisited(chapterId) {            
             this.visitedChapters.push(chapterId);
         },
+        resetStates() {
+            this.currentChapter = 1;
+            this.visitedChapters = [];
+            this.atEnd = false;
+        }
     }
 })

@@ -49,18 +49,21 @@
         },
         created() {
             this.instanceChapter(this.currentChapter);
+            this.storyStore.resetStates();
         },
         computed: {
             ...mapStores(usePlayerStore, useStoryStore)
         },
         methods: {
-            gotoNextChapter(chapter) {
+            gotoNextChapter(chapter, choice) {
                 this.$router.push({
                     name: 'chapter',
                     params: {id: chapter},
                 });
                 this.storyStore.currentChapter = chapter;
-                this.storyStore.addVisited(chapter);
+                if(choice != "Continuer"){
+                    this.storyStore.addVisited(choice);
+                }
                 this.instanceChapter(chapter);
             },
             gotoEnd(end) {

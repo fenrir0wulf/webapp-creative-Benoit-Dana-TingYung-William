@@ -7,7 +7,7 @@
         <ChoiceButton 
         v-for="choice in choices"
         :textButton="choice.btntext"
-        @click="handleButton(choice.path)"
+        @click="handleButton(choice.path, choice.btntext)"
         />
     </div>
 </template>
@@ -17,11 +17,11 @@
         name:'ButtonPrimary',
         props: ['choices'],
         methods: {
-            handleButton(path) {
+            handleButton(path, choice) {
                 if(isNaN(path)){
                     this.$emit('endsHere', path);
                 }else {
-                    this.$emit('nextChapter', path);
+                    this.$emit('nextChapter', path, choice);
                 }
             }
         }
