@@ -206,72 +206,27 @@
   color: #fff;
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .chapter {
-    width: 60vw;
-  height: 40%;
+    width: 90%;
+margin-bottom: 1vh;
+margin-left: 1vw;
+  height: 53vh;
   padding: 3vw;
-  margin-right: 0vw;
-  margin-left: 5%;
-  margin-top: 5%;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50px;
   }
 
-  .bg {
-    background-image: url(/src/img/bg.jpg);
-}
-
 .livre {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 370px;
-    height: 740px;
+    justify-content: flex-end;
+    width: 90vw;
+    height: 90vh;
+    background-size: contain;
+    background-size: 450px;
 }
 
-.scene1 {
-    background-image: url(/src/img/home-mobile.jpg);
 }
 
-  .scene2 {
-    background-image: url(/src/img/chap2-mobile.jpg);
-}
-
-.scene3 {
-    background-image: url(/src/img);
-}
-
-.scene4 {
-    background-image: url(/src/img);
-}
-
-.scene5 {
-    background-image: url(/src/img);
-}
-
-.scene6 {
-    background-image: url(/src/img);
-}
-
-.scene7 {
-    background-image: url(/src/img);
-}
-
-.scene8 {
-    background-image: url(/src/img);
-}
-
-.scene9 {
-    background-image: url(/src/img);
-}
-
-.scene10 {
-    background-image: url(/src/img);
-}
-
-.scene11 {
-    background-image: url(/src/img);
-}
-}
 </style>

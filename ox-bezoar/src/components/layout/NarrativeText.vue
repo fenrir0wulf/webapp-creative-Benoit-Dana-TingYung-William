@@ -20,9 +20,9 @@
 <style scoped>
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1000px){
   .zoneNarrative {
-        font-size: 2vw;
+        font-size: 1.3vw;
     }  
 }
     
