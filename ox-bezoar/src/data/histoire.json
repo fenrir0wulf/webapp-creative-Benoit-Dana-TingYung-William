@@ -30,7 +30,8 @@
         "id": 5,
         "titre":"Chapitre 5",
         "texte": "John reste devant le champignon et le salut. Le champignon continue à le fixer, donc il essaie une autre technique d'approche. Il cri JOHN et là le champignon hésite pendant quelques secondes et fini par crier CHAMPI. John sourie et commence à s'approcher du champignon. Champi lui fait un gros câlin et John comprend que Champi est juste un gentil champignon. Champi commence à marcher et John le suit. Ils marchent pour une bonne heure avant d'enfin s'arrêter devant une grotte. John à peur, mais il décide de suivre son nouvel ami. Quand il rentre dans la grotte, il voit un trésor digne d'un film de pirate. Il réalise que les champignons son enfaite des mineurs qui utilisent les toxines qu'ils sécrètent pour désintégrer toute matière qui n'est pas assez solide. Champi qui est très heureux de s'être fais un ami, donne en cadeau à John un énorme diamant. Le soir, John retourna au campement des champignon et s'endormi paisiblement.",
-        "choices": [ {"btntext":"Continuer", "path": 14}]
+        "choices": [ {"btntext":"Continuer", "path": 16}],
+        "objet": "diamant"
     },
     {
         "id": 6,
@@ -49,7 +50,7 @@
         "id": 8,
         "titre":"Chapitre 8",
         "texte": "Lorsque ArK-9X a son dos tourné, John part en courant. Il s'évade parce qu'il ne fait pas confiance à ce robot qu'il vient de connaître. En se camouflant, il recherche chaque salle, mais à la finale, ne retrouve rien. John sort du bâtiment, déçu. Un portail apparait devant lui. N'ayant aucune autre option, il décide d'y entrer.",
-        "choices": [ {"btntext":"Continuer", "path": 15}]
+        "choices": [ {"btntext":"Continuer", "path": 9}]
     },
     {
         "id": 9,
@@ -67,7 +68,7 @@
         "id": 11,
         "titre":"Chapitre 11 ( choix de ne défendre pas le dragon)",
         "texte": "John reste à sa place, pourquoi mettrait-il sa vie en danger pour un dragon qu'il a rencontré le jour même. Julien le regarde et lui dit “Tu me déçois John... En fait, je ne t'ai pas tout dis, mon nom complet est Julien Des 3 Trinités et je suis le roi de ce monde. Je t'aimais bien et je voulais tester notre amitié. Le résultat en est décevant et je souhaite que tu quittes mon monde immédiatement” John regarde le sol avec honte et il marche vers le portail que Julien a invoqué. Tout doucement, il lui dit “Je suis désolé” et il quitte ce monde. ",
-        "choices": [ {"btntext":"Continuer", "path": 15}]
+        "choices": [ {"btntext":"Continuer", "path": 16}]
     },
     {
         "id": 12,
@@ -87,6 +88,29 @@
     {
         "id": 15,
         "titre":"Mauvaise fin",
-        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. Le docteur voit John et lui que la condition de sa mère est critique. Il lui demande s'il veut passer ces derniers moments avec elle. John, ayant un nœud dans la gorge, lui fait un signe de tête. En s'approchant du lit, il voit l'état dont est sa mère. John reste aux côtés de sa mère jusqu'à son dernier soupir. Sa mère décède le soir même."
+        "texte": "John revient à son monde et part à toute vitesse dans la chambre dans sa chambre. Le docteur voit John et lui que la condition de sa mère est critique. Il lui demande s'il veut passer ces derniers moments avec elle. John, ayant un nœud dans la gorge, lui fait un signe de tête. En s'approchant du lit, il voit l'état dont est sa mère. John reste aux côtés de sa mère jusqu'à son dernier soupir. Sa mère décède le soir même.",
+        "choices": [ {"btntext":"Continuer", "path": "eb"}]
+    },
+    {
+        "id": 16,
+        "titre": "Vers la fin",
+        "texte": "John revient à son monde et part à toute vitesse dans la chambre...",
+        "choices": [ {"btntext":"Continuer", "path": ""}]
+    },
+    {
+        "id": "ek",
+        "titre": "Fin kidnappage"
+    },
+    {
+        "id": "eg",
+        "titre": "Bonne fin! Vous avez gagné!"
+    },
+    {
+        "id": "em",
+        "titre": "Fin moyenne"
+    },
+    {
+        "id": "eb",
+        "titre": "Fin mauvaise"
     }
 ]
