@@ -26,9 +26,13 @@ import { useStoryStore } from '../stores/useStoryStore';
                         />
                     </div>
                 </div>
-                <InventoryDisplay />
             </div>
-            <SaveButton />
+            <div class="bookBottom">
+                <InventoryDisplay />
+                <div class="saveButton">
+                    <SaveButton />
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -238,7 +242,7 @@ export default {
         padding: 15px;
         margin-right: 15px;
         margin-top: 15px;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.7);
         border-radius: 50px;
         font-size: 18px;
         color: #fff;

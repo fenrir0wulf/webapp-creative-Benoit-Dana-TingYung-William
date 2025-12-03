@@ -1,8 +1,8 @@
 # Brief de Projet - À fournir à l'équipe testeuse
 
-**Nom de votre équipe :** [Nom]  
-**Nom du projet :** [Nom]  
-**Type de projet :** [Mémoires interactives / Trace ton chemin]  
+**Nom de votre équipe :** Studio John  
+**Nom du projet :** Ox bezoar temporel  
+**Type de projet :** Trace ton chemin  
 **Date :** 3 décembre 2024
 
 ---
@@ -11,8 +11,7 @@
 
 **URL du site déployé :**
 
-- Si GitHub: [https://votre-username.github.io/votre-repo/]
-- Si Netlify: [https://votre-projet.netlify.app]
+[Github Pages](https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/)
 
 
 ## 🔗 Accès à votre Trello pour l'ajout de fiches de bogues
@@ -20,7 +19,7 @@
 - À partir de Trello, Cliquez sur *Partager* en haut à droite de votre tableau.
 - Ensuite, *Créer un lien*.
 - Finalement, *Copier le lien* et l'amener ici (puis supprimer les instructions sous le titre de la section actuelle).
-
+[Trello](https://trello.com/b/9Pcw7dFa/projet-web)
 
 ---
 
@@ -28,47 +27,22 @@
 
 ### Concept général
 
-[Décrivez en 2-3 phrases ce que fait votre projet]
-
-**Exemple (Mémoires) :**
-
-"Musée des Souvenirs est une application qui permet de créer et organiser ses mémoires personnelles dans 6 salles thématiques. Les utilisateurs peuvent ajouter des photos, des descriptions et des tags à leurs souvenirs."
-
-**Exemple (Trace ton chemin) :**
-
-"Les Échos du Temps est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Les choix du joueur influencent l'histoire et mènent à 4 fins différentes."
-
----
+Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre maman. Dans ce récit excitant, vous allez de monde en monde afin d'obtenir des objets pour redirectionner le destin de ta mère.
 
 ## ✅ Fonctionnalités implémentées (DONC À TESTER)
 
 ### PRIORITÉ HAUTE (fonctionnalités principales)
 
-#### Pour "Mémoires interactives"
-
-Remplacer le [X] par le nombre réel de votre projet
-
-- [ ] Navigation entre [X] salles thématiques
-- [ ] Ajout de mémoire (formulaire complet)
-- [ ] Édition de mémoire existante
-- [ ] Suppression de mémoire
-- [ ] Upload d'images (limite : [X] MB)
-- [ ] Système de tags
-- [ ] Recherche par mot-clé
-- [ ] Filtre par tag
-- [ ] Filtre par salle
-
 #### Pour "Trace ton chemin"
 
 Remplacer le [X] par le nombre réel de votre projet
 
-- [ ] Lecture de [X] chapitres
-- [ ] Système de choix fonctionnel
-- [ ] [X] branches narratives
-- [ ] [X] fins différentes accessibles
-- [ ] Tracking de [karma/stats/inventaire/flags]
-- [ ] Historique des décisions (dans un menu ou à la fin)
-- [ ] Autres spécificités de votre projet à mentionner aux testeurs?
+- [x] Lecture de 16 chapitres
+- [x] Système de choix fonctionnel
+- [x] 7 branches narratives
+- [x] 4 fins différentes accessibles
+- [x] Tracking de [karma/stats/inventaire/flags]
+- [x] Historique des décisions (dans un menu ou à la fin)
 
 ### PRIORITÉ MOYENNE
 
@@ -87,12 +61,9 @@ Remplacer le [X] par le nombre réel de votre projet
 
 S'il y a des choses qui n'ont pas été faites dans votre projet et qui ne sont donc à ne pas tester, veuillez les lister ici pour laisser savoir à vos testeurs plutôt que de les faires chercher pour rien.
 
-Par exemple:
-
-- ❌ [Exemple : Sauvegarde LocalStorage (optionnelle - pas faite)]
-- ❌ [Exemple : Animations GSAP (optionnelles - pas faites)]
-- ❌ [Exemple : Mode sombre]
-- ❌ [Autre]
+- ❌ Sauvegarde LocalStorage (en cours)
+- ❌ Animations GSAP (optionnelles - pas faites)
+- ❌ Mode sombre
 
 ---
 
@@ -152,10 +123,11 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 
 **Ces problèmes sont déjà identifiés et documentés :**
 
-- [Exemple : Images très lourdes (> 10 MB) peuvent ralentir le chargement]
-- [Exemple : Safari : pas testé (pas d'accès Mac)]
-- [Exemple : Recherche sensible à la casse (majuscules/minuscules)]
-- [Autre]
+- Sauvegardes pas fini
+- Inventaire pas fini
+- Responsive à travailler
+- Pas sortir de sauvegardes sans flèche
+- Pas retourner au menu sans flèche
 
 ---
 
@@ -163,9 +135,8 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 
 **Nous aimerions que vous testiez particulièrement :**
 
-1. [Exemple : Le système de filtres (nous ne sommes pas sûrs qu'il fonctionne dans tous les cas)]
-2. [Exemple : La version mobile (nous l'avons peu testée)]
-3. [Exemple : Toutes les fins de l'histoire (pour vérifier qu'elles sont atteignables)]
+1. La version mobile (nous l'avons peu testée)
+2. Toutes les fins de l'histoire (pour vérifier qu'elles sont atteignables) (optionnel)
 
 ---
 
@@ -173,15 +144,17 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 
 **Ce que nous avons déjà testé :**
 
+- ✅ Edge (Desktop)
 - ✅ Chrome (Desktop)
 - ✅ Firefox (Desktop)
-- ⚠️ Mobile (via DevTools uniquement, pas sur vrai téléphone)
-- ❌ Safari (pas d'accès)
-- ❌ Tablette réelle
+- ⚠️ 
+- ❌
 
 **Ce que vous pourriez tester en plus :**
 
 - Safari (si vous avez un Mac/iPhone)
+- Brave
+- Opera GX
 - Sur vos vrais téléphones
 - Sur vraie tablette
 
@@ -191,23 +164,14 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 
 **Arbre narratif simplifié :**
 
-```
-Chapitre 1 (Intro)
-    ↓
-Chapitre 2 (Premier choix)
-    ↓           ↓
-Branche A   Branche B
-    ↓           ↓
-  Fin 1       Fin 2
-  Fin 3       Fin 4
-```
+![style de notre projet](arbre_narratif.png)
 
 **Liste des fins accessibles :**
 
-1. [Nom de la fin 1] - Condition : [karma > 5]
-2. [Nom de la fin 2] - Condition : [karma < -5]
-3. [Nom de la fin 3] - Condition : [avoir l'objet X]
-4. [Nom de la fin 4] - Condition : [avoir fait le choix Y au chapitre 3]
+1. Fin bonne - Condition : Obtenir 3 objets
+2. Fin moyenne - Condition : Obtenir 1/2 objets
+3. Fin mauvaise - Condition : Obtenir 0 objet
+4. Fin surprise - Condition : Prendre le choix (Suivre ArK-9X) au chapitre 7
 
 ---
 
@@ -215,8 +179,7 @@ Branche A   Branche B
 
 **Pour questions urgentes ou clarifications :**
 
-- Teams : @[Nom du chef de projet]
-- Email : [email si nécessaire]
+- Teams : @Lu, Ting Yung
 
 **Disponibilité :**
 
@@ -229,6 +192,4 @@ Branche A   Branche B
 
 [Toute autre information utile pour les testeurs]
 
-[Exemple : "Notez que le chargement initial peut prendre 2-3 secondes à cause du nombre d'images"]
-
-[Exemple : "L'historique des décisions se trouve dans le menu en haut à droite"]
+non

@@ -28,7 +28,7 @@ body {
 
 p {
   font-family: "Moyudan";
-  font-size: 1.4vh;
+  font-size: 1.7vh;
 }
 
 a {
@@ -48,6 +48,17 @@ h2 {
   font-family: "Mochibop";
   color: var(--brunsombre);
   font-weight: 100;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  margin: 1%;
 }
 
 button {
@@ -80,4 +91,34 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.btns {
+  display: flex;
+
+}
+
+.bookBottom {
+  display: flex;
+  margin-top: 2%;
+  justify-content: flex;
+  align-items: center;
+}
+
+.saveButton {
+  justify-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  p {
+    font-size: 1.8vh;
+  }
+
+  h1 {
+    font-size: 1.8vh;
+  }
+
+  h2 {
+    font-size: 1.8vh;
+  }
 }
