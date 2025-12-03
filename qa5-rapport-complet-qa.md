@@ -45,8 +45,8 @@
 
 ### Ce que NOUS avons trouvé dans le projet de l'autre équipe
 
-**Projet testé :** [Nom du projet]  
-**Équipe testée :** [Nom de l'équipe]  
+**Projet testé :** L'avanture de Stickman 
+**Équipe testée :** équipe de Michael, Érick, Manel, Mégane  
 **Type :** Trace ton chemin
 
 ### Résumé des tests effectués
