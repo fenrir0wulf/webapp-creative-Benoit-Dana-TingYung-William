@@ -34,7 +34,7 @@
 
 ### Liens importants
 
-- **Projet en ligne :** [https://votre-projet.netlify.app]
+- **Projet en ligne :** [https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/]
 - **GitHub :** [https://github.com/votre-equipe/projet]
 - **Trello (bugs) :** [https://trello.com/b/...]
 - **Projet testé (externe) :** [https://autre-projet.netlify.app]
@@ -47,7 +47,7 @@
 
 **Projet testé :** [Nom du projet]  
 **Équipe testée :** [Nom de l'équipe]  
-**Type :**Trace ton chemin
+**Type :** Trace ton chemin
 
 ### Résumé des tests effectués
 
