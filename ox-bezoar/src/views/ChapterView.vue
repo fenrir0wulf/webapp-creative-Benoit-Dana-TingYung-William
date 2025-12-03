@@ -18,12 +18,9 @@ import { useStoryStore } from '../stores/useStoryStore';
                 <div class="chapter">
                     <ChapterHeader :chapterId="chapterId" />
                     <NarrativeText :textNarrative="chapterText" />
-                    <div class="btns">
-                        <ButtonPrimary
-                            @nextChapter="gotoNextChapter"
-                            @endsHere="gotoEnd"
-                            :choices="chapterChoices.choices"
-                        />
+                    <div class="btnsContainer">
+                        <ButtonPrimary class="btns" @nextChapter="gotoNextChapter" @endsHere="gotoEnd"
+                            :choices="chapterChoices.choices" />
                     </div>
                 </div>
             </div>
@@ -91,19 +88,19 @@ export default {
             console.log(story);
             this.chapterId.title = story.titre;
             this.chapterText.text = story.texte;
-            if(this.currentChapter === 16){
-                    let flags = this.playerStore.getFlags;
-                    if (flags.hasDent && flags.hasOeuf && flags.hasOurson) {
-                        this.chapterChoices.choices = [story.choices.find(({path}) => path == 13)];
-                    }
-                    else if (flags.hasOeuf || flags.hasOurson) {
-                        this.chapterChoices.choices = [story.choices.find(({path}) => path == 14)];
-                    }else {
-                        this.chapterChoices.choices = [story.choices.find(({path}) => path == 15)];
-                    }
-                }else {
-                    this.chapterChoices.choices = story.choices;
+            if (this.currentChapter === 16) {
+                let flags = this.playerStore.getFlags;
+                if (flags.hasDent && flags.hasOeuf && flags.hasOurson) {
+                    this.chapterChoices.choices = [story.choices.find(({ path }) => path == 13)];
                 }
+                else if (flags.hasOeuf || flags.hasOurson) {
+                    this.chapterChoices.choices = [story.choices.find(({ path }) => path == 14)];
+                } else {
+                    this.chapterChoices.choices = [story.choices.find(({ path }) => path == 15)];
+                }
+            } else {
+                this.chapterChoices.choices = story.choices;
+            }
             if (story.objet) {
                 this.playerStore.setFlags(story.objet);
             }
@@ -119,11 +116,20 @@ export default {
     border-radius: 5vw;
 }
 
-.btns {
+.btnsContainer {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+
+.btns {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .chapter {
@@ -256,7 +262,7 @@ export default {
         margin-left: 1vw;
         height: 53vh;
         padding: 3vw;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.7);
         border-radius: 50px;
     }
 
@@ -265,9 +271,27 @@ export default {
         flex-direction: column;
         justify-content: flex-end;
         width: 90vw;
-        height: 90vh;
+        height: 85vh;
         background-size: cover;
         background-position: 50% 50%;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .book {
+        width: 50vw;
+        height: 70vh;
+    }
+
+    .chapter {
+        width: 45%;
+        height: 85%;
+    }
+
+    .livre {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
     }
 
 }

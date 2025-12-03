@@ -6,16 +6,17 @@
 }
 
 @font-face {
-  font-family: "Mochibop" ;
+  font-family: "Mochibop";
   src: url(./assets/MochibopBold-Demo.ttf);
 }
 
 @font-face {
-  font-family: "Moyudan" ;
+  font-family: "Moyudan";
   src: url(./assets/Moyudan.ttf);
 }
 
-body, html {
+body,
+html {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -93,11 +94,6 @@ button:hover {
   align-items: center;
 }
 
-.btns {
-  display: flex;
-
-}
-
 .bookBottom {
   display: flex;
   margin-top: 2%;
@@ -120,5 +116,30 @@ button:hover {
 
   h2 {
     font-size: 1.8vh;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .bookBottom {
+    display: flex;
+    margin-top: 1%;
+    justify-content: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  button {
+    border-radius: 30px;
+    border-style: none;
+    box-shadow: 3px 3px 5px #2b21186b;
+    background-color: var(--beige);
+    color: var(--brunsombre);
+    font-family: "Moyudan";
+    font-size: 12px;
+  }
+  
+  button:hover {
+    font-size: 13px;
   }
 }
