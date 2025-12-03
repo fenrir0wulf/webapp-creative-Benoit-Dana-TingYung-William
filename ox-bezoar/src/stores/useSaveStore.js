@@ -12,6 +12,7 @@ export const useSaveStore = defineStore('save', {
         saveGame(saveCh, saveVis, savePl) {
             let aSave = {saveCh, saveVis, savePl};
             this.saveSlots.push(aSave);
+            console.log(aSave);
         },
         loadGame(save) {
 

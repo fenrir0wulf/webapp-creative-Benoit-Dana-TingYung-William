@@ -55,6 +55,7 @@ export default {
     created() {
         this.instanceChapter(this.currentChapter);
         this.storyStore.resetStates();
+        this.playerStore.resetFlags();
     },
     computed: {
         ...mapStores(usePlayerStore, useStoryStore)
