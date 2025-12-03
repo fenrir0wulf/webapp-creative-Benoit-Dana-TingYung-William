@@ -1,8 +1,8 @@
 # Rapport de Contrôle Qualité
 
-**Nom de l'équipe :** Studio John 
+**Nom de l'équipe :** Studio John     
 **Nom du projet :** Ox Bezoar
-**Type de projet :** [Mémoires interactives / Trace ton chemin]  
+**Type de projet :** Trace ton chemin
 **Date :** 8 décembre 2024
 
 <a href="https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/qa5-template-rapport-complet-qa.md" class="md-button">📥 Télécharger template de départ en markdown</a>
@@ -50,7 +50,7 @@
 
 **Projet testé :** [Nom du projet]  
 **Équipe testée :** [Nom de l'équipe]  
-**Type :** [Mémoires interactives / Trace ton chemin]
+**Type :**Trace ton chemin
 
 ### Résumé des tests effectués
 
