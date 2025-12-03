@@ -64,6 +64,7 @@ S'il y a des choses qui n'ont pas été faites dans votre projet et qui ne sont 
 - ❌ Sauvegarde LocalStorage (en cours)
 - ❌ Animations GSAP (optionnelles - pas faites)
 - ❌ Mode sombre
+- ❌ Sons
 
 ---
 
