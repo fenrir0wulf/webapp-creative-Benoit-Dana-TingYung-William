@@ -97,12 +97,8 @@ button:hover {
 .bookBottom {
   display: flex;
   margin-top: 2%;
-  justify-content: flex;
+  justify-content: space-between;
   align-items: center;
-}
-
-.saveButton {
-  justify-self: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -121,10 +117,7 @@ button:hover {
 
 @media (min-aspect-ratio: 16/9) {
   .bookBottom {
-    display: flex;
-    margin-top: 1%;
-    justify-content: flex;
-    align-items: center;
+    margin-top: 0.5%;
   }
 }
 

@@ -26,9 +26,7 @@ import { useStoryStore } from '../stores/useStoryStore';
             </div>
             <div class="bookBottom">
                 <InventoryDisplay />
-                <div class="saveButton">
-                    <SaveButton />
-                </div>
+                <SaveButton />
             </div>
         </div>
     </div>
