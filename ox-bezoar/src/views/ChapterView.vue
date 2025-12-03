@@ -3,6 +3,7 @@ import ChapterHeader from '../components/layout/ChapterHeader.vue';
 import NarrativeText from '../components/layout/NarrativeText.vue';
 import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
 import InventoryDisplay from '../components/layout/InventoryDisplay.vue';
+import SaveButton from '../components/common/SaveButton.vue';
 
 import { mapStores } from 'pinia';
 import { usePlayerStore } from '../stores/usePlayerStore';
@@ -18,12 +19,16 @@ import { useStoryStore } from '../stores/useStoryStore';
                     <ChapterHeader :chapterId="chapterId" />
                     <NarrativeText :textNarrative="chapterText" />
                     <div class="btns">
-                        <ButtonPrimary @nextChapter="gotoNextChapter" @endsHere="gotoEnd"
-                            :choices="chapterChoices.choices" />
+                        <ButtonPrimary
+                            @nextChapter="gotoNextChapter"
+                            @endsHere="gotoEnd"
+                            :choices="chapterChoices.choices"
+                        />
                     </div>
-
                 </div>
+                <InventoryDisplay />
             </div>
+            <SaveButton />
         </div>
     </div>
 </template>
@@ -31,7 +36,7 @@ import { useStoryStore } from '../stores/useStoryStore';
 <script>
 export default {
     name: 'ChapterView',
-    components: { ChapterHeader, NarrativeText, ButtonPrimary },
+    components: { ChapterHeader, NarrativeText, ButtonPrimary, InventoryDisplay, SaveButton },
     data() {
         return {
             currentChapter: 1,

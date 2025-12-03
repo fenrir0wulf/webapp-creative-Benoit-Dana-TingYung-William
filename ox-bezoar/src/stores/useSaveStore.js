@@ -9,8 +9,9 @@ export const useSaveStore = defineStore('save', {
         latestSave: (state) => state.saveSlots.length,
     },
     actions: {
-        saveGame(save) {
-
+        saveGame(saveCh, saveVis, savePl) {
+            let aSave = {saveCh, saveVis, savePl};
+            this.saveSlots.push(aSave);
         },
         loadGame(save) {
 
@@ -20,6 +21,6 @@ export const useSaveStore = defineStore('save', {
         },
         getSaveInfo(save) {
             //Relevant?
-        }
+        },
     }
 })
