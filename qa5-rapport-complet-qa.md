@@ -1,7 +1,7 @@
 # Rapport de Contrôle Qualité
 
-**Nom de l'équipe :** [Votre équipe]  
-**Nom du projet :** [Nom de votre projet]  
+**Nom de l'équipe :** Studio John 
+**Nom du projet :** Ox Bezoar
 **Type de projet :** [Mémoires interactives / Trace ton chemin]  
 **Date :** 8 décembre 2024
 
