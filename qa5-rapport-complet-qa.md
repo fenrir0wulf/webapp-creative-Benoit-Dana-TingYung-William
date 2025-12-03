@@ -1,12 +1,9 @@
 # Rapport de Contrôle Qualité
 
 **Nom de l'équipe :** Studio John     
-**Nom du projet :** Ox Bezoar
-**Type de projet :** Trace ton chemin
+**Nom du projet :** Ox Bezoar    
+**Type de projet :** Trace ton chemin    
 **Date :** 8 décembre 2024
-
-<a href="https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/qa5-template-rapport-complet-qa.md" class="md-button">📥 Télécharger template de départ en markdown</a>
-
 
 
 ## 📋 Table des matières
