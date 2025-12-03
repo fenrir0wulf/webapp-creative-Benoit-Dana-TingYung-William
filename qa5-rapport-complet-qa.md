@@ -35,8 +35,8 @@
 ### Liens importants
 
 - **Projet en ligne :** [https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/]
-- **GitHub :** [https://github.com/votre-equipe/projet]
-- **Trello (bugs) :** [https://trello.com/b/...]
+- **GitHub :** [https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William]
+- **Trello (bugs) :** [https://trello.com/b/9Pcw7dFa/projet-app-web-creative]
 - **Projet testé (externe) :** [https://autre-projet.netlify.app]
 
 ---
