@@ -26,7 +26,7 @@
 
 | Membre | Rôle dans les tests | Heures consacrées |
 |--------|---------------------|-------------------|
-| [Nom 1] | Tests externes + internes | [X] heures |
+| Ting Yung | Tests externes + internes | 2 heures |
 | [Nom 2] | Tests internes + corrections | [X] heures |
 | [Nom 3] | Tests accessibilité + performance | [X] heures |
 
@@ -56,6 +56,7 @@
 - ✅ Chrome 120 (Desktop)
 - ✅ Firefox 121 (Desktop)
 - ✅ Edge (Desktop)
+- ✅ Brave (Desktop)
 - ✅ Mobile 375px (DevTools)
 - ✅ Tablette 768px (DevTools)
 - ⚠️ Safari (non testé - pas d'accès)
@@ -96,9 +97,12 @@
 
 #### 🟠 Bogues Majeurs
 
-3. **Bogue #3 : [Titre]**
+3. **Bogue #3 : Error 404 durant refresh**
 
-   - [Même format]
+   - **Description :** Quand le jeu est commencé (page chapitre) et que le joueur refresh il trouve une page d’erreur
+   - **Impact :** Le joueur perd son progres et dois modifier l'URL pour recommencer le jeu.
+   - **Statut chez eux :** [À faire / En cours / Corrigé]
+   - **Carte Trello :** [Lien](https://trello.com/c/BnNkCNh9/25-bug1-page-404-quand-refresh-chapitre)
 
 4. **Bogue #4 : [Titre]**
 
@@ -120,11 +124,12 @@
 
 1. [Ex: Accessibilité au clavier à améliorer]
 2. [Ex: Responsive mobile nécessite ajustements]
+3. Sortir de l'inventaire pas intuitif (peut être remplacer le coffre par un X)
 
 **Évaluation globale (1-5 étoiles) :**
 
 - Facilité d'utilisation : ⭐⭐⭐⭐☆
-- Stabilité : ⭐⭐⭐☆☆
+- Stabilité : ⭐⭐⭐⭐☆
 - Design : ⭐⭐⭐⭐⭐
 - Performance : ⭐⭐⭐⭐☆
 
@@ -163,7 +168,7 @@ RAS = Rien À Signaler
 | Chrome Desktop | ✅ | ✅ Fonctionne | Quelques bugs mineurs |
 | Firefox Desktop | ✅ | ✅ Fonctionne | RAS |
 | Edge Desktop | ✅ | ✅ | RAS|
-| Mobile 375px | ✅ | ⚠️ Bogues trouvés | [Détails] |
+| Mobile 375px | ✅ | ✅ | [Détails] |
 | Tablette 768px | ✅ | ✅ Fonctionne | RAS |
 | Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
 
@@ -185,7 +190,7 @@ RAS = Rien À Signaler
 
 ### Ce que l'AUTRE équipe a trouvé dans NOTRE projet
 
-**Équipe qui nous a testés :** [Nom de l'équipe]  
+**Équipe qui nous a testés :** équipe de Michael, Érick, Manel, Mégane   
 **Date de réception :** 6 décembre 2024
 
 ### Statistiques
