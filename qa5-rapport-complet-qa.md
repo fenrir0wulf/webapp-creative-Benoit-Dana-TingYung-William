@@ -99,7 +99,7 @@
 
 3. **Bogue #3 : Error 404 durant refresh**
 
-   - **Description :** Quand le jeu est commencé (page chapitre) et que le joueur refresh il trouve une page d’erreur
+   - **Description :** Quand le jeu est commencé (page chapitre) et que le joueur refresh il trouve une page d’erreur.
    - **Impact :** Le joueur perd son progres et dois modifier l'URL pour recommencer le jeu.
    - **Statut chez eux :** [À faire / En cours / Corrigé]
    - **Carte Trello :** [Lien](https://trello.com/c/BnNkCNh9/25-bug1-page-404-quand-refresh-chapitre)
@@ -110,7 +110,12 @@
 
 #### 🟡 Bogues Mineurs
 
-5-12. [Liste brève, détails complets dans Trello]
+5. **Bogue #4 : Fin ??? manquante **
+
+   - **Description :** Une fin n’apparait pas même quand le joueur prend le choix “utiliser le sort mystérieux“ à chapitre 5C.
+   - **Impact :** Pas particulièrement nécessaire.
+   - **Statut chez eux :** [À faire / En cours / Corrigé]
+   - **Carte Trello :** [Lien](https://trello.com/c/B2n5RlgN/27-bug-2-fin-ne-fonctionne-pas)
 
 ### Impression générale du projet testé
 
