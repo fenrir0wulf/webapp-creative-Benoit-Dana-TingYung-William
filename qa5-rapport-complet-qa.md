@@ -148,19 +148,19 @@
 
 **Checklist complète (à ajuster en fonction de votre projet) :**
 
-- [✅ / ☐] Navigation entre toutes les salles/chapitres
-- [✅ / ☐] Ajout de mémoire / Lecture des chapitres
-- [✅ / ☐] Édition de mémoire / Système de choix
-- [✅ / ☐] Suppression de mémoire / Branches narratives
-- [✅ / ☐] Upload d'images / Tracking des conséquences
-- [✅ / ☐] Tags et filtres / Toutes les fins
-- [✅ / ☐] Recherche / Historique des décisions
-- [✅ / ☐] Responsive (mobile, tablette, desktop)
-- [✅ / ☐] Multi-navigateurs (Chrome, Firefox)
-- [✅ / ☐] Navigation au clavier
-- [✅ / ☐] Contraste des couleurs
-- [✅ / ☐] Alt text sur images
-- [✅ / ☐] Cas limites (formulaires vides, texte long, etc.)
+- [✅] Navigation entre toutes les salles/chapitres
+- [✅] Ajout de mémoire / Lecture des chapitres
+- [✅] Édition de mémoire / Système de choix
+- [✅] Suppression de mémoire / Branches narratives
+- [✅] Upload d'images / Tracking des conséquences
+- [☐] Tags et filtres / Toutes les fins
+- [✅] Recherche / Historique des décisions
+- [☐] Responsive (mobile, tablette, desktop)
+- [✅] Multi-navigateurs (Chrome, Firefox)
+- [✅] Navigation au clavier
+- [✅] Contraste des couleurs
+- [✅] Alt text sur images
+- [☐] Cas limites (formulaires vides, texte long, etc.)
 
 **Taux de réussite :** [X]/[Y] tests passés = [X]%
 
@@ -173,6 +173,7 @@ RAS = Rien À Signaler
 | Chrome Desktop | ✅ | ✅ Fonctionne | Quelques bugs mineurs |
 | Firefox Desktop | ✅ | ✅ Fonctionne | RAS |
 | Edge Desktop | ✅ | ✅ | RAS|
+| Brave Desktop | ✅ | ✅ | RAS|
 | Mobile 375px | ✅ | ✅ | [Détails] |
 | Tablette 768px | ✅ | ✅ Fonctionne | RAS |
 | Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
