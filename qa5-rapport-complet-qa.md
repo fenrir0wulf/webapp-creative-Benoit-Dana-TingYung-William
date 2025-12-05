@@ -28,7 +28,7 @@
 |--------|---------------------|-------------------|
 | Ting Yung | Tests externes + internes | 2 heures |
 | [Nom 2] | Tests internes + corrections | [X] heures |
-| [Nom 3] | Tests accessibilité + performance | [X] heures |
+| Dana | Tests accessibilité + performance | [X] heures |
 
 **Total d'heures de QA :** [X] heures
 
