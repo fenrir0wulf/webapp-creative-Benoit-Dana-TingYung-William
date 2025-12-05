@@ -204,8 +204,8 @@ RAS = Rien À Signaler
 |----------|------------|----------|----------|------------------|
 | 🔴 Critiques | 0 | [X] ✅ | [X] 🔄 | [X] ⏸️ |
 | 🟠 Majeurs | 4 | [X] ✅ | [X] 🔄 | 4  ⏸️ |
-| 🟡 Mineurs | 3 | [X] ✅ | [X] 🔄 | 3 ⏸️ |
-| **TOTAL** | **7** | **[X]** | **[X]** | **7** |
+| 🟡 Mineurs | 2 | [X] ✅ | [X] 🔄 | 3 ⏸️ |
+| **TOTAL** | **6** | **[X]** | **[X]** | **7** |
 
 ### Liste détaillée des bugs reçus
 
@@ -227,15 +227,70 @@ RAS = Rien À Signaler
 
 #### 🟠 Bogues Majeurs reçus
 
-**Bogue #3 : [Titre]**
+**Bogue #3 : f5 brise la page**
 
-- [Format simplifié OK pour majeurs si beaucoup]
+- **Description :** Pendant les chapitres, la touche f5/faire un refresh de page perd les données et la page n’est plus accessible
+- **Étapes pour reproduire :**Aller à n’importe quel chapitre, Activer la touche F5, Observer : [le bug se produit]
+- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
+- **Assigné à :** [Nom]
+- **Date de correction :** [Date si corrigé]
+
+**Bogue #4 : le chapitre 16 (voir description pour de detail)**
+
+- **Description :** le chapitre 16 se retrouve avant chaque fin, est-ce normal? sinon aller directement a la fin a la place de toujours  mettre le chapitre 16
+- **Étapes pour reproduire :**aller au chapitre avant n’importe quelle fin qui n’est pas celle ou tu te fait kidnapper, observer toujours le même chapitre
+- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
+- **Assigné à :** [Nom]
+- **Date de correction :** [Date si corrigé]
+
+**Bogue #5 : la condition d'acces pour la bonne fin**
+
+- **Description :** le seul moyen que j’ai trouver pour accéder à la bonne fin est en prennant le portail rouge<portail vert<portail rouge<rentrer dans le portail<sauvé le dragon= bonne fin c’est confusant car si je fait la même route mais a partir du chapitre champigon pour sauvé le dragon la fin est une fin moyenne
+- **Étapes pour reproduire :**suivre c’est choix: portail rouge<portail vert<portail rouge<rentrer dans le portail<sauvé le dragon= bonne fin, arrive a la bonne fin,refaire le chemin a partir de l’autre portail: portail vert<allez dans le portail< sauver le dragon=fin moyenne
+- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
+- **Assigné à :** [Nom]
+- **Date de correction :** [Date si corrigé]
+
+**Bogue #6 : Enter ne marche pas au retour**
+
+- **Description :** La touche space et enter ne marche pas au bouton retoure
+- **Étapes pour reproduire :**Finir l’histoire, Alt tab sur le bouton, Enter/space, Observer : [le bug se produit]
+- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
+- **Assigné à :** [Nom]
+- **Date de correction :** [Date si corrigé]
 
 #### 🟡 Bogues Mineurs reçus
 
-**Bogues #4-12 :** [Liste brève]
+**Bogue #7 : version mobile on arrive pas a scroll pour voir le bouton save**
 
-- Voir Trello pour détails complets : [Lien]
+- **Description :** j'ai tester sur mon cell et j’arrivais pas a vois le bouton save, je ne pouvais pas scroll non-plus
+- **Étapes pour reproduire :**Aller sur votre cell, essayer de swiper pour scroller
+- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
+- **Assigné à :** [Nom]
+- **Date de correction :** [Date si corrigé]
+
+**Bogue #8 : Images load lentement**
+
+- **Description :** Les images de chapitre load lentement sur certains navigateurs.
+- **Étapes pour reproduire :**Ouvrir n’importe quel navigateur hors que chrome et firefox, Commencer l’histoire, Observer : [le bug se produit
+- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
+- **Assigné à :** [Nom]
+- **Date de correction :** [Date si corrigé]
+
+
+- Voir Trello pour détails complets : [[Lien](https://trello.com/b/9Pcw7dFa/projet-app-web-creative)]
 
 ### Notre réaction aux bugs reçus
 
