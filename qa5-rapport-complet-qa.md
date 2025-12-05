@@ -202,10 +202,10 @@ RAS = Rien À Signaler
 
 | Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
-| 🔴 Critiques | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟠 Majeurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟡 Mineurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| **TOTAL** | **[X]** | **[X]** | **[X]** | **[X]** |
+| 🔴 Critiques | 0 | [X] ✅ | [X] 🔄 | [X] ⏸️ |
+| 🟠 Majeurs | 4 | [X] ✅ | [X] 🔄 | 4  ⏸️ |
+| 🟡 Mineurs | 3 | [X] ✅ | [X] 🔄 | 3 ⏸️ |
+| **TOTAL** | **7** | **[X]** | **[X]** | **7** |
 
 ### Liste détaillée des bugs reçus
 
