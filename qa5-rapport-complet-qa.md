@@ -45,9 +45,9 @@
 
 ### Ce que NOUS avons trouvé dans le projet de l'autre équipe
 
-**Projet testé :** L'avanture de Stickman 
-**Équipe testée :** équipe de Michael, Érick, Manel, Mégane  
-**Type :** Trace ton chemin
+**Projet testé :** L'avanture de Stickman     
+**Équipe testée :** équipe de Michael, Érick, Manel, Mégane       
+**Type :** Trace ton chemin    
 
 ### Résumé des tests effectués
 
@@ -73,10 +73,10 @@
 
 | Priorité | Nombre | % |
 |----------|--------|---|
-| 🔴 Critiques | [X] | [X]% |
-| 🟠 Majeurs | [X] | [X]% |
-| 🟡 Mineurs | [X] | [X]% |
-| **TOTAL** | **[X]** | **100%** |
+| 🔴 Critiques | 0| 0% |
+| 🟠 Majeurs | 1 | 50% |
+| 🟡 Mineurs | 1 | 50% |
+| **TOTAL** | **2** | **100%** |
 
 ### Liste des bugs trouvés (résumé)
 
