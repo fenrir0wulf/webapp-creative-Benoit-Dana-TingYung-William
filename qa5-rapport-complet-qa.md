@@ -525,52 +525,50 @@ RAS = Rien À Signaler
 
 | Aspect | État | Commentaire |
 |--------|------|-------------|
-| **Fonctionnalités principales** | ✅ | [Commentaire] |
-| **Bogues critiques** | ✅ Tous corrigés | [Détails] |
-| **Bogues majeurs** | ⚠️ | [X]/[Y] corrigés |
-| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [100]/100 |
-| **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [80]/100 |
-| **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
+| **Fonctionnalités principales** | ✅ | [MVP totalement compléter] |
+| **Bogues critiques** | ✅ Tous corrigés | [Les bogue critiques étaient déjà corrigés avant le QA] |
+| **Bogues majeurs** | ✅ | [4]/[4] corrigés |
+| **Accessibilité** | ✅ | Score : [100]/100 |
+| **Performance** | ⚠️ | Lighthouse : [80]/100 |
+| **Responsive** | ⚠️ | [Ce n'est pas parfait mais ça fonctionne] |
 
 ### Bilan des tests
 
 **Statistiques globales :**
 
 - **Bogues trouvés (tous) :** [9] (internes + reçus)
-- **Bogues corrigés :** [1] ([11]%)
-- **Bogues en cours :** [4] (seront corrigés d'ici le 10)
-- **Bogues mineurs reportés :** [6]
+- **Bogues corrigés :** [5] ([55]%)
+- **Bogues en cours :** [2] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [3]
 
 **Temps total consacré au QA :** [6] heures
 
 ### Ce qui fonctionne bien ✅
 
-1. [Ex: Toutes les fonctionnalités principales sont stables]
-2. [Ex: Design responsive sur tous les appareils]
-3. [Ex: Performance excellente après optimisation]
+1. [Les fonctionnalités sont complété]
+2. [Le design fonctionne bien sur PC]
+3. [L'histoire est complète et change bien selon les choix et le chemin choisi]
 
 ### Défis rencontrés et solutions 🔧
 
-1. **Défi :** [Ex: Bogues difficiles à reproduire]
-   - **Solution :** [Ex: Tests systématiques avec documentation précise]
-
-2. **Défi :** [Ex: Manque de temps pour tout corriger]
-   - **Solution :** [Ex: Priorisation rigoureuse : critiques d'abord]
+1. **Défi :** [Responsive imparfait]
+   - **Solution :** [Travailler sur le responsive, surtout mobile et tablette]
 
 ### Apprentissages 📚
 
 **Ce que nous avons appris durant le processus QA :**
 
-1. [Ex: L'importance de tester sur vrais appareils, pas juste DevTools]
-2. [Ex: Un regard externe trouve des bugs qu'on ne voit plus]
-3. [Ex: Documenter clairement les bugs fait gagner du temps]
+1. [L'importance de tester sur vrais appareils]
+2. [Un regard externe trouve des bugs important que nous n'aurions jamais vu]
+3. [Documenter clairement les bugs fait gagner du temps]
+4. [La priorisation des bugs et fonctionnalités importante permet de mettre plus d'énergie sur les choses qui valent le plus]
 
 ### Confiance pour la remise finale 🎯
 
 **Sur une échelle de 1 à 10, notre confiance est : [9]/10**
 
 **Justification :**
-[2-3 phrases expliquant pourquoi vous êtes confiant ou quelles sont vos inquiétudes restantes]
+[Nous avons bien travaillé et nous pensons avoir fais le nécessaire pour que notre remise se passe bien. Cependant, il faut penser à la présentation et aux questions qui nous seront posés. C'est un bon moment pour partager notre point de vue et notre savoir à nos coéquipiers. Le projet est quasiment fini et nous sommes fier du produit que nous allons présenter ce mercredi.]
 
 ---
 
@@ -579,16 +577,16 @@ RAS = Rien À Signaler
 ### Annexe A : Checklist complète des tests
 
 - [x] Touche Enter sur bouton de retour au menu
-- [ ] F5 brise la page
+- [x] F5 brise la page
 - [ ] Sauvegarde à terminer
-- [ ] Images d'inventaire
-- [ ] Images de fins
+- [x] Images d'inventaire
+- [x] Images de fins
 - [ ] Responsive à travailler
 - [ ] Version mobile bouton save
 - [ ] Chargement des images
 - [ ] Bouton sortie sauvegarde
 - [ ] Bouton sortie menu
-- [ ] Touche Enter sur bouton de retour au menu
+- [x] Touche Enter sur bouton de retour au menu
 
 ### Annexe B : Screenshots Lighthouse
 
@@ -608,16 +606,21 @@ RAS = Rien À Signaler
 
 **Organisation du board :**
 
-- Colonne "Bogues trouvés" : [6] cartes
-- Colonne "En correction" : [0] cartes
+- Colonne "Bogues trouvés" : [1] cartes
+- Colonne "En correction" : [1] cartes
 - Colonne "À valider" : [1] cartes
-- Colonne "Corrigé" : [0] cartes
+- Colonne "Corrigé" : [4] cartes
 
 ### Annexe E : Métriques additionnelles
 
 **Commits Git durant la phase QA :**
 
 - [8 décembre] : [1] commits (Correction bug bouton menu)
+- [8 décembre] : [2] commits (correction img fins + changement ordre chapitre)
+- [8 décembre] : [2] commits (ajout des images des objets + ajout d'un oeuf)
+- [8 décembre] : [1] commits (correction ortographe)
+- [8 décembre] : [2] commits (overflow pour les textes trop long + enlevé overflow-y pour mobile)
+- [8 décembre] : [1] commits (Correction # fins + Correction bug F5)
 - [Date] : [X] commits
 - Total : [1] commits de corrections
 
