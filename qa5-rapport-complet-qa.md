@@ -469,16 +469,18 @@ RAS = Rien À Signaler
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
 | Accueil | 100/100 | 100/100 | 100/100 | [Commentaires] |
-| [Page principale] | 80/100 | 100/100 | 100/100 |   |
+| [Page principale] | 80/100 | 100/100 | 100/100 | améliorer la diffusion des images, livraison de la demande lcp, arbre de dépendance du réseau, affichage des polices,réduire le javascript, réduire le javascript inutilisé, la page a empêché la restauration du cache avant/avant, évitez d’énormes charges utiles sur le réseau  |
 
 #### Résultats Mobile
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
 | Accueil | 100/100 | 100/100 | 100/100 | [Commentaires] |
-| [Page principale] | 62/100 | 100/100 | 100/100 | sa m'a envoyer à la page 404|
+| [Page principale] | 62/100 | 100/100 | 100/100 | améliorer la diffusion des images, livraison de la demande lcp, arbre de dépendance du réseau, affichage des polices,réduire le javascript, réduire le javascript inutilisé, la page a empêché la restauration du cache avant/avant, évitez d’énormes charges utiles sur le réseau |
 
-**Screenshots Lighthouse :** Voir annexes
+**Screenshots Lighthouse :** 
+![lighthouse test desktop](lighthouse_desktop.png)
+![lighthouse test mobile](lighthouse_mobile.jpg)
 
 ### Optimisations effectuées
 
