@@ -141,6 +141,7 @@ export default {
     box-shadow: 0px 0px 15px #555555;
     font-size: 1vw;
     color: #fff;
+    overflow-y: auto;
 }
 
 
