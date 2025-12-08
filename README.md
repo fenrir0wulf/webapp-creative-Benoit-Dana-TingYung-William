@@ -37,6 +37,9 @@ Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre ma
 [Lien vers le site déployé](https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/)
 
 ## Comment jouer
+1. [Action 1]
+2. [Action 2]
+3. [Action 3]
 
 ## Installation en local pour développement
 ```
@@ -63,6 +66,8 @@ npm run build
 ## Licence
 
 Projet éducatif - Cégep de Montmorency © 2024-2025
+
+---
 
 **Session**: Automne 2024
 **Enseignante**: Marie-Michelle Ouellet
