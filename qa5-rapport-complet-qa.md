@@ -579,15 +579,29 @@ RAS = Rien À Signaler
 
 ### Annexe A : Checklist complète des tests
 
-[Inclure la grille de test complétée]
+[x] Touche Enter sur bouton de retour au menu
+[] F5 brise la page
+[] Sauvegarde à terminer
+[] Images d'inventaire
+[] Images de fins
+[] Responsive à travailler
+[] Version mobile bouton save
+[] Chargement des images
+[] Bouton sortie sauvegarde
+[] Bouton sortie menu
+[] Touche Enter sur bouton de retour au menu
 
 ### Annexe B : Screenshots Lighthouse
 
-[Captures d'écran des rapports Lighthouse pour pages principales]
+![lighthouse test desktop](lighthouse_desktop.png)
+![lighthouse test mobile](lighthouse_mobile.jpg)
 
 ### Annexe C : Screenshots de bugs
 
-[Captures d'écran des bugs majeurs/critiques]
+![bogue](bogue1.png)
+![bogue](bogue2.png)
+![bogue](bogue3.png)
+![bogue](bogue4.png)
 
 ### Annexe D : Lien vers Trello
 
@@ -595,18 +609,18 @@ RAS = Rien À Signaler
 
 **Organisation du board :**
 
-- Colonne "Bogues trouvés" : [X] cartes
-- Colonne "En correction" : [X] cartes
-- Colonne "À valider" : [X] cartes
-- Colonne "Corrigé" : [X] cartes
+- Colonne "Bogues trouvés" : [6] cartes
+- Colonne "En correction" : [0] cartes
+- Colonne "À valider" : [1] cartes
+- Colonne "Corrigé" : [0] cartes
 
 ### Annexe E : Métriques additionnelles
 
 **Commits Git durant la phase QA :**
 
-- [8 décembre] : [X] commits (corrections bugs)
+- [8 décembre] : [1] commits (Correction bug bouton menu)
 - [Date] : [X] commits
-- Total : [X] commits de corrections
+- Total : [1] commits de corrections
 
 ---
 
