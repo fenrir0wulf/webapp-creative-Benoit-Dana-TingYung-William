@@ -346,14 +346,14 @@ RAS = Rien À Signaler
 4. **Bogue #i2 : [Images d'inventaire]**
    - Assigné à : [Dana]
    - Temps estimé : [4] heures
-   - Sera fait : [10 décembre]
+   - Sera fait : [8 décembre]
    - Statut actuel : [Fini]
 
 5. **Bogue #i5 : [Images de fins]**
    - Assigné à : [William]
    - Temps estimé : [4] heures
-   - Sera fait : [10 décembre]
-   - Statut actuel : [50% fait / bloqué sur X / presque fini]
+   - Sera fait : [8 décembre]
+   - Statut actuel : [fait]
 
 #### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
