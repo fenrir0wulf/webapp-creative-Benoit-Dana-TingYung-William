@@ -37,9 +37,10 @@ Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre ma
 [Lien vers le site déployé](https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/)
 
 ## Comment jouer
-1. [Action 1]
-2. [Action 2]
-3. [Action 3]
+1. Pour commencer le jeu, il faut appuyer le bouton "Commencer".
+2. À chaque certains chapitre, tu devras faire un choix qui va affecter la fin.
+3. Pour sauvegarde ta partie, il faut appuyer sur le bouton "Save".
+4. Dépendamment de tes choix, tu pourrais obtenir différents objets.
 
 ## Installation en local pour développement
 ```
