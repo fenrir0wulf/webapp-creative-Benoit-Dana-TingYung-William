@@ -21,6 +21,19 @@ Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre ma
 ## Comment jouer
 
 ## Installation en local pour développement
+```
+# Cloner le projet
+git clone [URL_DU_REPO]
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+# Builder pour la production
+npm run build
+```
 
 ## Documentation additionnelle
 [Lien vers les maquettes Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&p=f&t=z5jPoGWb8R2bjUbO-0)      
