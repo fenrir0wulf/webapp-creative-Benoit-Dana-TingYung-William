@@ -616,6 +616,7 @@ RAS = Rien À Signaler
 
 - [Nom 1] - [Rôle] - Date : [Date]
 - [Benoit] - [Systèmes et données] - Date : [8 décembre]
+- [William] - [Design et styles] - Date : [8 décembre]
 - [Nom 3] - [Rôle] - Date : [Date]
 
 **Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
