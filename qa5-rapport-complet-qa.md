@@ -579,17 +579,17 @@ RAS = Rien À Signaler
 
 ### Annexe A : Checklist complète des tests
 
-[x] Touche Enter sur bouton de retour au menu
-[] F5 brise la page
-[] Sauvegarde à terminer
-[] Images d'inventaire
-[] Images de fins
-[] Responsive à travailler
-[] Version mobile bouton save
-[] Chargement des images
-[] Bouton sortie sauvegarde
-[] Bouton sortie menu
-[] Touche Enter sur bouton de retour au menu
+- [x] Touche Enter sur bouton de retour au menu
+- [ ] F5 brise la page
+- [ ] Sauvegarde à terminer
+- [ ] Images d'inventaire
+- [ ] Images de fins
+- [ ] Responsive à travailler
+- [ ] Version mobile bouton save
+- [ ] Chargement des images
+- [ ] Bouton sortie sauvegarde
+- [ ] Bouton sortie menu
+- [ ] Touche Enter sur bouton de retour au menu
 
 ### Annexe B : Screenshots Lighthouse
 
