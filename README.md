@@ -10,6 +10,7 @@ Projet scolaire réalisé dans le cadre du cours Web 5 (582-511MO) au Cégep de 
 - William Beauvais - Design + Animations
 
 ## Description
+Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre maman. Dans ce récit excitant, vous allez de monde en monde afin d'obtenir des objets pour redirectionner le destin de ta mère.
 
 ### Fonctionnalités principales
 
