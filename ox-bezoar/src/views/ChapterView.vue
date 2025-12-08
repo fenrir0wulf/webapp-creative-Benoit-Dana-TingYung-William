@@ -163,7 +163,7 @@ export default {
     justify-content: flex-end;
     width: 71vw;
     height: 40vw;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #fff;
 }
@@ -263,7 +263,6 @@ export default {
         margin-left: 1vw;
         height: 53vh;
         padding: 3vw;
-        background-color: rgba(0, 0, 0, 0.7);
         border-radius: 50px;
     }
 
@@ -273,7 +272,6 @@ export default {
         justify-content: flex-end;
         width: 90vw;
         height: 85vh;
-        background-size: cover;
         background-position: 50% 50%;
     }
 }
@@ -292,7 +290,6 @@ export default {
     .livre {
         width: 100%;
         height: 100%;
-        background-size: cover;
     }
 
 }
