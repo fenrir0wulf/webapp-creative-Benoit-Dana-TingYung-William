@@ -628,7 +628,7 @@ RAS = Rien À Signaler
 
 **Ce rapport a été rédigé et validé par :**
 
-- [Nom 1] - [Rôle] - Date : [Date]
+- [Dana] - [Contenu + Narration] - Date : [8 décembre]
 - [Benoit] - [Systèmes et données] - Date : [8 décembre]
 - [William] - [Design et styles] - Date : [8 décembre]
 - [Ting Yung] - [Chef de projet / Architecture Vue] - Date : [8 décembre]
