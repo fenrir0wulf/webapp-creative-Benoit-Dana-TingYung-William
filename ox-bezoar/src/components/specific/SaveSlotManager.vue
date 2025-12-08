@@ -1,18 +1,31 @@
 <template>
   <div class="saveSlots">
-    <button class="saveSlot">Save 1</button>
-    <button class="saveSlot">Save 2</button>
-    <button class="saveSlot">Save 3</button>
+    <button class="saveSlot" v-for="save in saves" @click="handleLoad(save)">
+      <h4>Chapitre courant: {{ save.saveCh }}</h4>
+      <h4>Chapitres visités: {{ save.saveVis }}</h4>
+      <h4>Objets: {{ save.savePl }}</h4>
+    </button>
   </div>
 </template>
 
 <script>
 export default {
   name: "SaveSlotManager",
+  props: ['saveSlots'],
   components: {},
   data() {
-    return {};
+    return {
+      saves: [],
+    };
   },
+  created() {
+    this.saves = this.saveSlots;
+  },
+  methods: {
+    handleLoad(save) {
+      this.$emit('load', save)
+    }
+  }
 };
 </script>
 

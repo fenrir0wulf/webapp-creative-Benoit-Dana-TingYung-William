@@ -151,7 +151,7 @@
 - [✅] Alt text sur images
 - [X] Cas limites (formulaires vides, texte long, etc.)
 
-**Taux de réussite :** [X]/[Y] tests passés = [X]%
+**Taux de réussite :** [11]/[13] tests passés = [85]%
 
 ### Environnements testés
 
@@ -178,7 +178,7 @@ RAS = Rien À Signaler
 | i3 | Responsive à travailler | 🟡 | À faire ⏸️ | Ting Yung |
 | i4 | Bouton sortie sauvegarde | 🟡 | À faire ⏸️ | William |
 | i5 | Bouton sortie menu | 🟡 | À faire ⏸️ | William |
-| i5 | Images de certaines fins | 🟠 | À faire ⏸️ | William / Dana|
+| i5 | Images de certaines fins | 🟠 | À faire ⏸️ | William |
 
 **Total bugs trouvés en interne :** 6
 
@@ -213,10 +213,10 @@ RAS = Rien À Signaler
 - **Description :** Pendant les chapitres, la touche f5/faire un refresh de page perd les données et la page n’est plus accessible
 - **Étapes pour reproduire :**Aller à n’importe quel chapitre, Activer la touche F5, Observer : [le bug se produit]
 - **Notre analyse :** Oui
-- **Statut actuel (8 décembre) :** 🔄 En cours
+- **Statut actuel (8 décembre) :** ✅ Corrigé
 - **Plan de correction :** Correction de la fonction de chargement de la page
 - **Assigné à :** Benoit
-- **Date de correction :** [Date si corrigé]
+- **Date de correction :** 8 décembre
 
 **Bogue #3 : le chapitre 16 (voir description pour de detail)**
 
@@ -335,13 +335,13 @@ RAS = Rien À Signaler
 2. **Bogue #1 : [F5 brise la page]**
    - Assigné à : [Benoit]
    - Temps estimé : [4] heures
-   - Sera fait : [9 décembre]
+   - Sera fait : [8 décembre]
    - Statut actuel : [Vérifier fonctionalité avec enseignate]
 
 3. **Bogue #i1 : [Sauvegarde à terminer]**
    - Assigné à : [Benoit]
    - Temps estimé : [2] heures
-   - Sera fait : [8 décembre]
+   - Sera fait : [9 décembre]
    - Statut actuel : [Presque fini]
 
 4. **Bogue #i2 : [Images d'inventaire]**
@@ -627,9 +627,9 @@ RAS = Rien À Signaler
 
 **Ce rapport a été rédigé et validé par :**
 
-- [Dana] - [Contenu + Narration] - Date : [8 décembre]
-- [Benoit] - [Systèmes et données] - Date : [8 décembre]
-- [William] - [Design et styles] - Date : [8 décembre]
+- [Dana ] - [Contenu + Narration] - Date : [8 décembre]
+- [Benoit ] - [Systèmes et données] - Date : [8 décembre]
+- [William ] - [Design et styles] - Date : [8 décembre]
 - [Ting Yung] - [Chef de projet / Architecture Vue] - Date : [8 décembre]
 
 **Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
