@@ -76,9 +76,3 @@ Projet éducatif - Cégep de Montmorency © 2024-2025
 **Enseignante**: Marie-Michelle Ouellet
 **Programme**: Techniques d'intégration multimédia (TIM)
 
-
-
-
-## Liens
-
-[Brainstorm](https://www.figma.com/board/AGN982LhZFE8mErhv3dggF/Brainstorm?node-id=0-1&p=f&t=UeuckYGsW3fc04NO-0)   
