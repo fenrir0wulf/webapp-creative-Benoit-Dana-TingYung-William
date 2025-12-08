@@ -62,6 +62,9 @@ npm run build
 [Lien vers le cahier de charges](https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William/blob/main/cahier_charges_chemin.md) 
 
 ## Remerciements et autres crédits
+Polices:
+- Moyudan Font ( par Beary.dsgn sur fontspace)
+- Mochibop ( par StuArt Foundry sur 1001 fonts)
 
 ## Licence
 
