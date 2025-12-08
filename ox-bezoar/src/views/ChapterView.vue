@@ -240,7 +240,7 @@ export default {
     }
 
     .book {
-        padding: 80px;
+        padding: 100px;
     }
 
     .chapter {
