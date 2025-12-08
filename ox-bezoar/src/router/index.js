@@ -5,7 +5,7 @@ import EndingScreen from '../views/EndingScreen.vue'
 import SavesView from '../views/SavesView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
         path: '/',
