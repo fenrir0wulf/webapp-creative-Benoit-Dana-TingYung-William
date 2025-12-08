@@ -1,5 +1,29 @@
 # Ox bezoar temporel
 
+## À propos du projet
+
+## Équipe
+
+## Description
+
+### Fonctionnalités principales
+
+## Technologies utilisées
+
+## Démo en ligne
+
+## Comment jouer
+
+## Installation en local pour développement
+
+## Documentation additionnelle
+
+## Remerciements et autres crédits
+
+## Licence
+
+Projet éducatif - Cégep de Montmorency © 2024-2025
+
 ## Option choisi
 Option B: Trace ton chemin
 
