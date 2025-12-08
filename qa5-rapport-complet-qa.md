@@ -27,17 +27,17 @@
 | Membre | Rôle dans les tests | Heures consacrées |
 |--------|---------------------|-------------------|
 | Ting Yung | Tests externes + internes | 2 heures |
-| [Nom 2] | Tests internes + corrections | [X] heures |
+| Benoit Rochon | Tests internes + corrections | 2 heures |
 | Dana | Tests accessibilité + performance | 1 heures |
 
-**Total d'heures de QA :** [X] heures
+**Total d'heures de QA :** [5] heures
 
 ### Liens importants
 
 - **Projet en ligne :** [https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/]
 - **GitHub :** [https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William]
 - **Trello (bugs) :** [https://trello.com/b/9Pcw7dFa/projet-app-web-creative]
-- **Projet testé (externe) :** [https://autre-projet.netlify.app]
+- **Projet testé (externe) :** [https://erickouellette1105.github.io/webapp-creative-erick-michael-manel-megane/]
 
 ---
 
@@ -95,9 +95,6 @@
    - **Statut chez eux :** [À faire / En cours / Corrigé]
    - **Carte Trello :** [Lien](https://trello.com/c/BnNkCNh9/25-bug1-page-404-quand-refresh-chapitre)
 
-4. **Bogue #4 : [Titre]**
-
-   - [Même format]
 
 #### 🟡 Bogues Mineurs
 
@@ -143,14 +140,14 @@
 - [✅] Édition de mémoire / Système de choix
 - [✅] Suppression de mémoire / Branches narratives
 - [✅] Upload d'images / Tracking des conséquences
-- [☐] Tags et filtres / Toutes les fins
+- [✅] Tags et filtres / Toutes les fins
 - [✅] Recherche / Historique des décisions
-- [☐] Responsive (mobile, tablette, desktop)
+- [X] Responsive (mobile, tablette, desktop)
 - [✅] Multi-navigateurs (Chrome, Firefox)
 - [✅] Navigation au clavier
 - [✅] Contraste des couleurs
 - [✅] Alt text sur images
-- [☐] Cas limites (formulaires vides, texte long, etc.)
+- [X] Cas limites (formulaires vides, texte long, etc.)
 
 **Taux de réussite :** [X]/[Y] tests passés = [X]%
 
@@ -214,7 +211,7 @@ RAS = Rien À Signaler
 - **Description :** Pendant les chapitres, la touche f5/faire un refresh de page perd les données et la page n’est plus accessible
 - **Étapes pour reproduire :**Aller à n’importe quel chapitre, Activer la touche F5, Observer : [le bug se produit]
 - **Notre analyse :** Oui
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Statut actuel (8 décembre) :** 🔄 En cours
 - **Plan de correction :** Correction de la fonction de chargement de la page
 - **Assigné à :** Benoit
 - **Date de correction :** [Date si corrigé]
@@ -224,7 +221,7 @@ RAS = Rien À Signaler
 - **Description :** le chapitre 16 se retrouve avant chaque fin, est-ce normal? sinon aller directement a la fin a la place de toujours  mettre le chapitre 16
 - **Étapes pour reproduire :**aller au chapitre avant n’importe quelle fin qui n’est pas celle ou tu te fait kidnapper, observer toujours le même chapitre
 - **Notre analyse :** Non
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Statut actuel (8 décembre) :** ⏸️ Pas encore fait
 - **Plan de correction :** Ajouter du texte pour alléger la confusion
 - **Assigné à :** Dana
 - **Date de correction :** [Date si corrigé]
@@ -234,7 +231,7 @@ RAS = Rien À Signaler
 - **Description :** le seul moyen que j’ai trouver pour accéder à la bonne fin est en prennant le portail rouge<portail vert<portail rouge<rentrer dans le portail<sauvé le dragon= bonne fin c’est confusant car si je fait la même route mais a partir du chapitre champigon pour sauvé le dragon la fin est une fin moyenne
 - **Étapes pour reproduire :**suivre c’est choix: portail rouge<portail vert<portail rouge<rentrer dans le portail<sauvé le dragon= bonne fin, arrive a la bonne fin,refaire le chemin a partir de l’autre portail: portail vert<allez dans le portail< sauver le dragon=fin moyenne
 - **Notre analyse :** Non
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Statut actuel (8 décembre) :** ⏸️ Pas encore fait
 - **Plan de correction :** Ajouter des images pour les items acquises ou texte indiquant que la condition à été réussi.
 - **Assigné à :** William
 - **Date de correction :** [Date si corrigé]
@@ -256,7 +253,7 @@ RAS = Rien À Signaler
 - **Description :** j'ai tester sur mon cell et j’arrivais pas a vois le bouton save, je ne pouvais pas scroll non-plus
 - **Étapes pour reproduire :**Aller sur votre cell, essayer de swiper pour scroller
 - **Notre analyse :** Oui
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Statut actuel (8 décembre) :** ⏸️ Pas encore fait
 - **Plan de correction :** Modifier le CSS pour permettre le scroll ou rétrécir les éléments.
 - **Assigné à :** Ting Yung
 - **Date de correction :** [Date si corrigé]
@@ -266,7 +263,7 @@ RAS = Rien À Signaler
 - **Description :** Les images de chapitre load lentement sur certains navigateurs.
 - **Étapes pour reproduire :**Ouvrir n’importe quel navigateur hors que chrome et firefox, Commencer l’histoire, Observer : [le bug se produit
 - **Notre analyse :** Oui
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Statut actuel (8 décembre) :** ⏸️ Pas encore fait
 - **Plan de correction :** Compresser nos images (rendre en webp)
 - **Assigné à :** Dana
 - **Date de correction :** [Date si corrigé]
@@ -307,10 +304,10 @@ RAS = Rien À Signaler
 
 | Statut | Nombre | % du total |
 |--------|--------|------------|
-| ✅ Corrigés et validés | 1 | [X]% |
-| 🔄 En cours (sera fait d'ici le 10) | 4 | [X]% |
-| ⏸️ Reportés (si temps) | [X] | [X]% |
-| ❌ Non corrigés (justifiés) | [X] | [X]% |
+| ✅ Corrigés et validés | 1 | 11% |
+| 🔄 En cours (sera fait d'ici le 10) | 4 | 44% |
+| ⏸️ Reportés (si temps) | 2 | 22% |
+| ❌ Non corrigés (justifiés) | 2 | 22% |
 
 ### Priorités de correction (8→10 décembre)
 
@@ -439,7 +436,7 @@ RAS = Rien À Signaler
 
 | Test | Résultat | Notes |
 |------|----------|-------|
-| Toutes les images ont un alt | ✅ [X]/[Y] | [X] images sans alt à corriger |
+| Toutes les images ont un alt | ✅ [Y] | [X] images sans alt à corriger |
 | Alt descriptifs (pas "image1.jpg") | ✅ / ⚠️ | [Détails si problèmes] |
 | Images décoratives avec alt="" | ✅ / ⚠️ | [Détails] |
 
@@ -529,20 +526,20 @@ RAS = Rien À Signaler
 | **Fonctionnalités principales** | ✅ | [Commentaire] |
 | **Bogues critiques** | ✅ Tous corrigés | [Détails] |
 | **Bogues majeurs** | ⚠️ | [X]/[Y] corrigés |
-| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [X]/100 |
-| **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [X]/100 |
+| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [100]/100 |
+| **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [80]/100 |
 | **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
 
 ### Bilan des tests
 
 **Statistiques globales :**
 
-- **Bogues trouvés (tous) :** [X] (internes + reçus)
-- **Bogues corrigés :** [X] ([X]%)
-- **Bogues en cours :** [X] (seront corrigés d'ici le 10)
-- **Bogues mineurs reportés :** [X]
+- **Bogues trouvés (tous) :** [9] (internes + reçus)
+- **Bogues corrigés :** [1] ([11]%)
+- **Bogues en cours :** [4] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [6]
 
-**Temps total consacré au QA :** [X] heures
+**Temps total consacré au QA :** [6] heures
 
 ### Ce qui fonctionne bien ✅
 
@@ -568,7 +565,7 @@ RAS = Rien À Signaler
 
 ### Confiance pour la remise finale 🎯
 
-**Sur une échelle de 1 à 10, notre confiance est : [X]/10**
+**Sur une échelle de 1 à 10, notre confiance est : [9]/10**
 
 **Justification :**
 [2-3 phrases expliquant pourquoi vous êtes confiant ou quelles sont vos inquiétudes restantes]
