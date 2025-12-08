@@ -72,7 +72,7 @@ button {
   font-size: 110%;
   font-weight: bold;
   margin: 1%;
-  padding: 12px;
+  padding: 6px;
 }
 
 button:not(:hover) {
@@ -96,9 +96,9 @@ button:hover {
 
 .bookBottom {
   display: flex;
-  margin-top: 2%;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
