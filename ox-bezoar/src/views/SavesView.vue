@@ -1,12 +1,16 @@
 <script setup>
-import AppHeader from "../components/layout/AppHeader.vue";
-import SaveSlotManager from "../components/specific/SaveSlotManager.vue";
+  import SaveSlotManager from "../components/specific/SaveSlotManager.vue";
+
+  import { mapStores } from "pinia";
+  import { usePlayerStore } from "../stores/usePlayerStore";
+  import { useStoryStore } from "../stores/useStoryStore";
+  import { useSaveStore } from "../stores/useSaveStore";
 </script>
 
 <template>
   <main>
     <div class="saves">
-      <SaveSlotManager />
+      <SaveSlotManager :saveSlots="saves" @load="loadSave"/>
     </div>
     <RouterLink :to="{name: 'home'}"><button>Retour au menu</button></RouterLink>
   </main>
@@ -15,10 +19,38 @@ import SaveSlotManager from "../components/specific/SaveSlotManager.vue";
 <script>
 export default {
   name: "SavesView",
-  components: {},
+  components: {SaveSlotManager},
   data() {
-    return {};
+    return {
+      saves: [],
+    };
   },
+  created() {
+    this.getSaves();
+  },
+  computed: {
+    ...mapStores(usePlayerStore, useStoryStore, useSaveStore)
+  },
+  methods: {
+    getSaves() {
+      if(this.saveStore.hasSaves){
+        this.saves = this.saveStore.saveSlots;
+      }
+    },
+    loadSave(save) {
+      console.log(save);
+      this.storyStore.currentChapter = save.saveCh;
+      this.storyStore.visitedChapters = save.saveVis;
+      this.playerStore.flags.hasDent = save.savePl.hasDent;
+      this.playerStore.flags.hasDiamant = save.savePl.hasDiamant;
+      this.playerStore.flags.hasOeuf = save.savePl.hasOeuf;
+      this.playerStore.flags.hasOurson = save.savePl.hasOurson;
+      this.$router.replace({
+        name: 'chapter',
+        params: {id: this.storyStore.currentChapter},
+      });
+    }
+  }
 };
 </script>
 
