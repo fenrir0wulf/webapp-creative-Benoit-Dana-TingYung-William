@@ -1,6 +1,7 @@
 # Ox bezoar temporel
 
 ## À propos du projet
+Projet scolaire réalisé dans le cadre du cours Web 5 (582-511MO) au Cégep de Montmorency, programme Techniques d'intégration multimédia. Cette histoire interactive propose une expérience narrative immersive où chaque choix du lecteur influence le déroulement et la conclusion de l'aventure.
 
 ## Équipe
 - Lu Ting Yung - Chef de projet / Architecture Vue
