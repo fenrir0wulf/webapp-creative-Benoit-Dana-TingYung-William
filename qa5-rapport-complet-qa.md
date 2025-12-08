@@ -468,15 +468,15 @@ RAS = Rien À Signaler
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | 100/100 | 100/100 | 100/100 | [Commentaires] |
+| [Page principale] | 80/100 | 100/100 | 100/100 |   |
 
 #### Résultats Mobile
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | 100/100 | 100/100 | 100/100 | [Commentaires] |
+| [Page principale] | 62/100 | 100/100 | 100/100 | sa m'a envoyer à la page 404|
 
 **Screenshots Lighthouse :** Voir annexes
 
@@ -505,13 +505,12 @@ RAS = Rien À Signaler
 
 **Tests manuels (connexion normale) :**
 
-- Page d'accueil : [X] secondes
-- Page principale : [X] secondes
-- Page la plus lourde : [X] secondes
+- Page d'accueil : 0 secondes
+- Page principale : 3 secondes
+- Page la plus lourde : 3 secondes
 
 **Objectif :** < 3 secondes  
-**Atteint :** ✅ Oui / ⚠️ Partiellement / ❌ Non
-
+**Atteint :**  ⚠️ Partiellement 
 ---
 
 ## 8. Conclusion
