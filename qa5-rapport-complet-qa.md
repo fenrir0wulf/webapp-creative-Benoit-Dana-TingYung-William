@@ -347,7 +347,7 @@ RAS = Rien À Signaler
    - Assigné à : [Dana]
    - Temps estimé : [4] heures
    - Sera fait : [10 décembre]
-   - Statut actuel : [50% fait / bloqué sur X / presque fini]
+   - Statut actuel : [Fini]
 
 5. **Bogue #i5 : [Images de fins]**
    - Assigné à : [William]
