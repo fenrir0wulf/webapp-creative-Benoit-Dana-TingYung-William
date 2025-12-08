@@ -8,6 +8,7 @@ import SaveSlotManager from "../components/specific/SaveSlotManager.vue";
     <div class="saves">
       <SaveSlotManager />
     </div>
+    <RouterLink :to="{name: 'home'}"><button>Retour au menu</button></RouterLink>
   </main>
 </template>
 
@@ -31,7 +32,7 @@ export default {
   background-size: fill;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 
 @media screen and (max-width: 500px) {
