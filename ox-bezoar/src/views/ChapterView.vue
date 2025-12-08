@@ -214,7 +214,7 @@ export default {
 }
 
 .scene13 {
-    background-image: url(/src/img/fin_mauvaise.png);
+    background-image: url(/src/img/menu.png);
 }
 
 .scene14 {
@@ -222,11 +222,11 @@ export default {
 }
 
 .scene15 {
-    background-image: url(/src/img/fin_bonne.png);
+    background-image: url(/src/img/fin_mauvaise.png);
 }
 
 .scene16 {
-    background-image: url(/src/img/menu.png);
+    background-image: url(/src/img/fin_bonne.png);
 }
 
 @media screen and (min-width: 1700px) {
