@@ -52,8 +52,6 @@ Projet éducatif - Cégep de Montmorency © 2024-2025
 
 
 
-## Option choisi
-Option B: Trace ton chemin
 
 ## Liens
 
