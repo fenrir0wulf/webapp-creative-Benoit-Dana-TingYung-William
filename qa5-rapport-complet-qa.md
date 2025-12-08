@@ -27,6 +27,7 @@
 | Membre | Rôle dans les tests | Heures consacrées |
 |--------|---------------------|-------------------|
 | Ting Yung | Tests externes + internes | 2 heures |
+| William | Tests externes + internes | 2 heures |
 | Benoit Rochon | Tests internes + corrections | 2 heures |
 | Dana | Tests accessibilité + performance | 1 heures |
 
