@@ -1,19 +1,15 @@
 <script setup>
-import { mapStores } from 'pinia';
-import { usePlayerStore } from '../../stores/usePlayerStore';
+    import { mapStores } from 'pinia';
+    import { usePlayerStore } from '../../stores/usePlayerStore';
 </script>
 
 <template>
     <div class="inventaire">
         <!-- les images de objets sont sombres et deviennent clair si ils sont acquises -->
-        <div class="boiteObjet" :class="{ hasobject: dent }"><img src="/src/img/dent_de_requin.png" alt="objet1"
-                class="objet"></div>
-        <div class="boiteObjet" :class="{ hasobject: diamant }"><img src="/src/img/diamant.png" alt="objet2"
-                class="objet"></div>
-        <div class="boiteObjet" :class="{ hasobject: ourson }"><img src="/src/img/ourson.png" alt="objet3" class="objet">
-        </div>
-        <div class="boiteObjet" :class="{ hasobject: oeuf }"><img src="/src/img/oeuf.png" alt="objet4" class="objet">
-        </div>
+        <div class="boiteObjet" :class="{ hasobject : dentActive }"><img src="/src/img/dent_de_requin.png" alt="objet1" class="objet"></div>
+        <div class="boiteObjet" :class="{ hasobject : diamantActive }"><img src="/src/img/diamant.png" alt="objet2" class="objet"></div>
+        <div class="boiteObjet" :class="{ hasobject : oursonActive }"><img src="/src/img/ourson.png" alt="objet3" class="objet"></div>
+        <div class="boiteObjet" :class="{ hasobject : oeufActive }"><img src="/src/img/oeuf.png" alt="objet4" class="objet"></div>
     </div>
 </template>
 
@@ -30,14 +26,22 @@ export default {
         }
     },
     computed: {
-        ...mapStores(usePlayerStore)
-    },
-    created() {
-        this.checkFlags();
-    },
-    methods: {
-        checkFlags() {
-            this.diamant = this.playerStore.flags.hasDiamant;
+        ...mapStores(usePlayerStore),
+        dentActive() {
+            this.dent = this.playerStore.getFlags.hasDent;
+            return this.dent;
+        },
+        diamantActive() {
+            this.diamant = this.playerStore.getFlags.hasDiamant;
+            return this.diamant;
+        },
+        oursonActive() {
+            this.ourson = this.playerStore.getFlags.hasOurson;
+            return this.ourson;
+        },
+        oeufActive() {
+            this.oeuf = this.playerStore.getFlags.hasOeuf;
+            return this.oeuf;
         }
     }
 }

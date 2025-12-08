@@ -81,11 +81,9 @@ export default {
             });
         },
         instanceChapter(chapter) {
-            console.log('instance', chapter);
             this.currentChapter = chapter;
             this.chapterId.id = chapter;
             let story = this.storyStore.getStoryData.find(({ id }) => id == this.chapterId.id);
-            //console.log(story);
             this.chapterId.title = story.titre;
             this.chapterText.text = story.texte;
             if (this.currentChapter === 13) {
