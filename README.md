@@ -26,8 +26,15 @@ Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre ma
 - Inventaire visuel
 
 ## Technologies utilisées
+- Vue.js 3
+- Vite
+- Vue Router
+- Pinia (state management)
+- CSS
+
 
 ## Démo en ligne
+[Lien vers le site déployé](https://fenrir0wulf.github.io/webapp-creative-Benoit-Dana-TingYung-William/)
 
 ## Comment jouer
 
