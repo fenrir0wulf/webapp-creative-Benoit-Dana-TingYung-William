@@ -12,7 +12,7 @@
                 <li v-for="ch in visitedChapters"> {{ ch }} </li>
             </ul>
         </p>
-        <button><RouterLink :to="{name: 'home'}">Retour au menu</RouterLink> </button>
+        <RouterLink :to="{name: 'home'}"><button>Retour au menu</button></RouterLink>
     </div>
 </template>
 
