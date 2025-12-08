@@ -13,7 +13,7 @@
   <main>
     <div class="home">
       <AppHeader />
-      <ChoiceButton :textButton="startButton.btntext" @click="gotoStart(1)" class="btn" />
+      <ChoiceButton :textButton="startButton.btntext" @click="gotoStart()" class="btn" />
       <ChoiceButton :textButton="savesButton.btntext" @click="gotoSaves()" class="btn"/>
     </div>
   </main>
@@ -37,10 +37,12 @@ export default {
         ...mapStores(usePlayerStore, useStoryStore, useSaveStore),
     },
   methods: {
-    gotoStart(id) {
+    gotoStart() {
+      this.storyStore.resetStates();
+      this.playerStore.resetFlags();
       this.$router.push({
         name: "chapter",
-        params: { id: id },
+        params: { id: 1 },
       });
     },
     gotoSaves() {

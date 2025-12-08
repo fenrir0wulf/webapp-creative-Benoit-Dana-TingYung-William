@@ -27,6 +27,7 @@ import { useStoryStore } from '../stores/useStoryStore';
             <div class="bookBottom">
                 <InventoryDisplay />
                 <SaveButton />
+                <RouterLink :to="{name: 'home'}"><button>Retour au menu</button></RouterLink>
             </div>
         </div>
     </div>
@@ -38,7 +39,7 @@ export default {
     components: { ChapterHeader, NarrativeText, ButtonPrimary, InventoryDisplay, SaveButton },
     data() {
         return {
-            currentChapter: 1,
+            currentChapter: null,
             chapterId: {
                 id: null,
                 title: null,
@@ -52,9 +53,10 @@ export default {
         }
     },
     created() {
+        let cId = this.$route.params.id;
+        this.storyStore.currentChapter = cId;
+        this.currentChapter = this.storyStore.currentChapter;
         this.instanceChapter(this.currentChapter);
-        this.storyStore.resetStates();
-        this.playerStore.resetFlags();
     },
     computed: {
         ...mapStores(usePlayerStore, useStoryStore)
@@ -73,23 +75,23 @@ export default {
         },
         gotoEnd(end) {
             this.storyStore.atEnd = true;
-            this.$router.push({
+            this.$router.replace({
                 name: 'ending',
                 params: { id: end },
             });
         },
         instanceChapter(chapter) {
-            console.log('instance');
+            console.log('instance', chapter);
             this.currentChapter = chapter;
             this.chapterId.id = chapter;
             let story = this.storyStore.getStoryData.find(({ id }) => id == this.chapterId.id);
-            console.log(story);
+            //console.log(story);
             this.chapterId.title = story.titre;
             this.chapterText.text = story.texte;
-            if (this.currentChapter === 16) {
+            if (this.currentChapter === 13) {
                 let flags = this.playerStore.getFlags;
                 if (flags.hasDent && flags.hasOeuf && flags.hasOurson) {
-                    this.chapterChoices.choices = [story.choices.find(({ path }) => path == 13)];
+                    this.chapterChoices.choices = [story.choices.find(({ path }) => path == 16)];
                 }
                 else if (flags.hasOeuf || flags.hasOurson) {
                     this.chapterChoices.choices = [story.choices.find(({ path }) => path == 14)];
