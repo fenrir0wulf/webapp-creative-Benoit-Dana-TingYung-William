@@ -30,6 +30,7 @@
 | Benoit Rochon | Tests internes + corrections | 2 heures |
 | Dana | Tests accessibilité + performance | 1 heures |
 
+
 **Total d'heures de QA :** [5] heures
 
 ### Liens importants
@@ -383,6 +384,7 @@ RAS = Rien À Signaler
 
 - [ ] Finir Bogue #i1 (Benoit - 2h)
 - [ ] Commencer Bogue #1 (Benoit - 3h)
+- [ ] Faire Bogue #2 (Ting Yung - 1min)
 - [ ] Bogue #X ([Nom] - [X]h)
 
 **Mardi 9 :**
