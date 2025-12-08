@@ -14,6 +14,16 @@ Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre ma
 
 
 ### Fonctionnalités principales
+- Lecture de l'histoire
+- Système de choix
+- Tracking des conséquences
+- Système de sauvegarde
+- Historique des choix
+- Écrans de fin
+- Interface responsive
+- Accessibilité
+- Médias intégrés
+- Inventaire visuel
 
 ## Technologies utilisées
 
