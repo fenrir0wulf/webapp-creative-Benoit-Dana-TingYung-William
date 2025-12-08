@@ -23,6 +23,9 @@ Histoire intéractive dans lequel vous êtes John et vous devez sauver vôtre ma
 ## Installation en local pour développement
 
 ## Documentation additionnelle
+[Lien vers les maquettes Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&p=f&t=z5jPoGWb8R2bjUbO-0) 
+[Lien vers le Trello](https://trello.com/b/9Pcw7dFa/projet-web)   
+[Lien vers le cahier de charges]([https://trello.com/b/9Pcw7dFa/projet-web](https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William/blob/main/cahier_charges_chemin.md)) 
 
 ## Remerciements et autres crédits
 
@@ -40,6 +43,5 @@ Projet éducatif - Cégep de Montmorency © 2024-2025
 Option B: Trace ton chemin
 
 ## Liens
-[Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&p=f&t=z5jPoGWb8R2bjUbO-0)   
+
 [Brainstorm](https://www.figma.com/board/AGN982LhZFE8mErhv3dggF/Brainstorm?node-id=0-1&p=f&t=UeuckYGsW3fc04NO-0)   
-[Trello](https://trello.com/b/9Pcw7dFa/projet-web)   
