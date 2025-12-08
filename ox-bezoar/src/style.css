@@ -69,7 +69,7 @@ button {
   background-color: var(--beige);
   color: var(--brunsombre);
   font-family: "Moyudan";
-  font-size: 110%;
+  font-size: 1.8vh;
   font-weight: bold;
   margin: 1%;
   padding: 6px;
@@ -129,7 +129,7 @@ button:hover {
     background-color: var(--beige);
     color: var(--brunsombre);
     font-family: "Moyudan";
-    font-size: 12px;
+    font-size: 1.8vh;
   }
   
   button:hover {
