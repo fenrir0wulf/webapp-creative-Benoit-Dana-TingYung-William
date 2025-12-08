@@ -347,7 +347,7 @@ RAS = Rien À Signaler
    - Assigné à : [Dana]
    - Temps estimé : [4] heures
    - Sera fait : [10 décembre]
-   - Statut actuel : [50% fait / bloqué sur X / presque fini]
+   - Statut actuel : [Fini]
 
 5. **Bogue #i5 : [Images de fins]**
    - Assigné à : [William]
@@ -487,13 +487,9 @@ RAS = Rien À Signaler
 
 | Avant | Après | Économie |
 |-------|-------|----------|
-| [X] MB total | [X] MB total | [X]% économisés |
-| [X] images | [X] images compressées | Outil : TinyPNG |
+| 108 Mo total | 33.8 Mo total | 31% économisés |
+| 26 images | 26 images compressées | Outil : TinyPNG |
 
-**Exemples :**
-
-- `image1.jpg` : 5.2 MB → 1.8 MB (65% économie)
-- `background.png` : 3.1 MB → 800 KB (74% économie)
 
 #### Autres optimisations
 
