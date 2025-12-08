@@ -64,7 +64,7 @@
 **Tests complétés :**
 
 - ✅ Tests fonctionnels (checklist complète)
-- ✅ Tests responsive (3 tailles)
+- ⚠️ Tests responsive (3 tailles)
 - ✅ Tests multi-navigateurs (Chrome, Firefox)
 - ✅ Tests d'accessibilité
 - ✅ Tests de cas limites
@@ -73,27 +73,18 @@
 
 | Priorité | Nombre | % |
 |----------|--------|---|
-| 🔴 Critiques | 0| 0% |
+| 🔴 Critiques | 0 | 0% |
 | 🟠 Majeurs | 1 | 50% |
 | 🟡 Mineurs | 1 | 50% |
 | **TOTAL** | **2** | **100%** |
 
 ### Liste des bugs trouvés (résumé)
 
-**Tous les détails sont dans notre board Trello :** [Lien]
+**Tous les détails sont dans notre board Trello :** [Lien](https://trello.com/b/9Pcw7dFa/projet-app-web-creative)
 
 #### 🔴 Bogues Critiques
 
-1. **Bogue #1 : [Titre]**
-
-   - **Description :** [Brève description]
-   - **Impact :** [Pourquoi c'est critique]
-   - **Statut chez eux :** [À faire / En cours / Corrigé]
-   - **Carte Trello :** [Lien]
-
-2. **Bogue #2 : [Titre]**
-
-   - [Même format]
+- Aucun
 
 #### 🟠 Bogues Majeurs
 
@@ -121,15 +112,14 @@
 
 **Points forts observés :**
 
-1. [Ex: Interface utilisateur très intuitive]
-2. [Ex: Design cohérent et professionnel]
-3. [Ex: Performance excellente]
+1. Choix variés et flags intéressants
+2. Design plaisant et amusant
+3. Performance excellente
 
 **Axes d'amélioration identifiés :**
 
-1. [Ex: Accessibilité au clavier à améliorer]
-2. [Ex: Responsive mobile nécessite ajustements]
-3. Sortir de l'inventaire pas intuitif (peut être remplacer le coffre par un X)
+1. Responsive nécessite ajustements
+2. Sortir de l'inventaire pas intuitif (peut être remplacer le coffre par un X)
 
 **Évaluation globale (1-5 étoiles) :**
 
@@ -170,12 +160,12 @@ RAS = Rien À Signaler
 
 | Environnement | Testé | Résultat | Notes |
 |---------------|-------|----------|-------|
-| Chrome Desktop | ✅ | ✅ Fonctionne | Quelques bugs mineurs |
+| Chrome Desktop | ✅ | ✅ Fonctionne | RAS |
 | Firefox Desktop | ✅ | ✅ Fonctionne | RAS |
-| Edge Desktop | ✅ | ✅ | RAS|
-| Brave Desktop | ✅ | ✅ | RAS|
-| Mobile 375px | ✅ | ✅ | [Détails] |
-| Tablette 768px | ✅ | ✅ Fonctionne | RAS |
+| Edge Desktop | ✅ | ✅ Fonctionne | RAS |
+| Brave Desktop | ✅ | ✅ Fonctionne | RAS |
+| Mobile 375px | ✅ | ⚠️ À travailler | Scroll pour save manquant |
+| Tablette 768px | ✅ | ⚠️ À travailler | Scroll pour save manquant |
 | Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
 
 ### Bogues trouvés dans notre propre projet
@@ -184,11 +174,13 @@ RAS = Rien À Signaler
 
 | Bogue # | Titre | Priorité | Statut | Assigné à |
 |-------|-------|----------|--------|-----------|
-| [X] | [Titre] | 🔴 | Corrigé ✅ | [Nom] |
-| [X] | [Titre] | 🟠 | En cours 🔄 | [Nom] |
-| [X] | [Titre] | 🟡 | À faire ⏸️ | [Nom] |
+| 1 | Sauvegarde pas fini | 🟡 | À faire ⏸️ | Benoit |
+| 2 | Images d'inventaire manquants | 🟠 | À faire ⏸️ | Dana |
+| 3 | Responsive à travailler | 🟡 | À faire ⏸️ | Ting Yung |
+| 4 | Bouton sortie sauvegarde | 🟡 | À faire ⏸️ | William |
+| 5 | Bouton sortie menu | 🟡 | À faire ⏸️ | William |
 
-**Total bugs trouvés en interne :** [X]
+**Total bugs trouvés en interne :** 5
 
 ---
 
@@ -212,82 +204,70 @@ RAS = Rien À Signaler
 
 #### 🔴 Bogues Critiques reçus
 
-**Bogue #1 : [Titre]**
-
-- **Description :** [Ce que l'autre équipe a trouvé]
-- **Étapes pour reproduire :** [Leurs étapes]
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
-- **Date de correction :** [Date si corrigé]
-
-**Bogue #2 : [Titre]**
-
-- [Même format pour chaque bug critique]
+- Aucun
 
 #### 🟠 Bogues Majeurs reçus
 
-**Bogue #3 : f5 brise la page**
+**Bogue #1 : f5 brise la page**
 
 - **Description :** Pendant les chapitres, la touche f5/faire un refresh de page perd les données et la page n’est plus accessible
 - **Étapes pour reproduire :**Aller à n’importe quel chapitre, Activer la touche F5, Observer : [le bug se produit]
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Notre analyse :** Oui
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
+- **Plan de correction :** À voir
+- **Assigné à :** Benoit
 - **Date de correction :** [Date si corrigé]
 
-**Bogue #4 : le chapitre 16 (voir description pour de detail)**
+**Bogue #3 : le chapitre 16 (voir description pour de detail)**
 
 - **Description :** le chapitre 16 se retrouve avant chaque fin, est-ce normal? sinon aller directement a la fin a la place de toujours  mettre le chapitre 16
 - **Étapes pour reproduire :**aller au chapitre avant n’importe quelle fin qui n’est pas celle ou tu te fait kidnapper, observer toujours le même chapitre
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Notre analyse :** Non
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
+- **Plan de correction :** Ajouter du texte pour alléger la confusion
+- **Assigné à :** Dana
 - **Date de correction :** [Date si corrigé]
 
-**Bogue #5 : la condition d'acces pour la bonne fin**
+**Bogue #6 : la condition d'acces pour la bonne fin**
 
 - **Description :** le seul moyen que j’ai trouver pour accéder à la bonne fin est en prennant le portail rouge<portail vert<portail rouge<rentrer dans le portail<sauvé le dragon= bonne fin c’est confusant car si je fait la même route mais a partir du chapitre champigon pour sauvé le dragon la fin est une fin moyenne
 - **Étapes pour reproduire :**suivre c’est choix: portail rouge<portail vert<portail rouge<rentrer dans le portail<sauvé le dragon= bonne fin, arrive a la bonne fin,refaire le chemin a partir de l’autre portail: portail vert<allez dans le portail< sauver le dragon=fin moyenne
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Notre analyse :** Non
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
+- **Plan de correction :** Ajouter des images pour les items acquises ou texte indiquant que la condition à été réussi.
+- **Assigné à :** William
 - **Date de correction :** [Date si corrigé]
 
-**Bogue #6 : Enter ne marche pas au retour**
+**Bogue #7 : Enter ne marche pas au retour**
 
-- **Description :** La touche space et enter ne marche pas au bouton retoure
+- **Description :** La touche space et enter ne marche pas au bouton retour
 - **Étapes pour reproduire :**Finir l’histoire, Alt tab sur le bouton, Enter/space, Observer : [le bug se produit]
 - **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
+- **Plan de correction :** À voir
+- **Assigné à :** Ting Yung
 - **Date de correction :** [Date si corrigé]
 
 #### 🟡 Bogues Mineurs reçus
 
-**Bogue #7 : version mobile on arrive pas a scroll pour voir le bouton save**
+**Bogue #2 : version mobile on arrive pas a scroll pour voir le bouton save**
 
 - **Description :** j'ai tester sur mon cell et j’arrivais pas a vois le bouton save, je ne pouvais pas scroll non-plus
 - **Étapes pour reproduire :**Aller sur votre cell, essayer de swiper pour scroller
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Notre analyse :** Oui
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
+- **Plan de correction :** Modifier le CSS pour permettre le scroll ou rétrécir les éléments.
+- **Assigné à :** Ting Yung
 - **Date de correction :** [Date si corrigé]
 
-**Bogue #8 : Images load lentement**
+**Bogue #4 : Images load lentement**
 
 - **Description :** Les images de chapitre load lentement sur certains navigateurs.
 - **Étapes pour reproduire :**Ouvrir n’importe quel navigateur hors que chrome et firefox, Commencer l’histoire, Observer : [le bug se produit
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
+- **Notre analyse :** Oui
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
+- **Plan de correction :** Compresser nos images (rendre en webp)
+- **Assigné à :** Dana
 - **Date de correction :** [Date si corrigé]
 
 
@@ -297,16 +277,23 @@ RAS = Rien À Signaler
 
 **Bogues que nous confirmons :**
 
-- X bugs confirmés comme vrais bugs
+- Bogue 01, F5 brise la page
+- Bogue 02, scroll manquant en mobile
+- Bogue 04, images load lentement
+- Bogue 07, enter ne marche pas au retour
+
+- 4 bugs confirmés comme vrais bugs
 
 **Bogues que nous contestons (avec justification) :**
 
-- [Bogue #X] : Nous pensons que ce n'est pas un bug parce que [raison]
+- Bogue 03 : Nous pensons que ce n'est pas un bug parce que c'est un chapitre de transition servant à valider les objets reçus.
+- [A été discuté avec l'enseignant : décision finale = ...]
+- Bogue 05 : Nous pensons que ce n'est pas un bug parce que le loop en allant au chapitre des champignons est nécessaire pour avoir 3 objets qui mène à la bonne fin.
 - [A été discuté avec l'enseignant : décision finale = ...]
 
 **Nouveaux bugs découverts grâce à leurs tests :**
 
-- X bugs qu'on n'aurait jamais trouvés nous-mêmes
+- 3 bugs qu'on n'aurait jamais trouvés nous-mêmes
 - Merci à l'équipe testeuse pour leur regard externe !
 
 ---
