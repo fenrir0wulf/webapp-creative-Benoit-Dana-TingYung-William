@@ -174,13 +174,14 @@ RAS = Rien À Signaler
 
 | Bogue # | Titre | Priorité | Statut | Assigné à |
 |-------|-------|----------|--------|-----------|
-| 1 | Sauvegarde pas fini | 🟡 | À faire ⏸️ | Benoit |
-| 2 | Images d'inventaire manquants | 🟠 | À faire ⏸️ | Dana |
-| 3 | Responsive à travailler | 🟡 | À faire ⏸️ | Ting Yung |
-| 4 | Bouton sortie sauvegarde | 🟡 | À faire ⏸️ | William |
-| 5 | Bouton sortie menu | 🟡 | À faire ⏸️ | William |
+| i1 | Sauvegarde pas fini | 🟡 | À faire ⏸️ | Benoit |
+| i2 | Images d'inventaire manquants | 🟠 | À faire ⏸️ | Dana |
+| i3 | Responsive à travailler | 🟡 | À faire ⏸️ | Ting Yung |
+| i4 | Bouton sortie sauvegarde | 🟡 | À faire ⏸️ | William |
+| i5 | Bouton sortie menu | 🟡 | À faire ⏸️ | William |
+| i5 | Images de certaines fins | 🟠 | À faire ⏸️ | William / Dana|
 
-**Total bugs trouvés en interne :** 5
+**Total bugs trouvés en interne :** 6
 
 ---
 
@@ -197,8 +198,8 @@ RAS = Rien À Signaler
 |----------|------------|----------|----------|------------------|
 | 🔴 Critiques | 0 | [X] ✅ | [X] 🔄 | [X] ⏸️ |
 | 🟠 Majeurs | 4 | [X] ✅ | [X] 🔄 | 4  ⏸️ |
-| 🟡 Mineurs | 2 | [X] ✅ | [X] 🔄 | 3 ⏸️ |
-| **TOTAL** | **6** | **[X]** | **[X]** | **7** |
+| 🟡 Mineurs | 2 | 1 ✅ | [X] 🔄 | 2 ⏸️ |
+| **TOTAL** | **6** | **1** | **[X]** | **7** |
 
 ### Liste détaillée des bugs reçus
 
@@ -214,7 +215,7 @@ RAS = Rien À Signaler
 - **Étapes pour reproduire :**Aller à n’importe quel chapitre, Activer la touche F5, Observer : [le bug se produit]
 - **Notre analyse :** Oui
 - **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** À voir
+- **Plan de correction :** Correction de la fonction de chargement de la page
 - **Assigné à :** Benoit
 - **Date de correction :** [Date si corrigé]
 
@@ -242,11 +243,11 @@ RAS = Rien À Signaler
 
 - **Description :** La touche space et enter ne marche pas au bouton retour
 - **Étapes pour reproduire :**Finir l’histoire, Alt tab sur le bouton, Enter/space, Observer : [le bug se produit]
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** À voir
-- **Assigné à :** Ting Yung
-- **Date de correction :** [Date si corrigé]
+- **Notre analyse :** Oui, mineur
+- **Statut actuel (8 décembre) :** ✅ Corrigé
+- **Plan de correction :** Balises <button> et <RouterLink> étaient inversées
+- **Assigné à :** Benoit
+- **Date de correction :** [8 décembre]
 
 #### 🟡 Bogues Mineurs reçus
 
@@ -306,8 +307,8 @@ RAS = Rien À Signaler
 
 | Statut | Nombre | % du total |
 |--------|--------|------------|
-| ✅ Corrigés et validés | [X] | [X]% |
-| 🔄 En cours (sera fait d'ici le 10) | [X] | [X]% |
+| ✅ Corrigés et validés | 1 | [X]% |
+| 🔄 En cours (sera fait d'ici le 10) | 4 | [X]% |
 | ⏸️ Reportés (si temps) | [X] | [X]% |
 | ❌ Non corrigés (justifiés) | [X] | [X]% |
 
@@ -317,62 +318,88 @@ RAS = Rien À Signaler
 
 **Bogues critiques corrigés :**
 
-1. **Bogue #1 : [Titre]**
-   - Corrigé par : [Nom]
-   - Date : [Date]
-   - Solution : [Brève description de comment c'était corrigé]
-   - Re-testé : ✅ Confirmé OK
+1. **Aucun**
+
+**Bogues mineurs corrigés :**
+
+2. Bogue #7 : [Touche Enter sur bouton de retour au menu]
 
 #### 🔄 En cours (sera fait d'ici le 10)
 
 **Bogues critiques en cours :**
 
-1. **Bogue #X : [Titre]**
-   - Assigné à : [Nom]
-   - Temps estimé : [X] heures
-   - Sera fait : [9 décembre]
-   - Statut actuel : [50% fait / bloqué sur X / presque fini]
+1. **Aucun**
+   
 
 **Bogues majeurs en cours :**
 
-2. **Bogue #Y : [Titre]**
-   - [Même format]
+2. **Bogue #1 : [F5 brise la page]**
+   - Assigné à : [Benoit]
+   - Temps estimé : [4] heures
+   - Sera fait : [9 décembre]
+   - Statut actuel : [Vérifier fonctionalité avec enseignate]
+
+3. **Bogue #i1 : [Sauvegarde à terminer]**
+   - Assigné à : [Benoit]
+   - Temps estimé : [2] heures
+   - Sera fait : [8 décembre]
+   - Statut actuel : [Presque fini]
+
+4. **Bogue #i2 : [Images d'inventaire]**
+   - Assigné à : [Dana]
+   - Temps estimé : [4] heures
+   - Sera fait : [10 décembre]
+   - Statut actuel : [50% fait / bloqué sur X / presque fini]
+
+5. **Bogue #i5 : [Images de fins]**
+   - Assigné à : [William]
+   - Temps estimé : [4] heures
+   - Sera fait : [10 décembre]
+   - Statut actuel : [50% fait / bloqué sur X / presque fini]
 
 #### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
 **Bogues mineurs à faire si temps :**
 
-1. Bogue #Z : [Titre] - Temps estimé : [X]h
-2. Bogue #W : [Titre] - Temps estimé : [X]h
+1. Bogue #i3 : [Responsive à travailler] - Temps estimé : [4]h
+2. Bogue #2 : [Version mobile bouton save] - Temps estimé : [2]h
+3. Bogue #4 : [Chargement des images] - Temps estimé : [1]h
+4. Bogue #i4 : [Bouton sortie sauvegarde] - Temps estimé : [1]h
+5. Bogue #i5 : [Bouton sortie menu] - Temps estimé : [1]h
+6. Bogue #7 : [Touche Enter sur bouton de retour au menu] - Temps estimé : [5]m
 
 #### ❌ Non corrigés (avec justification)
 
-**Bogue #Q : [Titre]**
+**Bogue #3 : Chapitre 16**
 
-- **Pourquoi pas corrigé :** [Raison valable]
-  - Exemple : "Nécessiterait une refonte majeure de l'architecture (20h de travail)"
-  - Exemple : "Après discussion, ce n'est pas un bug mais une limitation de la techno utilisée"
-- **Impact :** [Faible / Utilisateur peut contourner le problème en...]
+- **Pourquoi pas corrigé :** N'est pas un bug, chapitre 16 est le chapitre de transition vers les chapitres de fin (possiblilité de changer le nom pour eviter confusion)
+- **Impact :** Faible
+
+**Bogue #5 : la condition d'acces pour la bonne fin**
+
+- **Pourquoi pas corrigé :** N'est pas un bug, c'est le chemin prévu
+- **Impact :** Faible
 
 ### Plan de travail (8-10 décembre)
 
 **Lundi 8 (soir) :**
 
-- [ ] Finir Bogue #1 (Carl - 2h)
-- [ ] Commencer Bogue #5 (Alex - 3h)
+- [ ] Finir Bogue #i1 (Benoit - 2h)
+- [ ] Commencer Bogue #1 (Benoit - 3h)
+- [ ] Bogue #X ([Nom] - [X]h)
 
 **Mardi 9 :**
 
-- [ ] Finir Bogue #5 (Alex - 2h)
-- [ ] Corriger Bogue #7 (Jordan - 4h)
+- [ ] Finir Bogue #1 (Benoit - 3h)
+- [ ] Commentaires code (Benoit - 4h)
+- [ ] Bogue #X ([Nom] - [X]h)
 - [ ] Tests sur bugs corrigés (Équipe - 1h)
 
 **Mercredi 10 (matin avant remise) :**
 
-- [ ] Finir Bogue #7 si pas fini
 - [ ] Corrections mineures urgentes
 - [ ] Tests finaux
-- [ ] Mise à jour documentation
+- [ ] Nettoyage fichiers
 
 ---
 
@@ -384,14 +411,14 @@ RAS = Rien À Signaler
 
 | Test | Résultat | Action |
 |------|----------|--------|
-| Tab fonctionne sur tous les éléments | ✅ / ⚠️ / ❌ | [Si problème : plan de correction] |
-| Focus visible | ✅ / ⚠️ / ❌ | |
-| Enter/Space activent les boutons | ✅ / ⚠️ / ❌ | |
+| Tab fonctionne sur tous les éléments | ✅ | |
+| Focus visible | ✅ | |
+| Enter/Space activent les boutons | ✅ | |
 | Skip links présents (optionnel) | ✅ / ⚠️ / ❌ | |
 
-**Problèmes trouvés :** [X]  
-**Corrigés :** [X]  
-**En cours :** [X]
+**Problèmes trouvés :** [1] 
+**Corrigés :** [1] 
+**En cours :** [0]
 
 #### Contraste des couleurs
 
@@ -401,13 +428,12 @@ RAS = Rien À Signaler
 
 | Élément | Couleurs | Ratio | Conforme WCAG AA | Action |
 |---------|----------|-------|------------------|--------|
-| Texte principal | #333 sur #FFF | 12.6:1 | ✅ Excellent | RAS |
-| Boutons | #FFF sur #007BFF | 4.5:1 | ✅ Conforme | RAS |
-| Liens | #0066CC sur #FFF | 7.5:1 | ✅ Excellent | RAS |
-| Texte secondaire | #888 sur #FFF | 3.5:1 | ❌ Trop faible | À corriger |
+| Texte Menu | #2B2118 sur #A8763E; | 3.99:1 | ✅ Conforme | RAS |
+| Boutons | #2B2118 sur #F7F3E3 | 14.16:1 | ✅ Excellent | RAS |
+| Texte narratif | #ffffff sur #404245 | 10.08:1 | ✅ Excellent | Contraste variable mais toujours bon |
 
-**Problèmes de contraste :** [X]  
-**Plan de correction :** [Détails]
+**Problèmes de contraste :** [0] 
+**Plan de correction :** [X]
 
 #### Images et médias
 
@@ -421,11 +447,11 @@ RAS = Rien À Signaler
 
 **Résumé :**
 
-- Navigation clavier : [X]/[Y] tests passés
-- Contraste : [X]/[Y] éléments conformes
+- Navigation clavier : [3]/[3] tests passés
+- Contraste : [3]/[3] éléments conformes
 - Images : [X]/[Y] avec alt approprié
 
-**Score estimé : [X]/100**
+**Score estimé : [70]/100**
 
 ---
 
@@ -473,7 +499,7 @@ RAS = Rien À Signaler
 - ✅ Ajout de `loading="lazy"` sur [X] images
 - ✅ Minification du code (build production)
 - ✅ Suppression de console.log()
-- ⏸️ À faire : [Si applicable]
+- ⏸️ À faire : Nettoyage des fichiers non utilisés
 
 ### Temps de chargement
 
@@ -493,15 +519,15 @@ RAS = Rien À Signaler
 ### État global du projet au 8 décembre
 
 **Le projet est-il prêt pour la remise finale ?**
-✅ Oui, fonctionnel / ⚠️ Presque, corrections en cours / ❌ Non, bugs critiques restants
+⚠️ Presque, corrections en cours
 
 **Résumé de la qualité :**
 
 | Aspect | État | Commentaire |
 |--------|------|-------------|
-| **Fonctionnalités principales** | ✅ / ⚠️ / ❌ | [Commentaire] |
-| **Bogues critiques** | ✅ Tous corrigés / ⚠️ En cours / ❌ Restants | [Détails] |
-| **Bogues majeurs** | ✅ / ⚠️ / ❌ | [X]/[Y] corrigés |
+| **Fonctionnalités principales** | ✅ | [Commentaire] |
+| **Bogues critiques** | ✅ Tous corrigés | [Détails] |
+| **Bogues majeurs** | ⚠️ | [X]/[Y] corrigés |
 | **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [X]/100 |
 | **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [X]/100 |
 | **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
@@ -564,7 +590,7 @@ RAS = Rien À Signaler
 
 ### Annexe D : Lien vers Trello
 
-**Board Trello avec tous les bugs :** [URL]
+**Board Trello avec tous les bugs :** [[Lien](https://trello.com/b/9Pcw7dFa/projet-app-web-creative)]
 
 **Organisation du board :**
 
@@ -577,7 +603,7 @@ RAS = Rien À Signaler
 
 **Commits Git durant la phase QA :**
 
-- [Date] : [X] commits (corrections bugs)
+- [8 décembre] : [X] commits (corrections bugs)
 - [Date] : [X] commits
 - Total : [X] commits de corrections
 
@@ -588,7 +614,7 @@ RAS = Rien À Signaler
 **Ce rapport a été rédigé et validé par :**
 
 - [Nom 1] - [Rôle] - Date : [Date]
-- [Nom 2] - [Rôle] - Date : [Date]
+- [Benoit] - [Systèmes et données] - Date : [8 décembre]
 - [Nom 3] - [Rôle] - Date : [Date]
 
 **Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
