@@ -35,6 +35,9 @@ export default {
     getSaves() {
       if(this.saveStore.hasSaves){
         this.saves = this.saveStore.saveSlots;
+      }else {
+        this.saveStore.getLocalSaves();
+        this.saves = this.saveStore.saveSlots;
       }
     },
     loadSave(save) {

@@ -26,7 +26,6 @@ export const usePlayerStore = defineStore('player', {
                 case "dent": this.flags.hasDent = true; break;
                 default: return;
             }
-            console.log(this.flags);
         },
         resetFlags() {
             this.flags.hasDiamant = false;

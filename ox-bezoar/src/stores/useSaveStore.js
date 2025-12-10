@@ -13,9 +13,17 @@ export const useSaveStore = defineStore('save', {
         saveGame(saveCh, saveVis, savePl) {
             let aSave = {saveCh, saveVis, savePl};
             this.saveSlots.push(aSave);
-            console.log(aSave, this.saveSlots);
+            localStorage.setItem('saves', JSON.stringify(this.saveSlots));
+            console.log(localStorage);
             if(this.saveSlots.length > 3){
                 this.saveSlots.shift();
+                localStorage.removeItem
+            }
+        },
+        getLocalSaves() {
+            let data = localStorage.getItem('saves');
+            if(data) {
+                this.saveSlots = JSON.parse(data);
             }
         }
     }
