@@ -1,6 +1,5 @@
 <script setup>
     import AppHeader from '../components/layout/AppHeader.vue'
-    import ButtonPrimary from '../components/specific/ButtonPrimary.vue';
     import ChoiceButton from '../components/common/ChoiceButton.vue';
 
     import { useStoryStore } from '../stores/useStoryStore';
@@ -37,6 +36,9 @@ export default {
         ...mapStores(usePlayerStore, useStoryStore, useSaveStore),
     },
   methods: {
+    /**
+     * Demarre l'aventure, (re)initialise les donnees du pinia
+     */
     gotoStart() {
       this.storyStore.resetStates();
       this.playerStore.resetFlags();
@@ -45,6 +47,9 @@ export default {
         params: { id: 1 },
       });
     },
+    /**
+     * Envoi vers la page des sauvegardes
+     */
     gotoSaves() {
       this.$router.push({
         name: "saves",

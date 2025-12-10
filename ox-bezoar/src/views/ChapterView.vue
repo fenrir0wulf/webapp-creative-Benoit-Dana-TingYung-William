@@ -11,7 +11,9 @@ import { useStoryStore } from '../stores/useStoryStore';
 </script>
 
 <template>
-
+    <!--
+        Page principale qui contient toute la logique et l'affichage de l'histoire
+    -->
     <div class="bg">
         <div class="book">
             <div class="livre" :class="`scene${currentChapter}`">
@@ -39,6 +41,12 @@ export default {
     components: { ChapterHeader, NarrativeText, ButtonPrimary, InventoryDisplay, SaveButton },
     data() {
         return {
+            /**
+             * currentChapter: Valeur du chapitre present
+             * chapterId: Contient le id et le titre du chapitre present
+             * chapterText: Contient le texte du chapitre present
+             * chapterChoices: Array qui contient les choix que le joueur doit faire
+             */
             currentChapter: null,
             chapterId: {
                 id: null,
@@ -53,26 +61,40 @@ export default {
         }
     },
     created() {
+        // Prendre le id du chapitre par le parametre de l'url
         let cId = this.$route.params.id;
+        // Donner la valeur a currentChapter du pinia et de la vue
         this.storyStore.currentChapter = cId;
         this.currentChapter = this.storyStore.currentChapter;
+        // Instancer les donnees de la page
         this.instanceChapter(this.currentChapter);
     },
     computed: {
         ...mapStores(usePlayerStore, useStoryStore)
     },
     methods: {
+        /**
+         * Envoie vers le prochain chapitre
+         * @param chapter 
+         * @param choice 
+         */
         gotoNextChapter(chapter, choice) {
             this.$router.push({
                 name: 'chapter',
                 params: { id: chapter },
             });
             this.storyStore.currentChapter = chapter;
+            //Si le texte du bouton n'est pas seulement "Continuer", ajoute le choix fait a la liste des chapitres visites
             if (choice != "Continuer") {
                 this.storyStore.addVisited(choice);
             }
+            // Reinstance la page
             this.instanceChapter(chapter);
         },
+        /**
+         * Envoie vers la vue de fin
+         * @param end 
+         */
         gotoEnd(end) {
             this.storyStore.atEnd = true;
             this.$router.replace({
@@ -80,25 +102,34 @@ export default {
                 params: { id: end },
             });
         },
+        /**
+         * Fonction principale de l'affichage de la page, verifie ou le joueur est rendu, et met a jour l'inventaire du joueur
+         * @param chapter 
+         */
         instanceChapter(chapter) {
+            // Met a jour les valeurs pour le prochain chapitre recu
             this.currentChapter = chapter;
             this.chapterId.id = chapter;
             let story = this.storyStore.getStoryData.find(({ id }) => id == this.chapterId.id);
             this.chapterId.title = story.titre;
             this.chapterText.text = story.texte;
+            // Verifie si le joueur est rendu au chapitre de verification de fin
             if (this.currentChapter === 13) {
+                // Prendre les flags de l'inventaire pour les verifier
                 let flags = this.playerStore.getFlags;
+                // Si le joueur a tous ces objets, bonne fin
                 if (flags.hasDent && flags.hasOeuf && flags.hasOurson) {
                     this.chapterChoices.choices = [story.choices.find(({ path }) => path == 16)];
-                }
+                } // Si seulement quelques objets, fin moyenne
                 else if (flags.hasOeuf || flags.hasOurson) {
                     this.chapterChoices.choices = [story.choices.find(({ path }) => path == 14)];
-                } else {
+                } else { // Si non, mauvaise fin
                     this.chapterChoices.choices = [story.choices.find(({ path }) => path == 15)];
                 }
-            } else {
+            } else { // Si pas une fin
                 this.chapterChoices.choices = story.choices;
             }
+            // Si il y a un objet, faire le flag de l'objet
             if (story.objet) {
                 this.playerStore.setFlags(story.objet);
             }

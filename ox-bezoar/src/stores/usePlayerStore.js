@@ -2,7 +2,9 @@ import { defineStore } from "pinia";
 
 export const usePlayerStore = defineStore('player', {
     state: () => ({
-        playerName: "John",
+        /**
+         * Flags boolean qui nous servent d'inventaire
+         */
         flags: {
             hasDiamant: false,
             hasOeuf: false,
@@ -11,13 +13,18 @@ export const usePlayerStore = defineStore('player', {
         },
     }),
     getters: {
-        getPlayerName: (state) => { return state.playerName },
+        /**
+         * Getter qui retourne l'etat des flags
+         * @param {*} state 
+         */
         getFlags: (state) => { return state.flags }
     },
     actions: {
-        setPlayerName(name) {
-            this.playerName = name;
-        },
+        /**
+         * Switch statement pour set les items de l'inventaire
+         * Recoit l'objet a set en string
+         * @param {string} flag
+         */
         setFlags(flag) {
             switch(flag) {
                 case "diamant": this.flags.hasDiamant = true; break;
@@ -27,6 +34,9 @@ export const usePlayerStore = defineStore('player', {
                 default: return;
             }
         },
+        /**
+         * Reset des flags de l'inventaire lors d'une nouvelle partie
+         */
         resetFlags() {
             this.flags.hasDiamant = false;
             this.flags.hasOeuf = false;

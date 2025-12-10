@@ -19,6 +19,9 @@ export default {
     components: {},
     data() {
         return {
+            /**
+             * Donnees pour afficher si le joueur a les items
+             */
             dent: false,
             diamant: false,
             ourson: false,
@@ -27,6 +30,9 @@ export default {
     },
     computed: {
         ...mapStores(usePlayerStore),
+        /**
+         * Chaque fonction verifie et retourne l'etat des items de l'inventaire pour afficher si le joueur a les items
+         */
         dentActive() {
             this.dent = this.playerStore.getFlags.hasDent;
             return this.dent;

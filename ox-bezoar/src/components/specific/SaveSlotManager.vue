@@ -15,6 +15,9 @@ export default {
   components: {},
   data() {
     return {
+      /**
+       * Array des sauvegardes a afficher
+       */
       saves: [],
     };
   },
@@ -22,6 +25,10 @@ export default {
     this.saves = this.saveSlots;
   },
   methods: {
+    /**
+     * Envoie la commande de charger la sauvegarde choisie
+     * @param save
+     */
     handleLoad(save) {
       this.$emit('load', save)
     }

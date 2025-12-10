@@ -24,6 +24,12 @@
             ...mapStores( useStoryStore, usePlayerStore, useSaveStore )
         },
         methods: {
+            /**
+             * cc = currentChapter
+             * vc = visitedChapters
+             * pf = Flags de l'inventaire
+             * Appelle la fonction de sauvegarde et lui donne les valeurs
+             */
             save() {
                 let cc = this.storyStore.currentChapter;
                 let vc = this.storyStore.visitedChapters;

@@ -17,7 +17,13 @@
         name:'ButtonPrimary',
         props: ['choices'],
         methods: {
+            /**
+             * Fonction pour faire les choix de l'histoire
+             * @param path id du chemin choisi
+             * @param choice texte titre du chemin choisi
+             */
             handleButton(path, choice) {
+                // Si la valeur de path n'est pas un nombre, c'est une fin
                 if(isNaN(path)){
                     this.$emit('endsHere', path);
                 }else {

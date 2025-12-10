@@ -22,6 +22,9 @@
         components: {},
         data() {
             return {
+                /**
+                 * Donnees pour l'affichage de la fin atteinte
+                 */
                 visitedChapters: null,
                 endingGet: null,
                 endingData: {
