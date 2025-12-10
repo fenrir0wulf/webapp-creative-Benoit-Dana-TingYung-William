@@ -41,7 +41,6 @@ export default {
       }
     },
     loadSave(save) {
-      console.log(save);
       this.storyStore.currentChapter = save.saveCh;
       this.storyStore.visitedChapters = save.saveVis;
       this.playerStore.flags.hasDent = save.savePl.hasDent;

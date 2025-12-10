@@ -14,7 +14,6 @@ export const useSaveStore = defineStore('save', {
             let aSave = {saveCh, saveVis, savePl};
             this.saveSlots.push(aSave);
             localStorage.setItem('saves', JSON.stringify(this.saveSlots));
-            console.log(localStorage);
             if(this.saveSlots.length > 3){
                 this.saveSlots.shift();
                 localStorage.removeItem
