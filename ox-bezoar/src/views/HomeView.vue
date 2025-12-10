@@ -61,7 +61,7 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url(/img/menu.png);
+  
   width: 100vw;
   height: 100vh;
   display: flex;
