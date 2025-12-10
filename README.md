@@ -60,7 +60,7 @@ npm run build
 ## Documentation additionnelle
 [Lien vers les maquettes Figma](https://www.figma.com/design/B4FdDD1Du1uFWt5z7IKvOX/Maquette?node-id=0-1&p=f&t=z5jPoGWb8R2bjUbO-0)      
 [Lien vers le Trello](https://trello.com/b/9Pcw7dFa/projet-web)        
-[Lien vers le cahier de charges](https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William/blob/main/cahier_charges_chemin.md) 
+[Lien vers le cahier de charges](https://github.com/fenrir0wulf/webapp-creative-Benoit-Dana-TingYung-William/blob/main/cahier_charges_chemin.md)         
 [Lien vers le moodboard](https://www.figma.com/board/AGN982LhZFE8mErhv3dggF/Brainstorm?node-id=0-1&p=f&t=juwoDfnY87RoVVrx-0)  
 
 ## Remerciements et autres crédits
